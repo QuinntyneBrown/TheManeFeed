@@ -3,8 +3,12 @@ using TheManeFeed.Core.Interfaces;
 
 namespace TheManeFeed.Api.Controllers;
 
+/// <summary>
+/// Provides the aggregated home feed combining featured, latest, and trending content.
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
+[Produces("application/json")]
 public class FeedController : ControllerBase
 {
     private readonly IArticleRepository _articles;
@@ -16,7 +20,12 @@ public class FeedController : ControllerBase
         _categories = categories;
     }
 
+    /// <summary>
+    /// Get the home feed with featured articles, latest articles, trending articles, and categories.
+    /// </summary>
+    /// <returns>An aggregated feed object with categories, featured, latest, and trending sections.</returns>
     [HttpGet]
+    [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<IActionResult> GetHomeFeed()
     {
         var featured = await _articles.GetFeaturedAsync(3);

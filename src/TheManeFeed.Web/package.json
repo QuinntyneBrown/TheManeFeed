@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build api && ng build components && ng build the-mane-feed",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "e2e": "playwright test --config=e2e/playwright.config.ts",
