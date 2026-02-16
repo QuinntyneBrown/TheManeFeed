@@ -119,6 +119,26 @@
   }
 }
 
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 24px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--mf-accent-rose, #b76e79);
+  border: 1.5px solid var(--mf-accent-rose, #b76e79);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: var(--mf-accent-rose, #b76e79);
+    color: #fff;
+  }
+}
+
 .related {
   padding: 24px 16px;
   border-top: 1px solid var(--mf-border-light, #e8ddd0);

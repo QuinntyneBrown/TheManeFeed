@@ -47,6 +47,14 @@
       } @else if (article.summary) {
         <p class="body-text">{{ article.summary }}</p>
       }
+
+      <!-- Source Link -->
+      @if (article.url) {
+        <a class="source-link" [href]="article.url" target="_blank" rel="noopener noreferrer">
+          Read original article
+          <lib-icon name="external-link" [size]="16" />
+        </a>
+      }
     </div>
 
     <!-- Related Stories -->
