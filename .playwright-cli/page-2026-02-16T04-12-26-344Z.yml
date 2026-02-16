@@ -1,0 +1,86 @@
+- generic [ref=e3]:
+  - banner [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e10]: M
+      - generic [ref=e11]:
+        - generic [ref=e12]: The Mane Feed
+        - generic [ref=e13]: hair news & trends
+    - navigation [ref=e14]:
+      - generic [ref=e15] [cursor=pointer]: Home
+      - generic [ref=e16] [cursor=pointer]: Trending
+      - generic [ref=e17] [cursor=pointer]: Categories
+      - generic [ref=e18] [cursor=pointer]: Saved
+    - generic [ref=e19]:
+      - button [ref=e20] [cursor=pointer]:
+        - img [ref=e23]
+      - button [ref=e26] [cursor=pointer]
+  - main [ref=e28]:
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - button [ref=e192] [cursor=pointer]:
+          - img [ref=e195]
+        - generic [ref=e197]:
+          - button [ref=e198] [cursor=pointer]:
+            - img [ref=e201]
+          - button [ref=e207] [cursor=pointer]:
+            - img [ref=e210]
+      - generic [ref=e213]:
+        - 'heading "The Princess Wig: Natural Human Hair Wigs for Kids" [level=1] [ref=e214]'
+        - generic [ref=e217]:
+          - generic [ref=e218]: MilanoWigs
+          - generic [ref=e219]: February 16, 2026
+      - generic [ref=e220]:
+        - heading "Related Stories" [level=2] [ref=e221]
+        - generic [ref=e222]:
+          - article [ref=e225] [cursor=pointer]:
+            - generic [ref=e227]:
+              - generic [ref=e228]: LuvmeHair
+              - 'heading "Luvme For You: Wig 101" [level=3] [ref=e229]'
+              - generic [ref=e230]:
+                - generic [ref=e231]: LuvmeHair
+                - generic [ref=e232]: ·
+          - article [ref=e235] [cursor=pointer]:
+            - generic [ref=e237]:
+              - generic [ref=e238]: LaurenAshtyn
+              - heading "Low-density vs high-density wigs—which is for you?" [level=3] [ref=e239]
+              - generic [ref=e240]:
+                - generic [ref=e241]: LaurenAshtyn
+                - generic [ref=e242]: ·
+          - article [ref=e245] [cursor=pointer]:
+            - generic [ref=e247]:
+              - generic [ref=e248]: LaurenAshtyn
+              - heading "8 chic protective styles with clip-in extensions" [level=3] [ref=e249]
+              - generic [ref=e250]:
+                - generic [ref=e251]: LaurenAshtyn
+                - generic [ref=e252]: ·
+  - contentinfo [ref=e156]:
+    - generic [ref=e157]:
+      - generic [ref=e158]:
+        - generic [ref=e160]:
+          - generic [ref=e162]: M
+          - generic [ref=e163]:
+            - generic [ref=e164]: The Mane Feed
+            - generic [ref=e165]: hair news & trends
+        - paragraph [ref=e166]: Your daily dose of hair news, trends, and transformations. Curated for the style-obsessed.
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - heading "Categories" [level=4] [ref=e169]
+          - generic [ref=e170] [cursor=pointer]: Color Trends
+          - generic [ref=e171] [cursor=pointer]: Haircuts
+          - generic [ref=e172] [cursor=pointer]: Styling
+          - generic [ref=e173] [cursor=pointer]: Celebrity
+        - generic [ref=e174]:
+          - heading "Company" [level=4] [ref=e175]
+          - generic [ref=e176] [cursor=pointer]: About
+          - generic [ref=e177] [cursor=pointer]: Contact
+          - generic [ref=e178] [cursor=pointer]: Careers
+          - generic [ref=e179] [cursor=pointer]: Privacy
+        - generic [ref=e180]:
+          - heading "Connect" [level=4] [ref=e181]
+          - generic [ref=e182] [cursor=pointer]: Instagram
+          - generic [ref=e183] [cursor=pointer]: TikTok
+          - generic [ref=e184] [cursor=pointer]: Pinterest
+          - generic [ref=e185] [cursor=pointer]: Newsletter
+    - generic [ref=e186]:
+      - generic [ref=e187]: © 2026 The Mane Feed. All rights reserved.
+      - generic [ref=e188]: Made with ❤ for hair lovers

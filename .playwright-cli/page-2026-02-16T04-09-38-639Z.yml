@@ -1,0 +1,49 @@
+- generic [ref=e3]:
+  - banner [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e10]: M
+      - generic [ref=e11]:
+        - generic [ref=e12]: The Mane Feed
+        - generic [ref=e13]: hair news & trends
+    - navigation [ref=e14]:
+      - generic [ref=e15] [cursor=pointer]: Home
+      - generic [ref=e16] [cursor=pointer]: Trending
+      - generic [ref=e17] [cursor=pointer]: Categories
+      - generic [ref=e18] [cursor=pointer]: Saved
+    - generic [ref=e19]:
+      - button [ref=e20] [cursor=pointer]:
+        - img [ref=e23]
+      - button [ref=e26] [cursor=pointer]
+  - main [ref=e28]:
+    - button "All" [ref=e34] [cursor=pointer]
+  - contentinfo [ref=e37]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e41]:
+          - generic [ref=e43]: M
+          - generic [ref=e44]:
+            - generic [ref=e45]: The Mane Feed
+            - generic [ref=e46]: hair news & trends
+        - paragraph [ref=e47]: Your daily dose of hair news, trends, and transformations. Curated for the style-obsessed.
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - heading "Categories" [level=4] [ref=e50]
+          - generic [ref=e51] [cursor=pointer]: Color Trends
+          - generic [ref=e52] [cursor=pointer]: Haircuts
+          - generic [ref=e53] [cursor=pointer]: Styling
+          - generic [ref=e54] [cursor=pointer]: Celebrity
+        - generic [ref=e55]:
+          - heading "Company" [level=4] [ref=e56]
+          - generic [ref=e57] [cursor=pointer]: About
+          - generic [ref=e58] [cursor=pointer]: Contact
+          - generic [ref=e59] [cursor=pointer]: Careers
+          - generic [ref=e60] [cursor=pointer]: Privacy
+        - generic [ref=e61]:
+          - heading "Connect" [level=4] [ref=e62]
+          - generic [ref=e63] [cursor=pointer]: Instagram
+          - generic [ref=e64] [cursor=pointer]: TikTok
+          - generic [ref=e65] [cursor=pointer]: Pinterest
+          - generic [ref=e66] [cursor=pointer]: Newsletter
+    - generic [ref=e67]:
+      - generic [ref=e68]: © 2026 The Mane Feed. All rights reserved.
+      - generic [ref=e69]: Made with ❤ for hair lovers

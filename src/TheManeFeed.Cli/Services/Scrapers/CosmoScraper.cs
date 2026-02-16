@@ -9,7 +9,7 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class CosmoScraper : BaseSiteScraper
 {
     public override string SourceName => "Cosmopolitan";
-    protected override string BaseUrl => "https://www.cosmopolitan.com";
+    public override string BaseUrl => "https://www.cosmopolitan.com";
     protected override string PagePath => "/style-beauty/beauty/";
 
     public CosmoScraper(

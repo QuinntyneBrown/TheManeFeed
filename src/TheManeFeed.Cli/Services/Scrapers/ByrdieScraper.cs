@@ -9,7 +9,7 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class ByrdieScraper : BaseSiteScraper
 {
     public override string SourceName => "Byrdie";
-    protected override string BaseUrl => "https://www.byrdie.com";
+    public override string BaseUrl => "https://www.byrdie.com";
     protected override string PagePath => "/hair-4628407";
 
     public ByrdieScraper(

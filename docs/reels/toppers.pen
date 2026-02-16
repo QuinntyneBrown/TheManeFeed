@@ -1,0 +1,1161 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "aWIQQ",
+      "x": 0,
+      "y": 0,
+      "name": "Slide 1 - Cover",
+      "width": 390,
+      "height": 693,
+      "fill": "#0B0A08",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        32
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "1avR9",
+          "name": "topLine1",
+          "fill": "#C9A052",
+          "width": 40,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "kaoTp",
+          "name": "logoGroup",
+          "layout": "vertical",
+          "gap": 2,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "P96rx",
+              "name": "logoOrigin",
+              "fill": "#C9A052",
+              "content": "ORIGIN",
+              "fontFamily": "Fraunces",
+              "fontSize": 20,
+              "fontWeight": "600",
+              "letterSpacing": 6
+            },
+            {
+              "type": "text",
+              "id": "7iAPB",
+              "name": "logoSub",
+              "fill": "#9A9590",
+              "content": "HAIR COLLECTIVE",
+              "fontFamily": "DM Sans",
+              "fontSize": 9,
+              "fontWeight": "500",
+              "letterSpacing": 3
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "KP0HQ",
+          "name": "botLine1",
+          "fill": "#C9A052",
+          "width": 40,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "w6KVp",
+          "name": "labelPill",
+          "fill": "#C9A05215",
+          "cornerRadius": 100,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05230"
+          },
+          "padding": [
+            8,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "b1rQd",
+              "name": "labelText",
+              "fill": "#C9A052",
+              "content": "HAIR EDUCATION",
+              "fontFamily": "DM Sans",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Ywld2",
+          "name": "headline",
+          "fill": "#FAF7F0",
+          "content": "Low Density\nvs\nHigh Density\nToppers",
+          "lineHeight": 1.15,
+          "textAlign": "center",
+          "fontFamily": "Fraunces",
+          "fontSize": 36,
+          "fontWeight": "500",
+          "letterSpacing": -0.5
+        },
+        {
+          "type": "text",
+          "id": "8ccgO",
+          "name": "subline",
+          "fill": "#9A9590",
+          "content": "Which One Is Right For You?",
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 15,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "uaXdD",
+          "name": "swipeHint",
+          "fill": "#C9A05240",
+          "content": "SWIPE TO LEARN MORE",
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 10,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "F6VGz",
+      "x": 440,
+      "y": 0,
+      "name": "Slide 2 - What Are Toppers",
+      "width": 390,
+      "height": 693,
+      "fill": "#0B0A08",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        48,
+        32
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "VLt48",
+          "name": "Topper Image",
+          "metadata": {
+            "type": "unsplash",
+            "username": "quentinmahe",
+            "link": "https://unsplash.com/@quentinmahe",
+            "author": "QUENTIN Mahe"
+          },
+          "clip": true,
+          "width": "fill_container",
+          "height": 220,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1717160675489-7779f2c91999?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTU3OTB8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "cornerRadius": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "zQOHu",
+              "name": "overlay2",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0B0A0800",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0B0A08CC",
+                    "position": 0.7
+                  },
+                  {
+                    "color": "#0B0A08",
+                    "position": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "RbClO",
+          "name": "label2",
+          "fill": "#C9A052",
+          "content": "WHAT ARE HAIR TOPPERS?",
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "letterSpacing": 3
+        },
+        {
+          "type": "rectangle",
+          "id": "8zf0Z",
+          "name": "line2",
+          "fill": "#C9A05240",
+          "width": 32,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "jjXRX",
+          "name": "body2",
+          "fill": "#FAF7F0",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "A hair topper is a partial hairpiece that clips onto the crown or parting area, adding coverage and volume where you need it most.",
+          "lineHeight": 1.6,
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 15,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "05Y3Z",
+          "name": "body2b",
+          "fill": "#9A9590",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Unlike a wig, toppers blend with your natural strands—so your own hair is still in play.",
+          "lineHeight": 1.6,
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "JHVIh",
+          "name": "densityNote",
+          "width": "fill_container",
+          "fill": "#161412",
+          "cornerRadius": 12,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05215"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            16,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Z6MhA",
+              "name": "dnLabel",
+              "fill": "#C9A052",
+              "content": "DENSITY = ",
+              "fontFamily": "DM Sans",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "Oc9Lc",
+              "name": "dnBody",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "How much hair is tied into the base of a topper",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9mevU",
+      "x": 880,
+      "y": 0,
+      "name": "Slide 3 - Low Density",
+      "width": 390,
+      "height": 693,
+      "fill": "#0B0A08",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        48,
+        32
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "AuzNo",
+          "name": "label3",
+          "fill": "#C9A052",
+          "content": "THE SUBTLE CHOICE",
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "letterSpacing": 3
+        },
+        {
+          "type": "rectangle",
+          "id": "J4njr",
+          "name": "line3",
+          "fill": "#C9A05240",
+          "width": 32,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "d88ln",
+          "name": "h3",
+          "fill": "#FAF7F0",
+          "content": "Low Density\nToppers",
+          "lineHeight": 1.15,
+          "textAlign": "center",
+          "fontFamily": "Fraunces",
+          "fontSize": 32,
+          "fontWeight": "500",
+          "letterSpacing": -0.5
+        },
+        {
+          "type": "text",
+          "id": "yGLbD",
+          "name": "desc3",
+          "fill": "#9A9590",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Fewer strands per square inch for a lightweight, natural finish that blends seamlessly.",
+          "lineHeight": 1.6,
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "PUc4k",
+          "name": "prosCard",
+          "width": "fill_container",
+          "fill": "#161412",
+          "cornerRadius": 16,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05215"
+          },
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Ws088",
+              "name": "prosTitle",
+              "fill": "#C9A052",
+              "content": "WHY THEY WORK",
+              "fontFamily": "DM Sans",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "0nVqa",
+              "name": "pro1",
+              "fill": "#FAF7F0",
+              "content": "✓  Lightweight — easy for all-day wear",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "nn9Tf",
+              "name": "pro2",
+              "fill": "#FAF7F0",
+              "content": "✓  Natural finish that blends easily",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "V3eaD",
+              "name": "pro3",
+              "fill": "#FAF7F0",
+              "content": "✓  Incredibly realistic appearance",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "li1xL",
+          "name": "consCard",
+          "width": "fill_container",
+          "fill": "#161412",
+          "cornerRadius": 16,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05215"
+          },
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ad0dz",
+              "name": "consTitle",
+              "fill": "#9A9590",
+              "content": "CONSIDER",
+              "fontFamily": "DM Sans",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "OzmSn",
+              "name": "con1",
+              "fill": "#9A9590",
+              "content": "•  Less coverage for advanced thinning",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "sBz20",
+              "name": "con2",
+              "fill": "#9A9590",
+              "content": "•  Not as voluminous for glam looks",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "CiYQK",
+          "name": "bestFor",
+          "fill": "#C9A05240",
+          "content": "Best for: Early thinning, everyday wear,\nprofessional settings",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 12,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "O3Lha",
+      "x": 1320,
+      "y": 0,
+      "name": "Slide 4 - High Density",
+      "width": 390,
+      "height": 693,
+      "fill": "#0B0A08",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        48,
+        32
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "ftaZX",
+          "name": "label4",
+          "fill": "#C9A052",
+          "content": "THE FULL COVERAGE FIX",
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "letterSpacing": 3
+        },
+        {
+          "type": "rectangle",
+          "id": "WlQtp",
+          "name": "line4",
+          "fill": "#C9A05240",
+          "width": 32,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "OMv5a",
+          "name": "h4",
+          "fill": "#FAF7F0",
+          "content": "High Density\nToppers",
+          "lineHeight": 1.15,
+          "textAlign": "center",
+          "fontFamily": "Fraunces",
+          "fontSize": 32,
+          "fontWeight": "500",
+          "letterSpacing": -0.5
+        },
+        {
+          "type": "text",
+          "id": "yqSZm",
+          "name": "desc4",
+          "fill": "#9A9590",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "More strands packed into the base for fuller coverage, extra volume, and dramatic body.",
+          "lineHeight": 1.6,
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "AlJ5U",
+          "name": "prosCard4",
+          "width": "fill_container",
+          "fill": "#161412",
+          "cornerRadius": 16,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05215"
+          },
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "takOt",
+              "name": "prosTitle4",
+              "fill": "#C9A052",
+              "content": "WHY THEY WORK",
+              "fontFamily": "DM Sans",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "hQj3y",
+              "name": "pro4a",
+              "fill": "#FAF7F0",
+              "content": "✓  Maximum coverage for noticeable thinning",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "HLk4u",
+              "name": "pro4b",
+              "fill": "#FAF7F0",
+              "content": "✓  More styling options: updos, waves, sleek",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "UikKP",
+              "name": "pro4c",
+              "fill": "#FAF7F0",
+              "content": "✓  Lasting volume that won’t fall flat",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PABQT",
+          "name": "consCard4",
+          "width": "fill_container",
+          "fill": "#161412",
+          "cornerRadius": 16,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05215"
+          },
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "5j5yz",
+              "name": "consTitle4",
+              "fill": "#9A9590",
+              "content": "CONSIDER",
+              "fontFamily": "DM Sans",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "LNIjz",
+              "name": "con4a",
+              "fill": "#9A9590",
+              "content": "•  Heavier feel on the head",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "epaWx",
+              "name": "con4b",
+              "fill": "#9A9590",
+              "content": "•  Requires more blending skill",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "XAk7v",
+          "name": "bestFor4",
+          "fill": "#C9A05240",
+          "content": "Best for: Advanced thinning, glam events,\nfull-coverage needs",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 12,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "iGpFQ",
+      "x": 1760,
+      "y": 0,
+      "name": "Slide 5 - Which One",
+      "width": 390,
+      "height": 693,
+      "fill": "#0B0A08",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        48,
+        32
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "SZRiH",
+          "name": "label5",
+          "fill": "#C9A052",
+          "content": "QUICK GUIDE",
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "letterSpacing": 3
+        },
+        {
+          "type": "rectangle",
+          "id": "1x9bd",
+          "name": "line5",
+          "fill": "#C9A05240",
+          "width": 32,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "Gtzqg",
+          "name": "h5",
+          "fill": "#FAF7F0",
+          "content": "Which One\nIs For You?",
+          "lineHeight": 1.15,
+          "textAlign": "center",
+          "fontFamily": "Fraunces",
+          "fontSize": 30,
+          "fontWeight": "500",
+          "letterSpacing": -0.5
+        },
+        {
+          "type": "frame",
+          "id": "fuhLx",
+          "name": "row1",
+          "width": "fill_container",
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "WaIol",
+              "name": "col1",
+              "width": "fill_container",
+              "fill": "#161412",
+              "cornerRadius": 12,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#C9A05215"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                16,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F76Vy",
+                  "name": "col1t",
+                  "fill": "#C9A052",
+                  "content": "LOW",
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "f3GU7",
+                  "name": "col1v",
+                  "fill": "#FAF7F0",
+                  "content": "Subtle\nNatural",
+                  "lineHeight": 1.4,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dCAzL",
+              "name": "col2",
+              "width": "fill_container",
+              "fill": "#161412",
+              "cornerRadius": 12,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#C9A05215"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                16,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cyQvA",
+                  "name": "col2t",
+                  "fill": "#C9A052",
+                  "content": "HIGH",
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "d1ebG",
+                  "name": "col2v",
+                  "fill": "#FAF7F0",
+                  "content": "Full\nDramatic",
+                  "lineHeight": 1.4,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1YRUJ",
+          "name": "guideCard",
+          "width": "fill_container",
+          "fill": "#161412",
+          "cornerRadius": 16,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05215"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Cvc0t",
+              "name": "g1",
+              "fill": "#C9A052",
+              "content": "CHOOSE BASED ON:",
+              "fontFamily": "DM Sans",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "b3jM4",
+              "name": "g2",
+              "fill": "#FAF7F0",
+              "content": "•  Stage of hair loss\n•  Daily vs. event wear\n•  Subtle vs. glam preference\n•  Scalp sensitivity\n•  Budget considerations",
+              "lineHeight": 1.7,
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cc1io",
+          "name": "tipCard",
+          "width": "fill_container",
+          "fill": "#C9A05215",
+          "cornerRadius": 12,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05230"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            16,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "J6vQ5",
+              "name": "tipLabel",
+              "fill": "#C9A052",
+              "content": "STYLIST TIP",
+              "fontFamily": "DM Sans",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "Wr9Il",
+              "name": "tipText",
+              "fill": "#FAF7F0",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "“Always try before you buy. The best topper blends with your natural hair density.”",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "T7Nys",
+      "x": 2200,
+      "y": 0,
+      "name": "Slide 6 - Coming Soon",
+      "width": 390,
+      "height": 693,
+      "fill": "#0B0A08",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        32
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "PuN7x",
+          "name": "topLine6",
+          "fill": "#C9A052",
+          "width": 48,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "sP3HN",
+          "name": "logoGrp6",
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Bz8Fw",
+              "name": "logo6a",
+              "fill": "#C9A052",
+              "content": "ORIGIN",
+              "fontFamily": "Fraunces",
+              "fontSize": 20,
+              "fontWeight": "600",
+              "letterSpacing": 8
+            },
+            {
+              "type": "text",
+              "id": "X76tn",
+              "name": "logo6b",
+              "fill": "#9A9590",
+              "content": "HAIR COLLECTIVE",
+              "fontFamily": "DM Sans",
+              "fontSize": 9,
+              "fontWeight": "500",
+              "letterSpacing": 3
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Xm8u6",
+          "name": "botLine6",
+          "fill": "#C9A052",
+          "width": 48,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "RwGuo",
+          "name": "comingSoon",
+          "fill": "#FAF7F0",
+          "content": "COMING\nSOON",
+          "lineHeight": 1.1,
+          "textAlign": "center",
+          "fontFamily": "Fraunces",
+          "fontSize": 42,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "09Yvq",
+          "name": "tagline6",
+          "fill": "#9A9590",
+          "content": "Premium Virgin Hair\nCrafted For Excellence",
+          "lineHeight": 1.6,
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 15,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "ZWa66",
+          "name": "datePill",
+          "fill": "#C9A05215",
+          "cornerRadius": 100,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05230"
+          },
+          "padding": [
+            10,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "UxMxI",
+              "name": "dateText",
+              "fill": "#C9A052",
+              "content": "SPRING 2026",
+              "fontFamily": "DM Sans",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "x6ORB",
+          "name": "handle6",
+          "fill": "#B8816B",
+          "content": "@OriginHairCollective",
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 13,
+          "fontWeight": "500"
+        },
+        {
+          "type": "rectangle",
+          "id": "Fj5vF",
+          "name": "divider6",
+          "fill": "#C9A05240",
+          "width": 32,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "llsMD",
+          "name": "urlRef",
+          "layout": "vertical",
+          "gap": 8,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "jiL6H",
+              "name": "visitLabel",
+              "fill": "#6B6860",
+              "content": "VISIT US AT",
+              "fontFamily": "DM Sans",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "K97Bh",
+              "name": "visitUrl",
+              "fill": "#C9A052",
+              "content": "originhaircollective.com",
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 16,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4cm4M",
+          "name": "socialRow6",
+          "gap": 24,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "Nyn4U",
+              "name": "ig6",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "instagram",
+              "iconFontFamily": "lucide",
+              "fill": "#9A9590"
+            },
+            {
+              "type": "icon_font",
+              "id": "HjEGc",
+              "name": "mail6",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "mail",
+              "iconFontFamily": "lucide",
+              "fill": "#9A9590"
+            },
+            {
+              "type": "icon_font",
+              "id": "1ACpF",
+              "name": "tik6",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "music",
+              "iconFontFamily": "lucide",
+              "fill": "#9A9590"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "4nuMb",
+          "name": "copy6",
+          "fill": "#4A4840",
+          "content": "© 2026 Origin Hair Collective",
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 10,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ]
+}

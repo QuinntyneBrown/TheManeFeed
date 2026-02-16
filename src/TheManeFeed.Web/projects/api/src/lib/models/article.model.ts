@@ -82,7 +82,7 @@ export interface FeedResponse {
   featured: Article[];
   latest: Article[];
   trending: Article[];
-  categories: CategoryWithArticles[];
+  categories: Category[];
 }
 
 export interface CategoryWithArticles {

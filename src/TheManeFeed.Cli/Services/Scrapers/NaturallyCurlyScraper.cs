@@ -9,7 +9,7 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class NaturallyCurlyScraper : BaseSiteScraper
 {
     public override string SourceName => "NaturallyCurly";
-    protected override string BaseUrl => "https://www.naturallycurly.com";
+    public override string BaseUrl => "https://www.naturallycurly.com";
     protected override string PagePath => "/curlreading";
 
     public NaturallyCurlyScraper(

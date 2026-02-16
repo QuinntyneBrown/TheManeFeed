@@ -9,7 +9,8 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class ExpressWigBraidsScraper : BaseSiteScraper
 {
     public override string SourceName => "ExpressWigBraids";
-    protected override string BaseUrl => "https://expresswigbraids.com";
+    public override string RssFeedPath => "/blogs/news.atom";
+    public override string BaseUrl => "https://expresswigbraids.com";
     protected override string PagePath => "/blogs/news";
 
     public ExpressWigBraidsScraper(

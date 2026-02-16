@@ -1,0 +1,491 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e13]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e15]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e18]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e20] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e22]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e24]: Premium Human Hair Wigs
+    - generic [ref=e25]:
+      - generic [ref=e27]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e29]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e32]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e34] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e36]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e38]: Premium Human Hair Wigs
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e43]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e46]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e48] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e50]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e52]: Premium Human Hair Wigs
+    - generic [ref=e53]:
+      - generic [ref=e55]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e57]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e60]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e62] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e64]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e66]: Premium Human Hair Wigs
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e71]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e74]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e76] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e78]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e80]: Premium Human Hair Wigs
+    - generic [ref=e81]:
+      - generic [ref=e83]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e85]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e88]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e90] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e92]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e94]: Premium Human Hair Wigs
+    - generic [ref=e95]:
+      - generic [ref=e97]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e99]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e102]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e104] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e106]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e108]: Premium Human Hair Wigs
+    - generic [ref=e109]:
+      - generic [ref=e111]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e113]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e116]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e118] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e120]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e122]: Premium Human Hair Wigs
+    - generic [ref=e123]:
+      - generic [ref=e125]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e127]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e130]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e132] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e134]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e136]: Premium Human Hair Wigs
+    - generic [ref=e137]:
+      - generic [ref=e139]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e141]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e144]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e146] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e148]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e150]: Premium Human Hair Wigs
+    - generic [ref=e151]:
+      - generic [ref=e153]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e155]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e158]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e160] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e162]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e164]: Premium Human Hair Wigs
+    - generic [ref=e165]:
+      - generic [ref=e167]:
+        - text: "Valentine’s Day Sale:"
+        - strong [ref=e169]: $250 OFF
+        - text: Princess Wigs +
+        - strong [ref=e172]: 25% OFF
+        - text: Accessories —
+        - link "Shop Now" [ref=e174] [cursor=pointer]:
+          - /url: /collections/valentines-day-wig-sale
+      - generic [ref=e176]:
+        - text: Trusted by 50,000+ Women
+        - strong [ref=e178]: Premium Human Hair Wigs
+  - banner [ref=e180]:
+    - generic [ref=e181]:
+      - heading "Milano Wigs" [level=2] [ref=e183]:
+        - link "Milano Wigs" [ref=e184] [cursor=pointer]:
+          - /url: /
+          - img "Milano Collection Wigs & Toppers" [ref=e185]
+      - navigation [ref=e187]:
+        - generic [ref=e188]:
+          - link "Schedule A Consultation" [ref=e190] [cursor=pointer]:
+            - /url: /pages/consultations
+            - generic [ref=e191]: Schedule A Consultation
+          - navigation [ref=e192]:
+            - link "Wigs" [ref=e193] [cursor=pointer]:
+              - /url: /collections/wigs
+              - generic [ref=e194]: Wigs
+          - navigation [ref=e195]:
+            - link "Hair Toppers" [ref=e196] [cursor=pointer]:
+              - /url: https://milanowigs.com/collections/toppers
+              - generic [ref=e197]: Hair Toppers
+          - navigation [ref=e198]:
+            - link "Accessories" [ref=e199] [cursor=pointer]:
+              - /url: /collections/accessories
+              - generic [ref=e200]: Accessories
+          - navigation [ref=e201]:
+            - link "Wig Wisdom" [ref=e202] [cursor=pointer]:
+              - /url: /pages/wig-wisdom
+              - generic [ref=e203]: Wig Wisdom
+          - link "Matchmaker Quiz" [ref=e205] [cursor=pointer]:
+            - /url: /pages/wig-matchmaker
+            - generic [ref=e206]: Matchmaker Quiz
+          - link "Locations" [ref=e208] [cursor=pointer]:
+            - /url: /pages/showroom-location
+            - generic [ref=e209]: Locations
+          - link "Pop-ups" [ref=e211] [cursor=pointer]:
+            - /url: /pages/scottsdale-popup
+            - generic [ref=e212]: Pop-ups
+        - generic [ref=e213]:
+          - group [ref=e215]:
+            - button "Open search bar" [ref=e216] [cursor=pointer]:
+              - img [ref=e217]
+              - generic [ref=e218]: Open search bar
+          - link "Open cart" [ref=e220] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=e221]: Open cart
+            - img [ref=e222]
+          - link "My Account" [ref=e224] [cursor=pointer]:
+            - /url: /account
+            - generic [ref=e225]: My Account
+            - img [ref=e226]
+  - main [ref=e227]:
+    - article [ref=e231]:
+      - generic [ref=e232]:
+        - heading "Top 10 Health Foods for Hair and Scalp Health" [level=1] [ref=e233]
+        - paragraph [ref=e234]:
+          - generic [ref=e235]:
+            - text: "By Milano Collection:"
+            - time [ref=e236]: May 15, 2025
+      - figure [ref=e239]:
+        - img "10 Health Foods for Hair and Scalp Health" [ref=e240]
+      - generic [ref=e241]:
+        - paragraph [ref=e242]:
+          - text: At Milano Wigs, we believe beauty starts at the foundation, your scalp. While
+          - strong [ref=e244]:
+            - link "our wigs" [ref=e245] [cursor=pointer]:
+              - /url: https://milanowigs.com/collections/best-sellers?pf_t_type=Wigs
+          - text: and toppers offer instant confidence, giving your natural hair and skin the nutrients they crave can boost long-term health. What you eat matters, especially when dealing with hair shedding, dryness, or thinning.
+        - paragraph [ref=e246]:
+          - text: Below are ten foods that support a healthy scalp and
+          - link "strong strands" [ref=e248] [cursor=pointer]:
+            - /url: https://www.healthline.com/nutrition/foods-for-hair-growth#eggs
+          - text: from within.
+        - heading "1. Salmon" [level=2] [ref=e249]
+        - paragraph [ref=e250]
+        - paragraph [ref=e251]: Omega-3s in salmon help reduce inflammation and improve blood flow, which supports active hair follicles and nourished roots.
+        - heading "2. Spinach" [level=2] [ref=e252]
+        - paragraph [ref=e253]: Rich in folate and vitamins A and C, spinach strengthens roots and supports the scalp's natural oil production. Low iron is also a common cause of shedding—and spinach helps with that, too.
+        - heading "3. Sweet Potatoes" [level=2] [ref=e254]
+        - paragraph [ref=e255]: Loaded with beta carotene, sweet potatoes encourage the scalp to produce sebum, a natural oil that keeps skin balanced and less prone to flaking.
+        - heading "4. Eggs" [level=2] [ref=e256]
+        - paragraph [ref=e257]: Biotin and protein make eggs a go-to for breakage prevention. These nutrients help build stronger strands and support natural shine.
+        - heading "5. Avocados" [level=2] [ref=e258]
+        - paragraph [ref=e259]: With vitamin E and healthy fats, avocados support scalp hydration and help defend against environmental stress that weakens hair over time.
+        - heading "6. Nuts & Seeds" [level=2] [ref=e260]
+        - paragraph [ref=e261]: These are packed with zinc and omega-3s, two nutrients that play a major role in hair strength and thickness. A small handful daily can go a long way.
+        - heading "7. Berries" [level=2] [ref=e262]
+        - paragraph [ref=e263]: Berries are rich in antioxidants and vitamin C, which your body uses to create collagen. Collagen helps keep hair flexible and strong at the root.
+        - heading "8. Lean Poultry" [level=2] [ref=e264]
+        - paragraph [ref=e265]: Iron and protein in chicken or turkey help your body make keratin—the main structural protein in hair. It's especially useful for women experiencing hair thinning due to low iron.
+        - heading "9. Oysters" [level=2] [ref=e266]
+        - paragraph [ref=e267]: Oysters are zinc-rich, which is essential for scalp balance and hair regrowth. Just one oyster gives you more than enough for the day.
+        - heading "10. Greek Yogurt or Kefir" [level=2] [ref=e268]
+        - paragraph [ref=e269]: Fermented dairy offers protein, B vitamins, and probiotics—all of which can influence hair growth indirectly through gut health and nutrient absorption.
+        - heading "Feed Your Roots, Inside and Out" [level=2] [ref=e270]
+        - paragraph [ref=e271]: Nourishing your hair isn’t just about what you apply topically, it's also about what you fuel your body with. These foods won’t just help your natural hair, they may also improve the health of the scalp beneath your wig or topper.
+        - paragraph [ref=e272]:
+          - text: For more guidance on all things wigs & toppers, visit our
+          - strong [ref=e274]:
+            - link "WigTalk Blog" [ref=e275] [cursor=pointer]:
+              - /url: https://milanowigs.com/blogs/wig-talk-blog
+          - text: to keep your scalp calm, cool, and collected.
+      - generic [ref=e276]:
+        - heading "Share this article" [level=3] [ref=e277]
+        - generic [ref=e278]:
+          - link "Share on Facebook" [ref=e279] [cursor=pointer]:
+            - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmilanowigs.com%2Fblogs%2Fwig-talk-blog%2Ftop-10-health-foods-for-hair-and-scalp-health
+            - img [ref=e280]
+            - text: Facebook
+          - link "Share on Twitter" [ref=e282] [cursor=pointer]:
+            - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fmilanowigs.com%2Fblogs%2Fwig-talk-blog%2Ftop-10-health-foods-for-hair-and-scalp-health&text=Top%2010%20Health%20Foods%20for%20Hair%20and%20Scalp%20Health&via=Milano%20Wigs
+            - img [ref=e283]
+            - text: Twitter
+          - link "Share on Pinterest" [ref=e285] [cursor=pointer]:
+            - /url: https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fmilanowigs.com%2Fblogs%2Fwig-talk-blog%2Ftop-10-health-foods-for-hair-and-scalp-health&media=https%3A%2F%2Fmilanowigs.com%2Fcdn%2Fshop%2Farticles%2FMilano_Collection_Top_10_Foods_for_Hair_Scalp_Health_1200x630.png%3Fv%3D1747342347&description=Discover%20the%20top%2010%20best%20foods%20for%20hair%20growth%20and%20scalp%20health.%20This%20guide%20from%20Milano%20Wigs%20highlights%20nutrient-rich%20foods%20like%20salmon,%20spinach,%20and%20avocado...
+            - img [ref=e286]
+            - text: Pinterest
+          - link "Share on Instagram" [ref=e288] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+            - img [ref=e289]
+            - text: Instagram
+      - list [ref=e291]:
+        - listitem [ref=e292]:
+          - generic [ref=e293]:
+            - text: "Tags:"
+            - link "Milano Hair Education" [ref=e294] [cursor=pointer]:
+              - /url: /blogs/wig-talk-blog/tagged/milano-hair-education
+      - generic [ref=e295]:
+        - button "Copy Article Link" [ref=e296] [cursor=pointer]:
+          - img [ref=e297]
+          - text: Copy Article Link
+        - generic:
+          - generic:
+            - generic: Link copied
+    - generic [ref=e302]:
+      - generic [ref=e303]:
+        - link [ref=e304] [cursor=pointer]:
+          - /url: /blogs/wig-talk-blog/pixie-cut-wig
+          - figure [ref=e305]:
+            - img "A smiling woman with a chic pixie cut hairstyle, styled in soft layers for a natural, modern look. Her confident expression and the sleek finish of the cut highlight its elegance and versatility." [ref=e306]
+        - generic:
+          - generic:
+            - link "Sudden hair loss," [ref=e308] [cursor=pointer]:
+              - /url: /blogs/wig-talk-blog/tagged/sudden-hair-loss
+            - link "Wigs," [ref=e309] [cursor=pointer]:
+              - /url: /blogs/wig-talk-blog/tagged/wigs
+            - link "Wigs covered by medical insurance" [ref=e310] [cursor=pointer]:
+              - /url: /blogs/wig-talk-blog/tagged/wigs-covered-by-medical-insurance
+          - 'heading "Your Guide to Pixie Cut Wigs: Short, Stylish, and Empowering" [level=3]':
+            - 'link "Your Guide to Pixie Cut Wigs: Short, Stylish, and Empowering" [ref=e311] [cursor=pointer]':
+              - /url: /blogs/wig-talk-blog/pixie-cut-wig
+          - paragraph:
+            - text: By Milano Collection•
+            - generic:
+              - time: February 06, 2025
+      - generic [ref=e312]:
+        - link [ref=e313] [cursor=pointer]:
+          - /url: /blogs/wig-talk-blog/what-is-a-ponytail-wig
+          - figure [ref=e314]:
+            - img "What is a Ponytail Wig?" [ref=e315]
+        - generic:
+          - generic:
+            - link "Milano hair education," [ref=e317] [cursor=pointer]:
+              - /url: /blogs/wig-talk-blog/tagged/milano-hair-education
+            - link "Style choices," [ref=e318] [cursor=pointer]:
+              - /url: /blogs/wig-talk-blog/tagged/style-choices
+            - link "Wigs" [ref=e319] [cursor=pointer]:
+              - /url: /blogs/wig-talk-blog/tagged/wigs
+          - heading "What is a Ponytail Wig?" [level=3]:
+            - link "What is a Ponytail Wig?" [ref=e320] [cursor=pointer]:
+              - /url: /blogs/wig-talk-blog/what-is-a-ponytail-wig
+          - paragraph:
+            - text: By Milano Collection•
+            - generic:
+              - time: July 14, 2025
+  - generic [ref=e324]:
+    - paragraph [ref=e326]: Virtual 1-on-1 Wig Consults
+    - strong [ref=e329]: Find Your Perfect Wig From Home
+    - paragraph [ref=e331]: Meet 1-on-1 with a Milano wig specialist in a private 45-minute virtual session. We’ll talk about your hair goals, match you to the right wig or topper, and walk you through fit, security, color, cut, and any custom tailoring you may need so it looks and feels like you. All from your couch.
+    - link "Book Your Virtual Consultation" [ref=e333] [cursor=pointer]:
+      - /url: https://milanowigs.com/pages/consultations
+  - contentinfo [ref=e335]:
+    - generic [ref=e337]:
+      - generic [ref=e338]:
+        - link [ref=e339] [cursor=pointer]:
+          - /url: /
+          - figure [ref=e341]:
+            - img "Milano Wigs" [ref=e342]
+        - generic [ref=e343]:
+          - paragraph
+          - paragraph [ref=e344]:
+            - strong [ref=e345]: Let’s Get You Styled
+          - paragraph [ref=e346]:
+            - strong [ref=e347]: Email
+            - text: ":"
+            - link "cs@mcwigs.com" [ref=e348] [cursor=pointer]:
+              - /url: mailto:cs@mcwigs.com
+            - strong [ref=e349]: Call
+            - text: ":"
+            - link "562-426-2971" [ref=e350] [cursor=pointer]:
+              - /url: tel:562-426-2971
+            - strong [ref=e351]: WhatsApp
+            - text: ":"
+            - link "310-893-3260" [ref=e352] [cursor=pointer]:
+              - /url: tel:310-893-3260
+          - paragraph [ref=e353]: Book a private consultation with our expert stylists and discover your ideal wig with confidence.
+          - paragraph
+      - generic [ref=e354]:
+        - paragraph [ref=e355]:
+          - button "Showrooms" [ref=e356]
+        - generic [ref=e358] [cursor=pointer]:
+          - text: Los Angeles Showroom
+          - img "arrow-icon" [ref=e360]
+        - generic [ref=e362] [cursor=pointer]:
+          - text: Long Beach Showroom
+          - img "arrow-icon" [ref=e364]
+        - generic [ref=e366] [cursor=pointer]:
+          - text: New York Showroom
+          - img "arrow-icon" [ref=e368]
+        - generic [ref=e370] [cursor=pointer]:
+          - text: Florida Showroom
+          - img "arrow-icon" [ref=e372]
+      - generic [ref=e373]:
+        - paragraph [ref=e374]:
+          - button "Customer Care" [ref=e375]
+        - list [ref=e377]:
+          - listitem [ref=e378]:
+            - link "Contact Us" [ref=e379] [cursor=pointer]:
+              - /url: /pages/contact-us
+          - listitem [ref=e380]:
+            - link "FAQs" [ref=e381] [cursor=pointer]:
+              - /url: /pages/faqs
+          - listitem [ref=e382]:
+            - link "Returns & Exchanges" [ref=e383] [cursor=pointer]:
+              - /url: /pages/returns-exchanges
+          - listitem [ref=e384]:
+            - link "Shipping & Delivery" [ref=e385] [cursor=pointer]:
+              - /url: /pages/shipping-delivery
+          - listitem [ref=e386]:
+            - link "Terms & Conditions" [ref=e387] [cursor=pointer]:
+              - /url: /pages/terms-conditions
+          - listitem [ref=e388]:
+            - link "Privacy Policy" [ref=e389] [cursor=pointer]:
+              - /url: /policies/privacy-policy
+      - generic [ref=e390]:
+        - paragraph [ref=e391]:
+          - button "About & Community" [ref=e392]
+        - list [ref=e394]:
+          - listitem [ref=e395]:
+            - link "About Us" [ref=e396] [cursor=pointer]:
+              - /url: /pages/about-us
+          - listitem [ref=e397]:
+            - link "Reviews" [ref=e398] [cursor=pointer]:
+              - /url: /pages/reviews
+          - listitem [ref=e399]:
+            - link "Milano Beauty Rewards" [ref=e400] [cursor=pointer]:
+              - /url: /pages/milano-rewards
+          - listitem [ref=e401]:
+            - link "Blog" [ref=e402] [cursor=pointer]:
+              - /url: /blogs/wig-talk-blog
+          - listitem [ref=e403]:
+            - link "Patents" [ref=e404] [cursor=pointer]:
+              - /url: /pages/patents
+          - listitem [ref=e405]:
+            - link "Newsletter" [ref=e406] [cursor=pointer]:
+              - /url: /pages/mailinglist
+          - listitem [ref=e407]:
+            - link "Showroom Locations" [ref=e408] [cursor=pointer]:
+              - /url: /pages/showroom-location
+      - generic [ref=e413]:
+        - paragraph [ref=e417]: ✉️ Don't Miss Out -
+        - paragraph [ref=e421]: Be the First to Know
+        - paragraph [ref=e425]: Join thousands of wig lovers who get early access to new styles, exclusive offers, and pro styling tips. No spam. Just glam.
+        - generic [ref=e428]:
+          - generic [ref=e429]: First Name
+          - textbox "First Name" [ref=e430]:
+            - /placeholder: First Name (Optional)
+        - generic [ref=e433]:
+          - generic [ref=e434]: Email
+          - textbox "Email" [ref=e435]:
+            - /placeholder: Email Address
+        - button "Join the Glam Crew" [ref=e438] [cursor=pointer]
+    - generic [ref=e439]:
+      - generic [ref=e440]:
+        - link "View Milano Wigs on Instagram" [ref=e441] [cursor=pointer]:
+          - /url: https://www.instagram.com/milanowigs/
+          - img [ref=e442]
+        - link "View Milano Wigs on Tiktok" [ref=e444] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@milanowigs
+          - img [ref=e445]
+        - link "View Milano Wigs on Facebook" [ref=e447] [cursor=pointer]:
+          - /url: https://www.facebook.com/milanowigs
+          - img [ref=e448]
+        - link "View Milano Wigs on Twitter" [ref=e450] [cursor=pointer]:
+          - /url: https://twitter.com/milanowigs
+          - img [ref=e451]
+        - link "View Milano Wigs on Pinterest" [ref=e453] [cursor=pointer]:
+          - /url: https://www.pinterest.com/milanowigs/
+          - img [ref=e454]
+        - link "View Milano Wigs on Youtube" [ref=e456] [cursor=pointer]:
+          - /url: https://youtube.com/milanowigs
+          - img [ref=e457]
+      - generic [ref=e459]:
+        - generic [ref=e461]:
+          - heading "Country" [level=2] [ref=e462]
+          - button "United States United States (USD $)" [ref=e464] [cursor=pointer]:
+            - img "United States" [ref=e465]
+            - text: United States (USD $)
+            - img
+        - generic [ref=e466]:
+          - generic [ref=e468]:
+            - text: © 2026,
+            - link "Milano Wigs" [ref=e469] [cursor=pointer]:
+              - /url: /
+            - text: .
+          - link "Sitemap" [ref=e471] [cursor=pointer]:
+            - /url: /pages/sitemap
+      - list [ref=e472]:
+        - listitem [ref=e473]:
+          - img "American Express" [ref=e474]
+        - listitem [ref=e483]:
+          - img "Apple Pay" [ref=e484]
+        - listitem [ref=e495]:
+          - img "Diners Club" [ref=e496]
+        - listitem [ref=e500]:
+          - img "Discover" [ref=e501]
+        - listitem [ref=e510]:
+          - img "Google Pay" [ref=e511]
+        - listitem [ref=e519]:
+          - img "JCB" [ref=e520]
+        - listitem [ref=e529]:
+          - img "Mastercard" [ref=e530]
+        - listitem [ref=e536]:
+          - img "PayPal" [ref=e537]
+        - listitem [ref=e543]:
+          - img "Venmo" [ref=e544]
+        - listitem [ref=e549]:
+          - img "Visa" [ref=e550]
+  - generic:
+    - generic:
+      - generic:
+        - iframe
+        - iframe [ref=e554]:
+          - button "Gorgias live chat" [ref=f4e4] [cursor=pointer]:
+            - img [ref=f4e9]

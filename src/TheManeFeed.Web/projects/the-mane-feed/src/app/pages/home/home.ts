@@ -34,8 +34,7 @@ export class HomeComponent implements OnInit {
       this.featured.set(feed.featured);
       this.latest.set(feed.latest);
       this.trending.set(feed.trending);
-      const cats = feed.categories.map((c) => c.category);
-      this.categories.set(cats);
+      this.categories.set(feed.categories);
     });
   }
 

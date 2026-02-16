@@ -9,7 +9,7 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class EssenceScraper : BaseSiteScraper
 {
     public override string SourceName => "Essence";
-    protected override string BaseUrl => "https://www.essence.com";
+    public override string BaseUrl => "https://www.essence.com";
     protected override string PagePath => "/beauty/hair/";
 
     public EssenceScraper(

@@ -1,0 +1,9 @@
+[     452ms] [WARNING] Boost > [WARN]  Theme is not integrated with SimplifiedIntegration flow @ https://milanowigs.com/blogs/wig-talk-blog/top-10-health-foods-for-hair-and-scalp-health:1656
+[    1100ms] [WARNING] Klaviyo tracking is disabled. To enable, set the cookie "__kla_off" to false. {is_robot: true, __kla_off: } @ https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-4e0eca182019a0c7912acd7f97b5c24a425db26a/fender_analytics.e5aba8b3a52dc623782c.js?cb=2:0
+[    1368ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ chrome-error://chromewebdata/:0
+[    1404ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors 'self' https://shop.app https://admin.shopify.com". The request has been blocked.
+ @ :0
+[   11609ms] [ERROR] Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=Nd8R3X' from origin 'https://milanowigs.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://milanowigs.com/blogs/wig-talk-blog/top-10-health-foods-for-hair-and-scalp-health:0
+[   11614ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://a.klaviyo.com/onsite/track-analytics?company_id=Nd8R3X:0
+[   11614ms] [ERROR] Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=Nd8R3X' from origin 'https://milanowigs.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://milanowigs.com/blogs/wig-talk-blog/top-10-health-foods-for-hair-and-scalp-health:0
+[   11618ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://a.klaviyo.com/onsite/track-analytics?company_id=Nd8R3X:0

@@ -49,6 +49,7 @@ try
 
     var rootCommand = new RootCommand("TheManeFeed - Curated hair & beauty news aggregator");
     rootCommand.AddCommand(new ScrapeCommand());
+    rootCommand.AddCommand(new FeedCommand());
     rootCommand.AddCommand(new ListCommand());
 
     var parser = new CommandLineBuilder(rootCommand)

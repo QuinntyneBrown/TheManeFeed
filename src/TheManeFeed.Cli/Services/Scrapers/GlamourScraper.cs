@@ -9,7 +9,7 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class GlamourScraper : BaseSiteScraper
 {
     public override string SourceName => "Glamour";
-    protected override string BaseUrl => "https://www.glamour.com";
+    public override string BaseUrl => "https://www.glamour.com";
     protected override string PagePath => "/lipstick/hair";
 
     public GlamourScraper(

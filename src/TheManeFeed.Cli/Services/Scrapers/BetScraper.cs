@@ -9,7 +9,7 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class BetScraper : BaseSiteScraper
 {
     public override string SourceName => "BET";
-    protected override string BaseUrl => "https://www.bet.com";
+    public override string BaseUrl => "https://www.bet.com";
     protected override string PagePath => "/tag/bopy0s/beauty";
 
     public BetScraper(

@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - region "Announcement" [ref=e6]:
+    - link "TEXT A STYLIST HERE" [ref=e7] [cursor=pointer]:
+      - /url: "#/hk-entry-widget-open"
+      - paragraph [ref=e8]:
+        - text: TEXT A STYLIST HERE
+        - img
+  - banner [ref=e11]:
+    - link "TheLaurenAshtynCollection" [ref=e12] [cursor=pointer]:
+      - /url: /
+      - img "TheLaurenAshtynCollection" [ref=e14]
+    - navigation [ref=e15]:
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - group [ref=e19]:
+            - button "SHOP HAIR" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: SHOP HAIR
+              - img [ref=e22]
+        - listitem [ref=e23]:
+          - group [ref=e25]:
+            - button "SHOP MORE" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: SHOP MORE
+              - img [ref=e28]
+        - listitem [ref=e29]:
+          - group [ref=e31]:
+            - button "SEE US IN PERSON" [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]: SEE US IN PERSON
+              - img [ref=e34]
+        - listitem [ref=e35]:
+          - group [ref=e37]:
+            - button "EDUCATION" [ref=e38] [cursor=pointer]:
+              - generic [ref=e39]: EDUCATION
+              - img [ref=e40]
+        - listitem [ref=e41]:
+          - link "TESTIMONIALS" [ref=e42] [cursor=pointer]:
+            - /url: /pages/testimonials
+            - generic [ref=e43]: TESTIMONIALS
+        - listitem [ref=e44]:
+          - link "AS SEEN ON" [ref=e45] [cursor=pointer]:
+            - /url: /pages/best-wigs-reviews-best-hair-toppers
+            - generic [ref=e46]: AS SEEN ON
+        - listitem [ref=e47]:
+          - group [ref=e49]:
+            - button "BLOGS" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: BLOGS
+              - img [ref=e52]
+        - listitem [ref=e53]:
+          - link "CONTACT" [ref=e54] [cursor=pointer]:
+            - /url: /pages/contact
+            - generic [ref=e55]: CONTACT
+    - generic [ref=e56]:
+      - group [ref=e58]:
+        - button "Search" [ref=e59] [cursor=pointer]:
+          - img [ref=e61]
+      - link "Log in" [ref=e63] [cursor=pointer]:
+        - /url: https://thelaurenashtyncollection.com/customer_authentication/redirect?locale=en&region_country=US
+        - img [ref=e64]
+        - generic [ref=e65]: Log in
+      - button "Cart" [ref=e66] [cursor=pointer]:
+        - img [ref=e67]
+        - generic [ref=e69]: Cart
+  - main [ref=e70]:
+    - generic [ref=e73]:
+      - navigation "breadcrumbs" [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Home" [ref=e77] [cursor=pointer]:
+              - /url: /
+            - text: /
+          - listitem [ref=e78]:
+            - link "Blog" [ref=e79] [cursor=pointer]:
+              - /url: /blogs/blog
+            - text: /
+          - listitem [ref=e80]:
+            - 'link "Low-density vs high-density toppers: which one is for you?" [ref=e81] [cursor=pointer]':
+              - /url: /blogs/blog/low-density-vs-high-density-toppers-which-one-is-for-you
+      - 'heading "Low-density vs high-density toppers: which one is for you?" [level=1] [ref=e82]'
+    - article [ref=e84]:
+      - img "A before-and-after shot of a woman wearing a low-density topper." [ref=e87]
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - time [ref=e90]: November 10, 2025
+          - text: •
+        - generic [ref=e91]: Katie Pantalena
+      - button "Share" [ref=e94] [cursor=pointer]:
+        - img [ref=e95]
+        - text: Share
+      - generic [ref=e99]:
+        - heading "What your stylist really means when they say “it’s about density”" [level=2] [ref=e100]
+        - paragraph [ref=e101]:
+          - generic [ref=e102]: Hair toppers are officially in the spotlight. Once a low-key salon secret, they’ve become a go-to for women who want more volume, more coverage, or just more good hair days without committing to a full wig. With conversations around hair thinning and hair loss becoming more open, toppers are no longer seen as hush-hush; they’re simply another styling tool, just like extensions or color.
+        - paragraph [ref=e103]:
+          - text: "But one question comes up again and again: low-density vs high-density toppers—"
+          - generic [ref=e104]: what’s the difference, and which one’s right for you?
+        - paragraph [ref=e105]:
+          - generic [ref=e106]: The truth is, it depends on what you want your topper to do. Low-density toppers are designed for subtle volume that blends seamlessly with your own strands. High-density hair toppers, on the other hand, deliver full coverage and a touch of glam—great for more advanced thinning or anyone who craves that “blowout every day” look.
+        - paragraph [ref=e107]: Below, we’re breaking down how density works, the pros and cons of each option, and how to find your perfect match.
+        - paragraph [ref=e108]
+        - 'heading "First things first: what are hair toppers?" [level=2] [ref=e109]'
+        - paragraph [ref=e110]:
+          - text: If wigs are the full outfit,
+          - link "hair toppers" [ref=e111] [cursor=pointer]:
+            - /url: https://thelaurenashtyncollection.com/pages/shop-wigs-hairtoppers
+          - generic [ref=e112]: are the statement accessory. A hair topper is a partial hairpiece that clips onto the crown or parting area, adding coverage and volume where you need it most. Unlike a wig, which covers your entire head, toppers blend with your natural strands (as opposed to covering it)—so your own hair is still in play. That makes them a go-to for anyone who wants to fill in thinning spots, disguise a widening part, or simply fake that fresh-blowout bounce.
+        - paragraph [ref=e113]:
+          - generic [ref=e114]: Extensions, by contrast, are designed to add length and sometimes volume, but they don’t address thinning at the scalp or crown. Toppers are specifically engineered for that tricky zone where hair loss tends to be most visible.
+        - paragraph [ref=e115]:
+          - generic [ref=e116]: "Here’s where density comes in. The “density” of a topper refers to how much hair is tied into the base. Think of it as the difference between a sheer blouse and a chunky sweater: both have a purpose, but they create totally different looks."
+        - paragraph [ref=e117]:
+          - generic [ref=e118]: Low-density toppers mimic the airy, lightweight feel of natural hair with subtle volume. High-density hair toppers, on the other hand, are built with more strands packed into the same area, creating fuller coverage and dramatic body. Neither is inherently better, it all comes down to the look you want and the level of coverage you need.
+        - paragraph [ref=e119]: And if you’re wondering how density actually changes the look and feel of a topper, don’t worry—we’re breaking it down in detail below.
+        - paragraph [ref=e120]
+        - heading "Density, explained" [level=2] [ref=e121]
+        - paragraph [ref=e122]:
+          - generic [ref=e123]: "When stylists talk about “density,” they’re referring to how much hair is ventilated—or tied—into the base of a topper. Think of it like population density: the more people (or in this case, strands) packed into a given space, the fuller and heavier it feels."
+        - paragraph [ref=e124]:
+          - generic [ref=e125]: Low-density toppers have fewer strands per square inch, which makes them feel lighter, cooler, and closer to the way natural hair falls. They mimic that “airy” movement you see when someone runs their fingers through freshly washed hair. High-density hair toppers, in contrast, pack in more strands, creating volume that feels more structured and dramatic.
+        - paragraph [ref=e126]:
+          - generic [ref=e127]: "To visualize it, imagine mascara versus false lashes. A light coat of mascara defines what you already have—similar to how a low-density topper adds subtle lift without overwhelming your natural hair. False lashes, on the other hand, change the whole vibe: they’re thicker, bolder, and instantly noticeable, like a high-density topper’s fuller coverage."
+        - paragraph [ref=e128]:
+          - generic [ref=e129]: Density doesn’t just influence how a topper looks; it also affects how it feels to wear. More strands mean a slightly heavier piece that requires careful blending, while fewer strands feel weightless but may not provide as much coverage.
+        - paragraph [ref=e130]: So when you hear the phrase low-density vs high-density toppers, what you’re really deciding on is the balance between comfort, subtlety, and drama. And as we’ll see in the next sections, each has its own sweet spot depending on your hair goals.
+        - paragraph [ref=e131]
+        - heading "Low-density toppers (the subtle choice)" [level=2] [ref=e132]
+        - paragraph [ref=e133]:
+          - text: If toppers had personalities,
+          - link "low-density toppers" [ref=e134] [cursor=pointer]:
+            - /url: https://thelaurenashtyncollection.com/collections/hair-collections-light-volume
+          - generic [ref=e135]: would be the low-key friend who always looks effortless. These pieces are constructed with fewer strands per square inch, which gives them a lightweight feel and a natural finish. Instead of full-on coverage, they offer just enough volume to disguise early thinning or to boost body at the crown without making it obvious you’re wearing anything at all.
+        - paragraph [ref=e136]: They’re particularly well-suited for women in the early stages of hair thinning—say, a slightly wider part line or some loss around the crown. Because the density is lighter, your own scalp can still peek through in a way that mimics how natural hair grows. That makes them the most realistic option if your goal is subtlety.
+        - heading "Why they work" [level=3] [ref=e137]
+        - list [ref=e138]: They sit gently on your head, making them easy for all-day wear. It’s easier to integrate with your own strands because there’s less hair packed into the base They have an incredibly natural finish
+        - heading "Where they fall short" [level=3] [ref=e139]: Where they fall short
+        - list [ref=e140]:
+          - text: Less coverage for women who are experiencing advanced thinning
+          - generic [ref=e141]: Not as glamorous for those craving a thicker, fuller look
+        - heading "Styling sweet spot" [level=3] [ref=e142]
+        - paragraph [ref=e143]: "Low-density toppers shine in situations where subtle enhancement is key: professional settings, everyday errands, or anytime you want that “good hair day” confidence without announcing you’ve added help. For women who prefer a natural, effortless look—or who are just dipping their toes into toppers—this is the ideal starting point in the low-density vs high-density toppers conversation."
+        - paragraph [ref=e144]
+        - heading "High-density hair toppers (the full coverage fix)" [level=2] [ref=e145]
+        - paragraph [ref=e146]:
+          - text: If low-density toppers are the “no-makeup makeup” option,
+          - link "high-density hair toppers" [ref=e147] [cursor=pointer]:
+            - /url: https://thelaurenashtyncollection.com/collections/full-volume-hair-toppers
+          - generic [ref=e148]: are the full-glam equivalent. These pieces are constructed with more strands packed into the base, which instantly translates to thicker coverage, extra volume, and a more dramatic overall look.
+        - paragraph [ref=e149]: They’re particularly effective for women experiencing advanced thinning or widespread hair loss, since the added density can disguise more scalp visibility. They’re also a favorite for anyone who wants maximum transformation—picture thicker ponytails, fuller crowns, and that fresh-out-of-the-salon blowout finish every single day.
+        - heading "Why they work" [level=3] [ref=e150]
+        - list [ref=e151]: "Maximum coverage for concealing more noticeable thinning or larger areas of hair loss. More styling options: updos, waves, or sleek styles hold beautifully. Lasting volume as they create body that doesn’t fall flat halfway through the day."
+        - heading "Where they fall short" [level=3] [ref=e152]
+        - list [ref=e153]: High-density means heavier feel (depending on the quality). Blending challenges—more hair packed into the topper requires skillful merging If not fitted correctly, they can appear less natural than a lighter piece.
+        - heading "Styling & care tips" [level=3] [ref=e154]
+        - paragraph [ref=e155]: "For the most natural look, choose a topper density that isn’t dramatically different from your own hair. Layering helps—your stylist can trim and shape the piece so it falls more realistically. As with all toppers, gentle care is key: use sulfate-free products, detangle softly, and store on a stand to keep its shape."
+        - paragraph [ref=e156]
+        - heading "Low-density vs. high-density toppers" [level=2] [ref=e157]
+        - paragraph [ref=e158]: By now, it’s clear that density can totally change the vibe of a topper. But when it comes to low-density vs high-density toppers, how do the two actually stack up against each other in everyday life?
+        - table [ref=e160]:
+          - rowgroup [ref=e165]:
+            - row "Category Low-density toppers High-density hair toppers" [ref=e166]:
+              - cell "Category" [ref=e167]:
+                - paragraph [ref=e168]:
+                  - strong [ref=e169]: Category
+              - cell "Low-density toppers" [ref=e170]:
+                - paragraph [ref=e171]:
+                  - strong [ref=e172]: Low-density toppers
+              - cell "High-density hair toppers" [ref=e173]:
+                - paragraph [ref=e174]:
+                  - strong [ref=e175]: High-density hair toppers
+            - row "Look Subtle, natural volume; scalp still peeks through for realism Fuller, more dramatic coverage; thicker, glossier finish" [ref=e176]:
+              - cell "Look" [ref=e177]:
+                - paragraph [ref=e178]: Look
+              - cell "Subtle, natural volume; scalp still peeks through for realism" [ref=e179]:
+                - paragraph [ref=e180]: Subtle, natural volume; scalp still peeks through for realism
+              - cell "Fuller, more dramatic coverage; thicker, glossier finish" [ref=e181]:
+                - paragraph [ref=e182]: Fuller, more dramatic coverage; thicker, glossier finish
+            - row "Comfort Lightweight and breathable; great for all-day wear Can feel heavier; may need breaks if worn for long hours" [ref=e183]:
+              - cell "Comfort" [ref=e184]:
+                - paragraph [ref=e185]: Comfort
+              - cell "Lightweight and breathable; great for all-day wear" [ref=e186]:
+                - paragraph [ref=e187]: Lightweight and breathable; great for all-day wear
+              - cell "Can feel heavier; may need breaks if worn for long hours" [ref=e188]:
+                - paragraph [ref=e189]: Can feel heavier; may need breaks if worn for long hours
+            - row "Weight Barely-there feel Noticeably thicker, with more presence" [ref=e190]:
+              - cell "Weight" [ref=e191]:
+                - paragraph [ref=e192]: Weight
+              - cell "Barely-there feel" [ref=e193]:
+                - paragraph [ref=e194]: Barely-there feel
+              - cell "Noticeably thicker, with more presence" [ref=e195]:
+                - paragraph [ref=e196]: Noticeably thicker, with more presence
+            - row "Styling flexibility Best for casual, everyday looks that don’t demand much blending Ideal for bold styles, updos, and big-volume blowouts" [ref=e197]:
+              - cell "Styling flexibility" [ref=e198]:
+                - paragraph [ref=e199]: Styling flexibility
+              - cell "Best for casual, everyday looks that don’t demand much blending" [ref=e200]:
+                - paragraph [ref=e201]: Best for casual, everyday looks that don’t demand much blending
+              - cell "Ideal for bold styles, updos, and big-volume blowouts" [ref=e202]:
+                - paragraph [ref=e203]: Ideal for bold styles, updos, and big-volume blowouts
+            - row "Cost Usually less expensive (less hair used) Typically more expensive (more strands, more craftsmanship)" [ref=e204]:
+              - cell "Cost" [ref=e205]:
+                - paragraph [ref=e206]: Cost
+              - cell "Usually less expensive (less hair used)" [ref=e207]:
+                - paragraph [ref=e208]: Usually less expensive (less hair used)
+              - cell "Typically more expensive (more strands, more craftsmanship)" [ref=e209]:
+                - paragraph [ref=e210]: Typically more expensive (more strands, more craftsmanship)
+            - row "Maintenance Easy to care for, fewer tangles Requires more detangling and product to keep hair smooth" [ref=e211]:
+              - cell "Maintenance" [ref=e212]:
+                - paragraph [ref=e213]: Maintenance
+              - cell "Easy to care for, fewer tangles" [ref=e214]:
+                - paragraph [ref=e215]: Easy to care for, fewer tangles
+              - cell "Requires more detangling and product to keep hair smooth" [ref=e216]:
+                - paragraph [ref=e217]: Requires more detangling and product to keep hair smooth
+        - heading "Real-life scenarios" [level=3] [ref=e218]
+        - list [ref=e219]:
+          - strong [ref=e220]: "Office-ready subtle:"
+          - generic [ref=e221]: If you want just enough volume to feel polished without turning heads for the wrong reasons, low-density is your lane. It’s the “good hair day” look that no one will guess isn’t 100% your own.
+          - strong [ref=e222]: "Red-carpet glam:"
+          - generic [ref=e223]: If you love big, voluminous hair or need full coverage for thinning, high-density toppers give you that celebrity-level finish. They bring the drama and stay photo-ready.
+          - strong [ref=e225]: "Everyday wear vs. special events:"
+          - generic [ref=e226]: Low-density toppers shine for daily errands, workdays, and casual meetups. High-density pieces, meanwhile, are perfect for weddings, parties, or anytime you want to walk into a room and own it.
+        - paragraph [ref=e227]: When choosing between low-density vs high-density toppers, it’s less about which one is “better” and more about which one fits your lifestyle and look—plus, the level of thinning you’re experiencing.
+        - paragraph [ref=e228]
+        - heading "How to choose the right density for you" [level=2] [ref=e229]
+        - paragraph [ref=e230]: So you’ve weighed the pros and cons of low-density vs high-density toppers, but how do you know which one belongs in your cart (and on your head)? The right choice depends less on trends and more on your individual hair situation.
+        - heading "Stage of hair loss" [level=3] [ref=e231]
+        - paragraph [ref=e232]: If you’re just starting to notice thinning, a low-density topper will likely be enough to give you natural-looking coverage. For more advanced loss, especially across the crown, a high-density option provides fuller concealment.
+        - heading "Lifestyle" [level=3] [ref=e233]
+        - paragraph [ref=e234]: "Ask yourself: are you wearing your topper to the office every day or just breaking it out for weddings and nights out? Low-density toppers work beautifully for daily, lightweight wear, while high-density pieces shine when you want drama and durability."
+        - heading "Personal style preferences" [level=3] [ref=e235]
+        - paragraph [ref=e236]: If your aesthetic leans toward subtle and effortless, stick with lighter density. If you’re all about volume and glam, high-density is your match.
+        - heading "Scalp sensitivity" [level=3] [ref=e237]
+        - paragraph [ref=e238]: A sensitive scalp or migraines? You may prefer the weightless feel of a low-density piece. High-density toppers are heavier and may take some adjustment.
+        - heading "Budget" [level=3] [ref=e239]
+        - paragraph [ref=e240]:
+          - generic [ref=e241]: Density affects price; more strands equals more cost. If you’re new to toppers, starting with a lower density is often a budget-friendly way to test the waters.
+        - generic [ref=e242]:
+          - table [ref=e243]:
+            - rowgroup [ref=e246]:
+              - 'row "✨ Stylist top tip ✨: “Always try before you buy if you can. The best topper is the one that blends with your natural hair density, not just the one that looks great on a mannequin.”" [ref=e247]':
+                - 'cell "✨ Stylist top tip ✨: “Always try before you buy if you can. The best topper is the one that blends with your natural hair density, not just the one that looks great on a mannequin.”" [ref=e248]':
+                  - heading "✨ Stylist top tip ✨:" [level=3] [ref=e249]
+                  - paragraph [ref=e250]: “Always try before you buy if you can. The best topper is the one that blends with your natural hair density, not just the one that looks great on a mannequin.”
+          - paragraph [ref=e251]
+        - heading "Pro tips for wearing and maintaining toppers" [level=2] [ref=e252]
+        - paragraph [ref=e253]: Buying the right topper is only half the story. Wearing it well and keeping it in top condition is what makes it truly yours. A few expert tricks can take you from “just clipped in” to seamless and stylish.
+        - heading "Application techniques" [level=3] [ref=e254]
+        - paragraph [ref=e255]: Most toppers come with built-in pressure-sensitive clips that snap into your natural hair for a secure hold. For extra staying power, especially on fine hair, you can add double-sided tape or adhesive strips. Some advanced toppers even integrate with your own strands for a near-undetectable finish—ask your stylist which option works best for you.
+        - heading "Styling secrets" [level=3] [ref=e256]
+        - paragraph [ref=e257]: Treat your topper like natural hair. Use heat tools on low to medium settings, and always spritz a heat protectant first. To blend, part your bio hair to match the topper’s parting, then tease lightly at the roots so the base disappears. With high-density hair toppers, layering and trimming are key—your stylist can shape the piece so it flows with your own hair instead of sitting too heavy.
+        - heading "Care for longevity" [level=3] [ref=e258]
+        - paragraph [ref=e259]:
+          - generic [ref=e260]: Your topper is an investment piece. Wash it every 8–12 wears with sulfate-free shampoo, condition gently, and always air-dry flat on a stand. Detangle with a wide-tooth comb, starting at the ends and working upward. When not in use, store it safely to protect the shape and fibers.
+        - paragraph [ref=e261]: With the right care and styling know-how, your topper won’t just extend your look—it’ll extend your confidence too.
+        - paragraph [ref=e262]
+        - generic [ref=e263]:
+          - table [ref=e264]:
+            - rowgroup [ref=e267]:
+              - row "FAQs Will anyone notice I’m wearing one? Not if you choose the right density and fit. Low-density toppers mimic the look of natural hair growth, while higher-density options can be styled to blend seamlessly with your own strands. Can I style toppers like natural hair? Yes. Most human hair toppers can handle heat tools, braids, curls, or sleek straightening. Just remember to use heat protectant and treat them gently. Are high-density hair toppers uncomfortable? They can feel heavier than lighter-density pieces, but that doesn’t necessarily mean that they’re uncomfortable. Proper placement and a well-fitted base make all the difference. What if my bio hair density doesn’t match the topper? This is a common concern. A stylist can trim, layer, or thin out the topper so it matches your natural hair’s thickness. Blending is everything." [ref=e268]:
+                - cell "FAQs Will anyone notice I’m wearing one? Not if you choose the right density and fit. Low-density toppers mimic the look of natural hair growth, while higher-density options can be styled to blend seamlessly with your own strands. Can I style toppers like natural hair? Yes. Most human hair toppers can handle heat tools, braids, curls, or sleek straightening. Just remember to use heat protectant and treat them gently. Are high-density hair toppers uncomfortable? They can feel heavier than lighter-density pieces, but that doesn’t necessarily mean that they’re uncomfortable. Proper placement and a well-fitted base make all the difference. What if my bio hair density doesn’t match the topper? This is a common concern. A stylist can trim, layer, or thin out the topper so it matches your natural hair’s thickness. Blending is everything." [ref=e269]:
+                  - heading "FAQs" [level=2] [ref=e270]
+                  - heading "Will anyone notice I’m wearing one?" [level=3] [ref=e271]
+                  - paragraph [ref=e272]: Not if you choose the right density and fit. Low-density toppers mimic the look of natural hair growth, while higher-density options can be styled to blend seamlessly with your own strands.
+                  - heading "Can I style toppers like natural hair?" [level=3] [ref=e273]
+                  - paragraph [ref=e274]: Yes. Most human hair toppers can handle heat tools, braids, curls, or sleek straightening. Just remember to use heat protectant and treat them gently.
+                  - heading "Are high-density hair toppers uncomfortable?" [level=3] [ref=e275]
+                  - paragraph [ref=e276]: They can feel heavier than lighter-density pieces, but that doesn’t necessarily mean that they’re uncomfortable. Proper placement and a well-fitted base make all the difference.
+                  - heading "What if my bio hair density doesn’t match the topper?" [level=3] [ref=e277]
+                  - paragraph [ref=e278]: This is a common concern. A stylist can trim, layer, or thin out the topper so it matches your natural hair’s thickness. Blending is everything.
+          - paragraph [ref=e279]
+        - heading "Find your perfect match" [level=2] [ref=e280]
+        - paragraph [ref=e281]:
+          - text: At
+          - link "The Lauren Ashtyn Collection" [ref=e282] [cursor=pointer]:
+            - /url: https://thelaurenashtyncollection.com/
+          - text: ", our toppers are handcrafted from 100% human hair, designed for natural blending and everyday confidence. Book a free consultation to explore your options, try them on in person, and find the topper that feels like it was made especially for you."
+        - paragraph [ref=e283]
+      - generic [ref=e284]:
+        - img [ref=e285]
+        - text: topper
+      - link "Back to blog" [ref=e288] [cursor=pointer]:
+        - /url: /blogs/blog
+        - img [ref=e290]
+        - text: Back to blog
+  - generic [ref=e294]:
+    - generic [ref=e295]:
+      - generic [ref=e296]:
+        - img "Email" [ref=e297]
+        - generic [ref=e298]:
+          - paragraph [ref=e299]: E-mail Us
+          - link "contact@laurenashtyn.com" [ref=e300] [cursor=pointer]:
+            - /url: mailto:contact@laurenashtyn.com
+      - generic [ref=e301]:
+        - img "Phone" [ref=e302]
+        - generic [ref=e303]:
+          - paragraph [ref=e304]: Call Us
+          - link "864-641-0751" [ref=e305] [cursor=pointer]:
+            - /url: tel:864-641-0751
+      - generic [ref=e306]:
+        - img "Text us" [ref=e307]
+        - generic [ref=e308]:
+          - paragraph [ref=e309]: Text Us
+          - link "864-527-2403" [ref=e310] [cursor=pointer]:
+            - /url: sms:864-527-2403
+    - separator [ref=e311]
+    - generic [ref=e312]:
+      - generic [ref=e313]:
+        - paragraph [ref=e314]: LEARN MORE
+        - list [ref=e315]:
+          - listitem [ref=e316]:
+            - link "FAQs" [ref=e317] [cursor=pointer]:
+              - /url: /pages/frequently-asked-questions
+          - listitem [ref=e318]:
+            - link "About Us" [ref=e319] [cursor=pointer]:
+              - /url: /pages/about
+          - listitem [ref=e320]:
+            - link "Meet the Team" [ref=e321] [cursor=pointer]:
+              - /url: /pages/meet-the-team
+          - listitem [ref=e322]:
+            - link "The Process" [ref=e323] [cursor=pointer]:
+              - /url: /pages/the-process
+          - listitem [ref=e324]:
+            - link "Hair Extensions 101" [ref=e325] [cursor=pointer]:
+              - /url: /pages/hair-extensions-101
+          - listitem [ref=e326]:
+            - link "Employment Opportunities" [ref=e327] [cursor=pointer]:
+              - /url: /pages/employment-opportunities
+          - listitem [ref=e328]:
+            - link "Wholesale Opportunities" [ref=e329] [cursor=pointer]:
+              - /url: /pages/wholesale
+          - listitem [ref=e330]:
+            - link "Host a Pop-Up Salon" [ref=e331] [cursor=pointer]:
+              - /url: /pages/host-salon-form
+      - generic [ref=e332]:
+        - paragraph [ref=e333]: NEED HELP
+        - list [ref=e334]:
+          - listitem [ref=e335]:
+            - link "Order Status" [ref=e336] [cursor=pointer]:
+              - /url: /pages/order-status
+          - listitem [ref=e337]:
+            - link "Shipping & Delivery" [ref=e338] [cursor=pointer]:
+              - /url: /pages/shipping-policy
+          - listitem [ref=e339]:
+            - link "Refund & Exchange Policy" [ref=e340] [cursor=pointer]:
+              - /url: /pages/exchangepolicy
+          - listitem [ref=e341]:
+            - link "Terms & Conditions" [ref=e342] [cursor=pointer]:
+              - /url: /pages/terms-and-conditions
+          - listitem [ref=e343]:
+            - link "Privacy Policy" [ref=e344] [cursor=pointer]:
+              - /url: /pages/privacy-policy
+          - listitem [ref=e345]:
+            - link "Medical Insurance Coverage" [ref=e346] [cursor=pointer]:
+              - /url: /pages/medical-insurance-coverage
+      - generic [ref=e347]:
+        - paragraph [ref=e348]: WHY OUR HAIR
+        - list [ref=e349]:
+          - listitem [ref=e350]:
+            - link "Why The Lauren Ashtyn Collection" [ref=e351] [cursor=pointer]:
+              - /url: /pages/why-the-lauren-ashtyn-collection
+          - listitem [ref=e352]:
+            - link "Testimonials" [ref=e353] [cursor=pointer]:
+              - /url: /pages/testimonials
+          - listitem [ref=e354]:
+            - link "Volume In a Snap" [ref=e355] [cursor=pointer]:
+              - /url: /pages/volume-in-a-snap
+          - listitem [ref=e356]:
+            - link "Hand Made 100% Remy" [ref=e357] [cursor=pointer]:
+              - /url: /pages/hand-made-100-remy
+          - listitem [ref=e358]:
+            - link "Video Tutorials" [ref=e359] [cursor=pointer]:
+              - /url: /pages/hair-tutorials-wig-tutorials
+      - generic [ref=e360]:
+        - paragraph [ref=e361]: Follow Us
+        - list [ref=e362]:
+          - listitem [ref=e363]:
+            - link "Facebook" [ref=e364] [cursor=pointer]:
+              - /url: https://www.facebook.com/thelaurenashtyncollection/?ref=aymt_homepage_panel
+              - img [ref=e365]
+              - text: Facebook
+          - listitem [ref=e368]:
+            - link "Twitter" [ref=e369] [cursor=pointer]:
+              - /url: https://twitter.com/i/flow/login?redirect_after_login=%2FTheLaurenAshtyn
+              - img [ref=e370]
+              - text: Twitter
+          - listitem [ref=e372]:
+            - link "Pinterest" [ref=e373] [cursor=pointer]:
+              - /url: https://co.pinterest.com/LaurenAshtynCollection/
+              - img [ref=e374]
+              - text: Pinterest
+          - listitem [ref=e377]:
+            - link "Instagram" [ref=e378] [cursor=pointer]:
+              - /url: https://www.instagram.com/thelaurenashtyncollection/?hl=en
+              - img [ref=e379]
+              - text: Instagram
+          - listitem [ref=e381]:
+            - link "YouTube" [ref=e382] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCRzJ6NG2jKDeL-rh-QNMzHA
+              - img [ref=e383]
+              - text: YouTube
+    - generic [ref=e386]:
+      - text: Copyright
+      - generic [ref=e387]:
+        - text: © 2026,
+        - link "TheLaurenAshtynCollection" [ref=e388] [cursor=pointer]:
+          - /url: /
+      - text: All Rights Reserved
+      - list [ref=e389]:
+        - listitem [ref=e390]:
+          - link "Privacy policy" [ref=e392] [cursor=pointer]:
+            - /url: /policies/privacy-policy

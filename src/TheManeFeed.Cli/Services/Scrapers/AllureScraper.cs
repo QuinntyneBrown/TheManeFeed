@@ -9,7 +9,7 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class AllureScraper : BaseSiteScraper
 {
     public override string SourceName => "Allure";
-    protected override string BaseUrl => "https://www.allure.com";
+    public override string BaseUrl => "https://www.allure.com";
     protected override string PagePath => "/topic/hair";
 
     public AllureScraper(

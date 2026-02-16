@@ -9,7 +9,8 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class LaurenAshtynScraper : BaseSiteScraper
 {
     public override string SourceName => "LaurenAshtyn";
-    protected override string BaseUrl => "https://thelaurenashtyncollection.com";
+    public override string RssFeedPath => "/blogs/blog.atom";
+    public override string BaseUrl => "https://thelaurenashtyncollection.com";
     protected override string PagePath => "/blogs/blog";
 
     public LaurenAshtynScraper(

@@ -18,8 +18,10 @@ public static class ServiceCollectionExtensions
         services.AddInfrastructure(configuration);
 
         services.AddSingleton<IBrowserService, BrowserService>();
+        services.AddHttpClient("RssFeed");
         services.AddScoped<IArticleService, ArticleService>();
         services.AddScoped<IScraperService, ScraperService>();
+        services.AddScoped<IRssFeedService, RssFeedService>();
 
         services.AddScoped<ISiteScraper, EssenceScraper>();
         services.AddScoped<ISiteScraper, NaturallyCurlyScraper>();

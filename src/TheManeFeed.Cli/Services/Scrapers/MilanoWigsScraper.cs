@@ -9,7 +9,8 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class MilanoWigsScraper : BaseSiteScraper
 {
     public override string SourceName => "MilanoWigs";
-    protected override string BaseUrl => "https://milanowigs.com";
+    public override string RssFeedPath => "/blogs/wig-talk-blog.atom";
+    public override string BaseUrl => "https://milanowigs.com";
     protected override string PagePath => "/blogs/wig-talk-blog";
 
     public MilanoWigsScraper(

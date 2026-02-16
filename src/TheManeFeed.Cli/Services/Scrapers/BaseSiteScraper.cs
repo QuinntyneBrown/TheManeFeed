@@ -13,7 +13,8 @@ public abstract class BaseSiteScraper : ISiteScraper
     protected readonly ScrapeSettings Settings;
 
     public abstract string SourceName { get; }
-    protected abstract string BaseUrl { get; }
+    public virtual string? RssFeedPath => null;
+    public abstract string BaseUrl { get; }
     protected abstract string PagePath { get; }
 
     protected BaseSiteScraper(
@@ -74,6 +75,9 @@ public abstract class BaseSiteScraper : ISiteScraper
 
         if (href.StartsWith("http"))
             return href;
+
+        if (href.StartsWith("//"))
+            return $"https:{href}";
 
         return $"{BaseUrl}{(href.StartsWith('/') ? "" : "/")}{href}";
     }

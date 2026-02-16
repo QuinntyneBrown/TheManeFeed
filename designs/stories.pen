@@ -1,0 +1,1375 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "dLXpv",
+      "x": 0,
+      "y": 0,
+      "name": "Slide 1 - Cover",
+      "clip": true,
+      "width": 540,
+      "height": 540,
+      "fill": [
+        "#0B0A08",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.2,
+            "height": 1.2
+          },
+          "colors": [
+            {
+              "color": "#C9A05214",
+              "position": 0
+            },
+            {
+              "color": "#0B0A0800",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.35
+          }
+        }
+      ],
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 48,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "s2yPH",
+          "name": "topLine",
+          "fill": "#C9A052",
+          "width": 40,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "6l9Ro",
+          "name": "logoGroup",
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "LurSx",
+              "name": "logoMain",
+              "fill": "#C9A052",
+              "content": "ORIGIN",
+              "fontFamily": "Fraunces",
+              "fontSize": 22,
+              "fontWeight": "600",
+              "letterSpacing": 6
+            },
+            {
+              "type": "text",
+              "id": "2vD4P",
+              "name": "logoSub",
+              "fill": "#9A9590",
+              "content": "HAIR COLLECTIVE",
+              "fontFamily": "DM Sans",
+              "fontSize": 9,
+              "fontWeight": "500",
+              "letterSpacing": 4
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "aaZqK",
+          "name": "midLine",
+          "fill": "#C9A05240",
+          "width": 32,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "vMo7N",
+          "name": "titleGroup",
+          "layout": "vertical",
+          "gap": 8,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "P7wTv",
+              "name": "label",
+              "fill": "#C9A052",
+              "content": "TOP 10",
+              "fontFamily": "Fraunces",
+              "fontSize": 52,
+              "fontWeight": "500",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "bzpdQ",
+              "name": "titleLine1",
+              "fill": "#FAF7F0",
+              "content": "Health Foods for",
+              "fontFamily": "Fraunces",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "f3f7n",
+              "name": "titleLine2",
+              "fill": "#FAF7F0",
+              "content": "Hair & Scalp Health",
+              "fontFamily": "Fraunces",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": -0.5
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "SwDrd",
+          "name": "botLine",
+          "fill": "#C9A052",
+          "width": 40,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "omwo7",
+          "name": "tagline",
+          "fill": "#9A9590",
+          "content": "Nourish from within",
+          "fontFamily": "DM Sans",
+          "fontSize": 14,
+          "letterSpacing": 1
+        },
+        {
+          "type": "text",
+          "id": "4PKs3",
+          "name": "swipe",
+          "fill": "#C9A05280",
+          "content": "SWIPE →",
+          "fontFamily": "DM Sans",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "letterSpacing": 3
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pnx6l",
+      "x": 640,
+      "y": 0,
+      "name": "Slide 2 - Foods 1-3",
+      "clip": true,
+      "width": 540,
+      "height": 540,
+      "fill": [
+        "#0B0A08",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.4,
+            "height": 1
+          },
+          "colors": [
+            {
+              "color": "#C9A05210",
+              "position": 0
+            },
+            {
+              "color": "#0B0A0800",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.3
+          }
+        }
+      ],
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        40,
+        44
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "Sxocl",
+          "name": "header2",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "myj1r",
+              "name": "badge2",
+              "fill": "#C9A05215",
+              "cornerRadius": 100,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#C9A05230"
+              },
+              "padding": [
+                6,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IhSPc",
+                  "name": "badgeTxt2",
+                  "fill": "#C9A052",
+                  "content": "HAIR FOODS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "sszdO",
+              "name": "pageNum2",
+              "fill": "#6B6860",
+              "content": "1 / 4",
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JYTnO",
+          "name": "food1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "pOdFk",
+              "name": "food1row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QVR9C",
+                  "name": "food1num",
+                  "fill": "#C9A052",
+                  "content": "01",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "aw26A",
+                  "name": "food1name",
+                  "fill": "#FAF7F0",
+                  "content": "Salmon",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "SvDl3",
+              "name": "food1desc",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Omega-3s reduce inflammation and improve blood flow, supporting active hair follicles and nourished roots.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "tj1hh",
+          "name": "div1",
+          "fill": "#1E1C18",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "1EfeC",
+          "name": "food2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "u10aw",
+              "name": "food2row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "h8hLO",
+                  "name": "food2num",
+                  "fill": "#C9A052",
+                  "content": "02",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "0Nq7L",
+                  "name": "food2name",
+                  "fill": "#FAF7F0",
+                  "content": "Spinach",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "5tsFE",
+              "name": "food2desc",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Rich in folate, vitamins A & C. Strengthens roots, supports natural oil production, and helps combat iron-related shedding.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "W1VBR",
+          "name": "div2",
+          "fill": "#1E1C18",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "f6sFl",
+          "name": "food3",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "0HK3t",
+              "name": "food3row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "z1XT5",
+                  "name": "food3num",
+                  "fill": "#C9A052",
+                  "content": "03",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "jIEFf",
+                  "name": "food3name",
+                  "fill": "#FAF7F0",
+                  "content": "Sweet Potatoes",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "cjAEz",
+              "name": "food3desc",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Loaded with beta carotene to encourage sebum production, keeping skin balanced and less prone to flaking.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "q81V5",
+      "x": 1280,
+      "y": 0,
+      "name": "Slide 3 - Foods 4-6",
+      "clip": true,
+      "width": 540,
+      "height": 540,
+      "fill": [
+        "#0B0A08",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.4,
+            "height": 1
+          },
+          "colors": [
+            {
+              "color": "#C9A05210",
+              "position": 0
+            },
+            {
+              "color": "#0B0A0800",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.3
+          }
+        }
+      ],
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        40,
+        44
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "Z7uio",
+          "name": "hdr3",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "sJz2R",
+              "name": "bdg3",
+              "fill": "#C9A05215",
+              "cornerRadius": 100,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#C9A05230"
+              },
+              "padding": [
+                6,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sYhx5",
+                  "name": "bdgT3",
+                  "fill": "#C9A052",
+                  "content": "HAIR FOODS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "veBST",
+              "name": "pg3",
+              "fill": "#6B6860",
+              "content": "2 / 4",
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "msNOb",
+          "name": "f4",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "xea1g",
+              "name": "f4r",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5j4AT",
+                  "name": "f4n",
+                  "fill": "#C9A052",
+                  "content": "04",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "r3Tqc",
+                  "name": "f4nm",
+                  "fill": "#FAF7F0",
+                  "content": "Eggs",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "5czIQ",
+              "name": "f4d",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Biotin and protein prevent breakage, build stronger strands, and support natural shine.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "prbNQ",
+          "name": "dv3",
+          "fill": "#1E1C18",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "na0tc",
+          "name": "f5",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "BKRud",
+              "name": "f5r",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FTMGC",
+                  "name": "f5n",
+                  "fill": "#C9A052",
+                  "content": "05",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "re4KH",
+                  "name": "f5nm",
+                  "fill": "#FAF7F0",
+                  "content": "Avocados",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "pHXpz",
+              "name": "f5d",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Vitamin E and healthy fats support scalp hydration and defend against environmental stress.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "b8Tbu",
+          "name": "dv4",
+          "fill": "#1E1C18",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "CSSWD",
+          "name": "f6",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "rduwP",
+              "name": "f6r",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KWseA",
+                  "name": "f6n",
+                  "fill": "#C9A052",
+                  "content": "06",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "bWX02",
+                  "name": "f6nm",
+                  "fill": "#FAF7F0",
+                  "content": "Nuts & Seeds",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "8E10d",
+              "name": "f6d",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Packed with zinc and omega-3s for hair strength and thickness. A small handful daily goes a long way.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Xjpne",
+      "x": 1920,
+      "y": 0,
+      "name": "Slide 4 - Foods 7-9",
+      "clip": true,
+      "width": 540,
+      "height": 540,
+      "fill": [
+        "#0B0A08",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.4,
+            "height": 1
+          },
+          "colors": [
+            {
+              "color": "#C9A05210",
+              "position": 0
+            },
+            {
+              "color": "#0B0A0800",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.3
+          }
+        }
+      ],
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        40,
+        44
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "rxfOI",
+          "name": "hdr4",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "0AtKn",
+              "name": "bdg4",
+              "fill": "#C9A05215",
+              "cornerRadius": 100,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#C9A05230"
+              },
+              "padding": [
+                6,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UZz5h",
+                  "name": "bdgT4",
+                  "fill": "#C9A052",
+                  "content": "HAIR FOODS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Hghti",
+              "name": "pg4",
+              "fill": "#6B6860",
+              "content": "3 / 4",
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TSzYn",
+          "name": "f7",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "amocb",
+              "name": "f7r",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fZf3U",
+                  "name": "f7n",
+                  "fill": "#C9A052",
+                  "content": "07",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "iDeXv",
+                  "name": "f7nm",
+                  "fill": "#FAF7F0",
+                  "content": "Berries",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "wX7NS",
+              "name": "f7d",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Rich in antioxidants and vitamin C, which your body uses to create collagen—keeping hair flexible and strong at the root.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Y5tHs",
+          "name": "dv5",
+          "fill": "#1E1C18",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "cR2lu",
+          "name": "f8",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "uR2l3",
+              "name": "f8r",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7BKX0",
+                  "name": "f8n",
+                  "fill": "#C9A052",
+                  "content": "08",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "qZcQs",
+                  "name": "f8nm",
+                  "fill": "#FAF7F0",
+                  "content": "Lean Poultry",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "P00BG",
+              "name": "f8d",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Iron and protein help your body produce keratin—the main structural protein in hair. Great for combating thinning.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "0H5Nb",
+          "name": "dv6",
+          "fill": "#1E1C18",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "QrZsk",
+          "name": "f9",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "wPO4G",
+              "name": "f9r",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zl9UK",
+                  "name": "f9n",
+                  "fill": "#C9A052",
+                  "content": "09",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "ypwH0",
+                  "name": "f9nm",
+                  "fill": "#FAF7F0",
+                  "content": "Oysters",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "v1yJh",
+              "name": "f9d",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Zinc-rich for scalp balance and hair regrowth. Just one oyster gives you more than enough for the day.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Vb9Sx",
+      "x": 2560,
+      "y": 0,
+      "name": "Slide 5 - Food 10 + Closing",
+      "clip": true,
+      "width": 540,
+      "height": 540,
+      "fill": [
+        "#0B0A08",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.4,
+            "height": 1
+          },
+          "colors": [
+            {
+              "color": "#C9A05210",
+              "position": 0
+            },
+            {
+              "color": "#0B0A0800",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.3
+          }
+        }
+      ],
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        40,
+        44
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "l5VQj",
+          "name": "hdr5",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ngG7A",
+              "name": "bdg5",
+              "fill": "#C9A05215",
+              "cornerRadius": 100,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#C9A05230"
+              },
+              "padding": [
+                6,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OFg2g",
+                  "name": "bdgT5",
+                  "fill": "#C9A052",
+                  "content": "HAIR FOODS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "CR0AA",
+              "name": "pg5",
+              "fill": "#6B6860",
+              "content": "4 / 4",
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KdF21",
+          "name": "f10",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "4QnOq",
+              "name": "f10r",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QG9Ie",
+                  "name": "f10n",
+                  "fill": "#C9A052",
+                  "content": "10",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 36,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "mxgdn",
+                  "name": "f10nm",
+                  "fill": "#FAF7F0",
+                  "content": "Greek Yogurt",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "fXvM6",
+              "name": "f10d",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Fermented dairy offers protein, B vitamins, and probiotics—supporting hair growth through gut health and nutrient absorption.",
+              "lineHeight": 1.5,
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "7KK73",
+          "name": "dv7",
+          "fill": "#C9A05230",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "bM6p1",
+          "name": "closeGroup",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "7FPSY",
+              "name": "closeLine1",
+              "fill": "#C9A052",
+              "width": 32,
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "gDPqp",
+              "name": "closeTitle",
+              "fill": "#FAF7F0",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Feed Your Roots,\nInside & Out",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "Fraunces",
+              "fontSize": 26,
+              "fontWeight": "500",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "rTOmd",
+              "name": "closeBody",
+              "fill": "#9A9590",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "What you eat matters. These foods support your natural hair and the scalp beneath your wig or topper.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 15
+            },
+            {
+              "type": "rectangle",
+              "id": "2XhCv",
+              "name": "closeLine2",
+              "fill": "#C9A052",
+              "width": 32,
+              "height": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1ezAO",
+          "name": "logoGrp5",
+          "layout": "vertical",
+          "gap": 3,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qw7hk",
+              "name": "logo5a",
+              "fill": "#C9A052",
+              "content": "ORIGIN",
+              "fontFamily": "Fraunces",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "letterSpacing": 5
+            },
+            {
+              "type": "text",
+              "id": "hv12B",
+              "name": "logo5b",
+              "fill": "#9A9590",
+              "content": "HAIR COLLECTIVE",
+              "fontFamily": "DM Sans",
+              "fontSize": 7,
+              "fontWeight": "500",
+              "letterSpacing": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "fF3AX",
+      "x": 3200,
+      "y": 0,
+      "name": "Slide 6 - Coming Soon",
+      "clip": true,
+      "width": 540,
+      "height": 540,
+      "fill": [
+        "#0B0A08",
+        {
+          "type": "gradient",
+          "gradientType": "radial",
+          "enabled": true,
+          "rotation": 0,
+          "size": {
+            "width": 1.2,
+            "height": 1.2
+          },
+          "colors": [
+            {
+              "color": "#C9A05214",
+              "position": 0
+            },
+            {
+              "color": "#0B0A0800",
+              "position": 1
+            }
+          ],
+          "center": {
+            "y": 0.35
+          }
+        }
+      ],
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 48,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "CWIUp",
+          "name": "topLine6",
+          "fill": "#C9A052",
+          "width": 40,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "eQnOb",
+          "name": "logoGrp6",
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qvhWz",
+              "name": "logo6a",
+              "fill": "#C9A052",
+              "content": "ORIGIN",
+              "fontFamily": "Fraunces",
+              "fontSize": 22,
+              "fontWeight": "600",
+              "letterSpacing": 6
+            },
+            {
+              "type": "text",
+              "id": "pjsxL",
+              "name": "logo6b",
+              "fill": "#9A9590",
+              "content": "HAIR COLLECTIVE",
+              "fontFamily": "DM Sans",
+              "fontSize": 9,
+              "fontWeight": "500",
+              "letterSpacing": 4
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "mSSy7",
+          "name": "midLine6",
+          "fill": "#C9A05240",
+          "width": 32,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "bGmfb",
+          "name": "csTitle",
+          "fill": "#FAF7F0",
+          "textGrowth": "fixed-width",
+          "width": 400,
+          "content": "COMING\nSOON",
+          "lineHeight": 1.1,
+          "textAlign": "center",
+          "fontFamily": "Fraunces",
+          "fontSize": 56,
+          "fontWeight": "500",
+          "letterSpacing": 3
+        },
+        {
+          "type": "text",
+          "id": "rM8my",
+          "name": "csTagline",
+          "fill": "#9A9590",
+          "textGrowth": "fixed-width",
+          "width": 350,
+          "content": "Premium Virgin Hair\nCrafted For Excellence",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "DM Sans",
+          "fontSize": 15
+        },
+        {
+          "type": "frame",
+          "id": "TwOtN",
+          "name": "csBadge",
+          "fill": "#C9A05215",
+          "cornerRadius": 100,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#C9A05230"
+          },
+          "padding": [
+            10,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Vz2wM",
+              "name": "csBadgeTxt",
+              "fill": "#C9A052",
+              "content": "SPRING 2026",
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "PrtdB",
+          "name": "botLine6",
+          "fill": "#C9A052",
+          "width": 40,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "LREfq",
+          "name": "handle6",
+          "fill": "#B8816B",
+          "content": "@OriginHairCollective",
+          "fontFamily": "DM Sans",
+          "fontSize": 13,
+          "fontWeight": "500"
+        }
+      ]
+    }
+  ]
+}

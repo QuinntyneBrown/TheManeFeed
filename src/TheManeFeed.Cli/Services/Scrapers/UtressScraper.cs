@@ -9,7 +9,8 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class UtressScraper : BaseSiteScraper
 {
     public override string SourceName => "Utress";
-    protected override string BaseUrl => "https://blog.utress.com";
+    public override string RssFeedPath => "/feed/";
+    public override string BaseUrl => "https://blog.utress.com";
     protected override string PagePath => "/";
 
     public UtressScraper(

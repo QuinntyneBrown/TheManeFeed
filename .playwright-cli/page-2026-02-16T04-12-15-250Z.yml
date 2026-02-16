@@ -1,0 +1,132 @@
+- generic [ref=e3]:
+  - banner [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e10]: M
+      - generic [ref=e11]:
+        - generic [ref=e12]: The Mane Feed
+        - generic [ref=e13]: hair news & trends
+    - navigation [ref=e14]:
+      - generic [ref=e15] [cursor=pointer]: Home
+      - generic [ref=e16] [cursor=pointer]: Trending
+      - generic [ref=e17] [cursor=pointer]: Categories
+      - generic [ref=e18] [cursor=pointer]: Saved
+    - generic [ref=e19]:
+      - button [ref=e20] [cursor=pointer]:
+        - img [ref=e23]
+      - button [ref=e26] [cursor=pointer]
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - generic [ref=e32]:
+        - button "All" [ref=e34] [cursor=pointer]
+        - button "Color Trends" [ref=e36] [cursor=pointer]
+        - button "Celebrity Hair" [ref=e38] [cursor=pointer]
+        - button "Haircuts & Styles" [ref=e40] [cursor=pointer]
+        - button "Hair Care" [ref=e42] [cursor=pointer]
+        - button "Products & Reviews" [ref=e44] [cursor=pointer]
+        - button "Salon Guide" [ref=e46] [cursor=pointer]
+        - button "Styling" [ref=e48] [cursor=pointer]
+        - button "Trending" [ref=e50] [cursor=pointer]
+      - generic [ref=e51]:
+        - heading "Latest Stories" [level=2] [ref=e52]
+        - generic [ref=e53]:
+          - article [ref=e56] [cursor=pointer]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: MilanoWigs
+              - 'heading "The Princess Wig: Natural Human Hair Wigs for Kids" [level=3] [ref=e60]'
+              - generic [ref=e61]:
+                - generic [ref=e62]: MilanoWigs
+                - generic [ref=e63]: ·
+          - article [ref=e66] [cursor=pointer]:
+            - generic [ref=e68]:
+              - generic [ref=e69]: LuvmeHair
+              - 'heading "Luvme For You: Wig 101" [level=3] [ref=e70]'
+              - generic [ref=e71]:
+                - generic [ref=e72]: LuvmeHair
+                - generic [ref=e73]: ·
+          - article [ref=e76] [cursor=pointer]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: LaurenAshtyn
+              - heading "Low-density vs high-density wigs—which is for you?" [level=3] [ref=e80]
+              - generic [ref=e81]:
+                - generic [ref=e82]: LaurenAshtyn
+                - generic [ref=e83]: ·
+          - article [ref=e86] [cursor=pointer]:
+            - generic [ref=e88]:
+              - generic [ref=e89]: LaurenAshtyn
+              - heading "8 chic protective styles with clip-in extensions" [level=3] [ref=e90]
+              - generic [ref=e91]:
+                - generic [ref=e92]: LaurenAshtyn
+                - generic [ref=e93]: ·
+          - article [ref=e96] [cursor=pointer]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: LaurenAshtyn
+              - heading "A guide to color analysis for hair extensions" [level=3] [ref=e100]
+              - generic [ref=e101]:
+                - generic [ref=e102]: LaurenAshtyn
+                - generic [ref=e103]: ·
+          - article [ref=e106] [cursor=pointer]:
+            - generic [ref=e108]:
+              - generic [ref=e109]: LaurenAshtyn
+              - heading "What topper wearers need to know about scalp mi..." [level=3] [ref=e110]
+              - generic [ref=e111]:
+                - generic [ref=e112]: LaurenAshtyn
+                - generic [ref=e113]: ·
+          - article [ref=e116] [cursor=pointer]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: LaurenAshtyn
+              - heading "Hair botox for extensions—Is it safe and worth ..." [level=3] [ref=e120]
+              - generic [ref=e121]:
+                - generic [ref=e122]: LaurenAshtyn
+                - generic [ref=e123]: ·
+          - article [ref=e126] [cursor=pointer]:
+            - generic [ref=e128]:
+              - generic [ref=e129]: LaurenAshtyn
+              - heading "Nano tip extensions and what they’re really like" [level=3] [ref=e130]
+              - generic [ref=e131]:
+                - generic [ref=e132]: LaurenAshtyn
+                - generic [ref=e133]: ·
+          - article [ref=e136] [cursor=pointer]:
+            - generic [ref=e138]:
+              - generic [ref=e139]: LaurenAshtyn
+              - 'heading "Hair toppers for aging hair: What changes after..." [level=3] [ref=e140]'
+              - generic [ref=e141]:
+                - generic [ref=e142]: LaurenAshtyn
+                - generic [ref=e143]: ·
+          - article [ref=e146] [cursor=pointer]:
+            - generic [ref=e148]:
+              - generic [ref=e149]: WigsCom
+              - heading "A Beginner's Guide to Wearing Wigs" [level=3] [ref=e150]
+              - generic [ref=e151]:
+                - generic [ref=e152]: WigsCom
+                - generic [ref=e153]: ·
+  - contentinfo [ref=e156]:
+    - generic [ref=e157]:
+      - generic [ref=e158]:
+        - generic [ref=e160]:
+          - generic [ref=e162]: M
+          - generic [ref=e163]:
+            - generic [ref=e164]: The Mane Feed
+            - generic [ref=e165]: hair news & trends
+        - paragraph [ref=e166]: Your daily dose of hair news, trends, and transformations. Curated for the style-obsessed.
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - heading "Categories" [level=4] [ref=e169]
+          - generic [ref=e170] [cursor=pointer]: Color Trends
+          - generic [ref=e171] [cursor=pointer]: Haircuts
+          - generic [ref=e172] [cursor=pointer]: Styling
+          - generic [ref=e173] [cursor=pointer]: Celebrity
+        - generic [ref=e174]:
+          - heading "Company" [level=4] [ref=e175]
+          - generic [ref=e176] [cursor=pointer]: About
+          - generic [ref=e177] [cursor=pointer]: Contact
+          - generic [ref=e178] [cursor=pointer]: Careers
+          - generic [ref=e179] [cursor=pointer]: Privacy
+        - generic [ref=e180]:
+          - heading "Connect" [level=4] [ref=e181]
+          - generic [ref=e182] [cursor=pointer]: Instagram
+          - generic [ref=e183] [cursor=pointer]: TikTok
+          - generic [ref=e184] [cursor=pointer]: Pinterest
+          - generic [ref=e185] [cursor=pointer]: Newsletter
+    - generic [ref=e186]:
+      - generic [ref=e187]: © 2026 The Mane Feed. All rights reserved.
+      - generic [ref=e188]: Made with ❤ for hair lovers

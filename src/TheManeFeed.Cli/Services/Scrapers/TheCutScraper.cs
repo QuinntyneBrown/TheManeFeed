@@ -9,7 +9,7 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class TheCutScraper : BaseSiteScraper
 {
     public override string SourceName => "TheCut";
-    protected override string BaseUrl => "https://www.thecut.com";
+    public override string BaseUrl => "https://www.thecut.com";
     protected override string PagePath => "/tags/hair/";
 
     public TheCutScraper(

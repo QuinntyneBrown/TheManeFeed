@@ -9,7 +9,8 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class PerfectLocksScraper : BaseSiteScraper
 {
     public override string SourceName => "PerfectLocks";
-    protected override string BaseUrl => "https://www.perfectlocks.com";
+    public override string RssFeedPath => "/blogs/all-tressed-up.atom";
+    public override string BaseUrl => "https://www.perfectlocks.com";
     protected override string PagePath => "/blogs/all-tressed-up";
 
     public PerfectLocksScraper(

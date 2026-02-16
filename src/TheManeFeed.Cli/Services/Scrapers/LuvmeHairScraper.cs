@@ -9,7 +9,8 @@ namespace TheManeFeed.Cli.Services.Scrapers;
 public class LuvmeHairScraper : BaseSiteScraper
 {
     public override string SourceName => "LuvmeHair";
-    protected override string BaseUrl => "https://shop.luvmehair.com";
+    public override string RssFeedPath => "/blogs/wigs-101.atom";
+    public override string BaseUrl => "https://shop.luvmehair.com";
     protected override string PagePath => "/blogs/wigs-101";
 
     public LuvmeHairScraper(
