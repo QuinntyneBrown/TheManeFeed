@@ -11,7 +11,15 @@
       "Bash(aspire:*)",
       "Bash(winpty aspire mcp init:*)",
       "WebSearch",
-      "WebFetch(domain:aspire.dev)"
+      "WebFetch(domain:aspire.dev)",
+      "Bash(sqlcmd:*)",
+      "Bash(sqllocaldb info:*)",
+      "Bash(sqllocaldb start:*)",
+      "Bash(tasklist:*)",
+      "Bash(taskkill:*)",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(docker run:*)"
     ]
   }
 }
