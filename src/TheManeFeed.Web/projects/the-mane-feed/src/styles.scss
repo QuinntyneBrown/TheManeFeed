@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  // Brand colors
+  --mf-accent-rose: #B76E79;
+  --mf-accent-rose-light: #D4A0A7;
+  --mf-accent-blush: #F2D7D5;
+  --mf-accent-gold: #C9A96E;
+
+  // Backgrounds
+  --mf-bg-primary: #FFF8F0;
+  --mf-bg-surface: #FFFFFF;
+  --mf-bg-cream: #F5E6D3;
+  --mf-bg-card: #FFFBF5;
+  --mf-bg-dark: #1A1A1A;
+
+  // Text
+  --mf-text-primary: #1A1A1A;
+  --mf-text-secondary: #6B6B6B;
+  --mf-text-muted: #999999;
+  --mf-text-inverse: #FFFFFF;
+
+  // Borders
+  --mf-border-light: #E8DDD0;
+  --mf-border-medium: #D4C5B3;
+
+  // Typography
+  --mf-font-display: 'Playfair Display', Georgia, serif;
+  --mf-font-body: 'Inter', system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--mf-font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--mf-bg-primary);
+  color: var(--mf-text-primary);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

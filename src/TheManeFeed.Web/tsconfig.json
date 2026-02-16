@@ -48,6 +48,12 @@
     },
     {
       "path": "./projects/the-mane-feed/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/the-mane-feed-admin/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/the-mane-feed-admin/tsconfig.spec.json"
     }
   ]
 }

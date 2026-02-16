@@ -1,0 +1,81 @@
+<div class="search-page">
+  <h1 class="page-title">Search</h1>
+
+  <lib-search-bar
+    placeholder="Search hair trends, styles, news..."
+    (search)="onSearch($event)"
+  />
+
+  @if (hasSearched() && searchResults().length > 0) {
+    <!-- Search Results -->
+    <section class="results">
+      <h2 class="section-title">Results</h2>
+      <div class="article-list">
+        @for (article of searchResults(); track article.id) {
+          <a (click)="onArticleClick(article.id)" class="card-link">
+            <lib-standard-card
+              [imageUrl]="article.imageUrl ?? ''"
+              [category]="article.category?.name ?? article.sourceName"
+              [title]="article.title"
+              [source]="article.sourceName"
+              [timeAgo]="timeAgo(article.publishedAt ?? article.scrapedAt)"
+            />
+          </a>
+        }
+      </div>
+    </section>
+  } @else {
+    <!-- Recent Searches -->
+    @if (recentSearches().length > 0) {
+      <section class="recent">
+        <div class="section-header">
+          <h2 class="section-title">Recent Searches</h2>
+          <button class="clear-btn" (click)="clearRecent()">Clear</button>
+        </div>
+        <ul class="recent-list">
+          @for (query of recentSearches(); track query) {
+            <li class="recent-item" (click)="onSearch(query)">
+              <lib-icon name="clock" [size]="18" />
+              <span>{{ query }}</span>
+            </li>
+          }
+        </ul>
+      </section>
+    }
+
+    <!-- Trending Searches -->
+    @if (trendingSearches().length > 0) {
+      <section class="trending-searches">
+        <h2 class="section-title">Trending Searches</h2>
+        <div class="pill-row">
+          @for (ts of trendingSearches(); track ts.id) {
+            <lib-category-pill
+              [label]="ts.query"
+              (clicked)="onTrendingClick(ts.query)"
+            />
+          }
+        </div>
+      </section>
+    }
+
+    <!-- Top Stories -->
+    @if (topStories().length > 0) {
+      <section class="top-stories">
+        <h2 class="section-title">Top Stories</h2>
+        <div class="article-list">
+          @for (article of topStories(); track article.id) {
+            <a (click)="onArticleClick(article.id)" class="card-link">
+              <lib-standard-card
+                [imageUrl]="article.imageUrl ?? ''"
+                [category]="article.category?.name ?? article.sourceName"
+                [title]="article.title"
+                [source]="article.sourceName"
+                [timeAgo]="timeAgo(article.publishedAt ?? article.scrapedAt)"
+              />
+            </a>
+          }
+        </div>
+      </section>
+    }
+  }
+</div>

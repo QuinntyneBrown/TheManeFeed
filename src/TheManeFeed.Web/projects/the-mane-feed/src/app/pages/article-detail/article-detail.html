@@ -1,0 +1,72 @@
+@if (article(); as article) {
+  <div class="article-detail">
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <button class="icon-btn" (click)="goBack()">
+        <lib-icon name="chevron-left" [size]="24" />
+      </button>
+      <div class="top-actions">
+        <button class="icon-btn">
+          <lib-icon name="share-2" [size]="20" />
+        </button>
+        <button class="icon-btn">
+          <lib-icon name="bookmark" [size]="20" />
+        </button>
+      </div>
+    </div>
+
+    <!-- Hero Image -->
+    @if (article.imageUrl) {
+      <div class="hero-image" [style.background-image]="'url(' + article.imageUrl + ')'"></div>
+    }
+
+    <!-- Article Content -->
+    <div class="article-body">
+      @if (article.category) {
+        <span class="category-label">{{ article.category.name }}</span>
+      }
+
+      <h1 class="article-title">{{ article.title }}</h1>
+
+      <!-- Author Row -->
+      <div class="author-row">
+        <div class="author-avatar">
+          @if (article.author?.avatarUrl) {
+            <img [src]="article.author!.avatarUrl!" [alt]="article.author!.name" />
+          }
+        </div>
+        <div class="author-info">
+          <span class="author-name">{{ article.author?.name ?? article.sourceName }}</span>
+          <span class="article-date">{{ formatDate(article.publishedAt ?? article.scrapedAt) }}</span>
+        </div>
+      </div>
+
+      <!-- Body -->
+      @if (article.body) {
+        <div class="body-content" [innerHTML]="article.body"></div>
+      } @else if (article.summary) {
+        <p class="body-text">{{ article.summary }}</p>
+      }
+    </div>
+
+    <!-- Related Stories -->
+    @if (relatedArticles().length > 0) {
+      <section class="related">
+        <h2 class="section-title">Related Stories</h2>
+        <div class="related-list">
+          @for (related of relatedArticles(); track related.id) {
+            <a (click)="onRelatedClick(related.id)" class="card-link">
+              <lib-standard-card
+                [imageUrl]="related.imageUrl ?? ''"
+                [category]="related.category?.name ?? related.sourceName"
+                [title]="related.title"
+                [source]="related.sourceName"
+                [timeAgo]="timeAgo(related.publishedAt ?? related.scrapedAt)"
+              />
+            </a>
+          }
+        </div>
+      </section>
+    }
+  </div>
+}

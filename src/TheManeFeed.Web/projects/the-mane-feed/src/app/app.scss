@@ -1,0 +1,28 @@
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  padding-bottom: 72px; // mobile nav height
+
+  @media (min-width: 768px) {
+    padding-bottom: 0;
+  }
+}
+
+.mobile-only {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.desktop-only {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}

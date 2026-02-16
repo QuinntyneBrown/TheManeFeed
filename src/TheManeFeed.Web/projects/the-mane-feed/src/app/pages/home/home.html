@@ -1,0 +1,73 @@
+<div class="home-page">
+  <!-- Category Filter -->
+  <section class="categories">
+    <div class="category-scroll">
+      <lib-category-pill
+        label="All"
+        [active]="activeCategory() === 'all'"
+        (clicked)="onCategoryClick('all')"
+      />
+      @for (cat of categories(); track cat.id) {
+        <lib-category-pill
+          [label]="cat.name"
+          [active]="activeCategory() === cat.slug"
+          (clicked)="onCategoryClick(cat.slug)"
+        />
+      }
+    </div>
+  </section>
+
+  <!-- Featured Article -->
+  @if (featured().length > 0) {
+    <section class="featured">
+      @let article = featured()[0];
+      <a (click)="onArticleClick(article.id)" class="card-link">
+        <lib-featured-card
+          [imageUrl]="article.imageUrl ?? ''"
+          [category]="article.category?.name ?? article.sourceName"
+          [title]="article.title"
+          [source]="article.sourceName"
+          [timeAgo]="timeAgo(article.publishedAt ?? article.scrapedAt)"
+        />
+      </a>
+    </section>
+  }
+
+  <!-- Latest Stories -->
+  @if (latest().length > 0) {
+    <section class="latest">
+      <h2 class="section-title">Latest Stories</h2>
+      <div class="article-list">
+        @for (article of latest(); track article.id) {
+          <a (click)="onArticleClick(article.id)" class="card-link">
+            <lib-standard-card
+              [imageUrl]="article.imageUrl ?? ''"
+              [category]="article.category?.name ?? article.sourceName"
+              [title]="article.title"
+              [source]="article.sourceName"
+              [timeAgo]="timeAgo(article.publishedAt ?? article.scrapedAt)"
+            />
+          </a>
+        }
+      </div>
+    </section>
+  }
+
+  <!-- Trending Now -->
+  @if (trending().length > 0) {
+    <section class="trending">
+      <h2 class="section-title">Trending Now</h2>
+      <div class="trending-list">
+        @for (article of trending(); track article.id; let i = $index) {
+          <a (click)="onArticleClick(article.id)" class="card-link">
+            <lib-trending-card
+              [rank]="i + 1"
+              [title]="article.title"
+              [meta]="article.sourceName + ' · ' + timeAgo(article.publishedAt ?? article.scrapedAt)"
+            />
+          </a>
+        }
+      </div>
+    </section>
+  }
+</div>

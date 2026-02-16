@@ -1,0 +1,54 @@
+.home-page {
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.categories {
+  margin-bottom: 20px;
+}
+
+.category-scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.featured {
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-family: var(--mf-font-display, 'Playfair Display', serif);
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--mf-text-primary, #1a1a1a);
+}
+
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.latest {
+  margin-bottom: 32px;
+}
+
+.trending-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-link {
+  cursor: pointer;
+  display: block;
+}

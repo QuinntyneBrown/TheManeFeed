@@ -1,0 +1,61 @@
+<div class="profile-page">
+  <!-- Profile Header -->
+  <section class="profile-header">
+    <div class="avatar">
+      @if (avatarUrl()) {
+        <img [src]="avatarUrl()" alt="Profile" />
+      } @else {
+        <span class="avatar-initial">{{ displayName()[0] }}</span>
+      }
+    </div>
+    <h1 class="display-name">{{ displayName() }}</h1>
+    <p class="username">{{ username() }}</p>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-row">
+    <div class="stat">
+      <span class="stat-value">{{ stats().saved }}</span>
+      <span class="stat-label">Saved</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-value">{{ stats().topics }}</span>
+      <span class="stat-label">Topics</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-value">{{ stats().collections }}</span>
+      <span class="stat-label">Collections</span>
+    </div>
+  </section>
+
+  <!-- Your Interests -->
+  <section class="interests">
+    <h2 class="section-title">Your Interests</h2>
+    <div class="interest-pills">
+      @for (interest of interests(); track interest.id) {
+        <lib-category-pill
+          [label]="interest.name"
+          [active]="interest.active"
+          (clicked)="onInterestToggle(interest.slug)"
+        />
+      }
+    </div>
+  </section>
+
+  <!-- Settings -->
+  <section class="settings">
+    @for (item of settingsItems; track item.label) {
+      <button class="settings-item">
+        <span class="settings-label">{{ item.label }}</span>
+        <lib-icon name="chevron-right" [size]="18" />
+      </button>
+    }
+  </section>
+
+  <!-- Sign Out -->
+  <section class="sign-out-section">
+    <button class="sign-out-btn" (click)="onSignOut()">Sign Out</button>
+  </section>
+</div>

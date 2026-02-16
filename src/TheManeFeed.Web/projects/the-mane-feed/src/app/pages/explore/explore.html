@@ -1,0 +1,44 @@
+<div class="explore-page">
+  <h1 class="page-title">Explore</h1>
+
+  <lib-search-bar
+    placeholder="Search hair trends, styles, news..."
+    (search)="onSearch($event)"
+  />
+
+  <!-- Browse Categories -->
+  <section class="browse-categories">
+    <h2 class="section-title">Browse Categories</h2>
+    <div class="category-grid">
+      @for (cat of categories(); track cat.id) {
+        <button
+          class="category-card"
+          [style.background-color]="cat.color"
+          (click)="onCategoryClick(cat.slug)"
+        >
+          <span class="category-name">{{ cat.name }}</span>
+        </button>
+      }
+    </div>
+  </section>
+
+  <!-- Popular This Week -->
+  @if (popular().length > 0) {
+    <section class="popular">
+      <h2 class="section-title">Popular This Week</h2>
+      <div class="article-list">
+        @for (article of popular(); track article.id) {
+          <a (click)="onArticleClick(article.id)" class="card-link">
+            <lib-standard-card
+              [imageUrl]="article.imageUrl ?? ''"
+              [category]="article.category?.name ?? article.sourceName"
+              [title]="article.title"
+              [source]="article.sourceName"
+              [timeAgo]="timeAgo(article.publishedAt ?? article.scrapedAt)"
+            />
+          </a>
+        }
+      </div>
+    </section>
+  }
+</div>
