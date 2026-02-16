@@ -24,9 +24,10 @@ public class PerfectLocksScraper : BaseSiteScraper
     {
         return await ExtractWithSelectorsAsync(
             page,
-            articleSelector: "article, .blog-post, .article-card, .blog-listing__item",
-            titleSelector: "h2, h3, .article-card__title, .blog-post__title, .h3",
-            summarySelector: ".article-card__excerpt, .blog-post__excerpt, .rte p",
-            imageSelector: "img");
+            articleSelector: ".article-item",
+            titleSelector: "h3.article-item__title a, h3 a",
+            linkSelector: "h3.article-item__title a, a[href*='blogs']",
+            summarySelector: ".article-item__excerpt, .rte p",
+            imageSelector: "img.article-item__image, img");
     }
 }

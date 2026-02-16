@@ -22,12 +22,13 @@ public class ExpressWigBraidsScraper : BaseSiteScraper
 
     protected override async Task<List<ScrapeResult>> ExtractArticlesAsync(IPage page)
     {
-        // Shopify blog layout
+        // Shopify blog layout - uses li.blog-item with h3.article-title
         return await ExtractWithSelectorsAsync(
             page,
-            articleSelector: "article, .blog-post, .article-card, .blog-listing__item, .blog__post",
-            titleSelector: "h2, h3, .article-card__title, .blog-post__title, .h2",
-            summarySelector: ".article-card__excerpt, .blog-post__excerpt, .rte p, .blog__post-excerpt",
+            articleSelector: "li.blog-item",
+            titleSelector: "h3.article-title a, h3 a",
+            linkSelector: "h3.article-title a",
+            summarySelector: ".article-excerpt, .rte p",
             imageSelector: "img");
     }
 }

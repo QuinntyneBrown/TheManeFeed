@@ -24,9 +24,10 @@ public class TheCutScraper : BaseSiteScraper
     {
         return await ExtractWithSelectorsAsync(
             page,
-            articleSelector: "article, .story, .feed-item, .river-item",
-            titleSelector: "h2, h3, .story-title, .headline",
-            summarySelector: ".story-summary, .excerpt, .dek",
-            imageSelector: "img");
+            articleSelector: ".paginated-feed li.article",
+            titleSelector: "h2, h3, [class*='headline']",
+            linkSelector: "a[href]",
+            summarySelector: ".teaser, [class*='teaser'], .dek",
+            imageSelector: "picture img, img");
     }
 }

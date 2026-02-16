@@ -22,12 +22,13 @@ public class MilanoWigsScraper : BaseSiteScraper
 
     protected override async Task<List<ScrapeResult>> ExtractArticlesAsync(IPage page)
     {
-        // Shopify blog layout
+        // Shopify blog layout - uses .blog__post-item with h3.blog__post-title
         return await ExtractWithSelectorsAsync(
             page,
-            articleSelector: "article, .blog-post, .article-card, .blog-listing__item, .blog__post",
-            titleSelector: "h2, h3, .article-card__title, .blog-post__title, .h2",
-            summarySelector: ".article-card__excerpt, .blog-post__excerpt, .rte p, .blog__post-excerpt",
+            articleSelector: ".blog__post-item",
+            titleSelector: "h3.blog__post-title a, h3 a",
+            linkSelector: "h3.blog__post-title a",
+            summarySelector: ".blog__post-excerpt, .rte p",
             imageSelector: "img");
     }
 }

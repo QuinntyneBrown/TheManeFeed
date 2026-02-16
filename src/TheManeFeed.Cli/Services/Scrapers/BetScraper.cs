@@ -10,7 +10,7 @@ public class BetScraper : BaseSiteScraper
 {
     public override string SourceName => "BET";
     protected override string BaseUrl => "https://www.bet.com";
-    protected override string PagePath => "/article/category/style-beauty";
+    protected override string PagePath => "/tag/bopy0s/beauty";
 
     public BetScraper(
         IBrowserService browserService,
@@ -24,9 +24,10 @@ public class BetScraper : BaseSiteScraper
     {
         return await ExtractWithSelectorsAsync(
             page,
-            articleSelector: "article, .card, .content-card, .article-item",
-            titleSelector: "h2, h3, .card-title, .article-title",
-            summarySelector: ".card-description, .excerpt, .article-description",
+            articleSelector: ".item.article",
+            titleSelector: "h2 span",
+            linkSelector: "a[href]",
+            summarySelector: ".description",
             imageSelector: "img");
     }
 }

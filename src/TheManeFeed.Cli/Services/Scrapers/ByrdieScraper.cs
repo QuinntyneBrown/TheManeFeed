@@ -10,7 +10,7 @@ public class ByrdieScraper : BaseSiteScraper
 {
     public override string SourceName => "Byrdie";
     protected override string BaseUrl => "https://www.byrdie.com";
-    protected override string PagePath => "/hair-4843568";
+    protected override string PagePath => "/hair-4628407";
 
     public ByrdieScraper(
         IBrowserService browserService,
@@ -22,11 +22,43 @@ public class ByrdieScraper : BaseSiteScraper
 
     protected override async Task<List<ScrapeResult>> ExtractArticlesAsync(IPage page)
     {
-        return await ExtractWithSelectorsAsync(
-            page,
-            articleSelector: "article, .card, .comp, .mntl-card",
-            titleSelector: "h2, h3, .card__title, .mntl-card__title",
-            summarySelector: ".card__description, .excerpt, .mntl-card__description",
-            imageSelector: "img");
+        var results = new List<ScrapeResult>();
+        var cards = await page.QuerySelectorAllAsync("a.mntl-card-list-items");
+
+        foreach (var card in cards)
+        {
+            try
+            {
+                var titleEl = await card.QuerySelectorAsync(".card__title-text");
+                var title = titleEl is not null ? (await titleEl.InnerTextAsync()).Trim() : null;
+                if (string.IsNullOrWhiteSpace(title)) continue;
+
+                var href = await card.GetAttributeAsync("href") ?? string.Empty;
+                if (string.IsNullOrWhiteSpace(href)) continue;
+
+                var imgEl = await card.QuerySelectorAsync("img");
+                string? imageUrl = null;
+                if (imgEl is not null)
+                {
+                    imageUrl = await imgEl.GetAttributeAsync("data-src")
+                               ?? await imgEl.GetAttributeAsync("src");
+                }
+
+                results.Add(new ScrapeResult
+                {
+                    Title = title,
+                    Url = ResolveUrl(href),
+                    ImageUrl = imageUrl is not null ? ResolveUrl(imageUrl) : null,
+                    SourceName = SourceName,
+                    CategoryTags = "hair"
+                });
+            }
+            catch (Exception ex)
+            {
+                Logger.LogDebug(ex, "Error extracting article from {Source}", SourceName);
+            }
+        }
+
+        return results;
     }
 }

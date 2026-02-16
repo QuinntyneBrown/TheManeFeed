@@ -22,12 +22,47 @@ public class LuvmeHairScraper : BaseSiteScraper
 
     protected override async Task<List<ScrapeResult>> ExtractArticlesAsync(IPage page)
     {
-        // Shopify blog layout
-        return await ExtractWithSelectorsAsync(
-            page,
-            articleSelector: "article, .blog-post, .article-card, .blog-listing__item, .blog__post",
-            titleSelector: "h2, h3, .article-card__title, .blog-post__title, .h2, .h3",
-            summarySelector: ".article-card__excerpt, .blog-post__excerpt, .rte p, .blog__post-excerpt",
-            imageSelector: "img");
+        var results = new List<ScrapeResult>();
+        var cards = await page.QuerySelectorAllAsync("article.how-to-card");
+
+        foreach (var card in cards)
+        {
+            try
+            {
+                var linkEl = await card.QuerySelectorAsync("a[href]");
+                if (linkEl is null) continue;
+
+                var href = await linkEl.GetAttributeAsync("href") ?? string.Empty;
+                if (string.IsNullOrWhiteSpace(href)) continue;
+
+                var title = await linkEl.GetAttributeAsync("data-classification");
+                if (string.IsNullOrWhiteSpace(title))
+                    title = (await linkEl.InnerTextAsync()).Trim();
+                if (string.IsNullOrWhiteSpace(title)) continue;
+
+                var imgEl = await card.QuerySelectorAsync("img");
+                string? imageUrl = null;
+                if (imgEl is not null)
+                {
+                    imageUrl = await imgEl.GetAttributeAsync("src")
+                               ?? await imgEl.GetAttributeAsync("data-src");
+                }
+
+                results.Add(new ScrapeResult
+                {
+                    Title = title,
+                    Url = ResolveUrl(href),
+                    ImageUrl = imageUrl is not null ? ResolveUrl(imageUrl) : null,
+                    SourceName = SourceName,
+                    CategoryTags = "hair"
+                });
+            }
+            catch (Exception ex)
+            {
+                Logger.LogDebug(ex, "Error extracting article from {Source}", SourceName);
+            }
+        }
+
+        return results;
     }
 }
