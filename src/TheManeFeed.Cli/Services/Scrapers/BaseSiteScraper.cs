@@ -126,6 +126,21 @@ public abstract class BaseSiteScraper : ISiteScraper
                         imageUrl = await imgEl.GetAttributeAsync("src")
                                    ?? await imgEl.GetAttributeAsync("data-src")
                                    ?? await imgEl.GetAttributeAsync("data-lazy-src");
+
+                        // Fall back to srcset (first entry)
+                        if (string.IsNullOrWhiteSpace(imageUrl) || imageUrl.Contains("data:image"))
+                        {
+                            var srcset = await imgEl.GetAttributeAsync("srcset")
+                                         ?? await imgEl.GetAttributeAsync("data-srcset");
+                            if (!string.IsNullOrWhiteSpace(srcset))
+                            {
+                                imageUrl = srcset.Split(',')[0].Trim().Split(' ')[0];
+                            }
+                        }
+
+                        // Skip data URIs / blank placeholders
+                        if (imageUrl is not null && imageUrl.StartsWith("data:"))
+                            imageUrl = null;
                     }
                 }
 
