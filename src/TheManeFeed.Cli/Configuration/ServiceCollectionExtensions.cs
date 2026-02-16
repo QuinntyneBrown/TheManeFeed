@@ -1,9 +1,8 @@
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using TheManeFeed.Cli.Data;
 using TheManeFeed.Cli.Services;
 using TheManeFeed.Cli.Services.Scrapers;
+using TheManeFeed.Infrastructure;
 
 namespace TheManeFeed.Cli.Configuration;
 
@@ -16,9 +15,7 @@ public static class ServiceCollectionExtensions
         services.Configure<ScrapeSettings>(
             configuration.GetSection(ScrapeSettings.SectionName));
 
-        services.AddDbContext<TheManeFeedDbContext>(options =>
-            options.UseSqlServer(
-                configuration.GetConnectionString("DefaultConnection")));
+        services.AddInfrastructure(configuration);
 
         services.AddSingleton<IBrowserService, BrowserService>();
         services.AddScoped<IArticleService, ArticleService>();

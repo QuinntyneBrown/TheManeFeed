@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using TheManeFeed.Cli.Data;
 using TheManeFeed.Cli.Models;
+using TheManeFeed.Core.Entities;
+using TheManeFeed.Infrastructure.Data;
 
 namespace TheManeFeed.Cli.Services;
 
@@ -39,7 +40,6 @@ public class ArticleService : IArticleService
                 ImageUrl = result.ImageUrl,
                 SourceName = result.SourceName,
                 PublishedAt = result.PublishedAt,
-                CategoryTags = result.CategoryTags,
                 ScrapedAt = DateTime.UtcNow
             });
 

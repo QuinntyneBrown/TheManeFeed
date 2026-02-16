@@ -1,4 +1,5 @@
 using TheManeFeed.Cli.Models;
+using TheManeFeed.Core.Entities;
 
 namespace TheManeFeed.Cli.Services;
 

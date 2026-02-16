@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using TheManeFeed.Cli.Commands;
 using TheManeFeed.Cli.Configuration;
-using TheManeFeed.Cli.Data;
+using TheManeFeed.Infrastructure.Data;
 using TheManeFeed.Cli.Services;
 
 var configuration = new ConfigurationBuilder()
