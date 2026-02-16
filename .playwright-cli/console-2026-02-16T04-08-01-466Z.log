@@ -1,5 +1,4 @@
-[     247ms] [ERROR] ERROR HttpErrorResponse @ http://localhost:4201/@fs/C:/projects/TheManeFeed/src/TheManeFeed.Web/.angular/cache/21.1.4/the-mane-feed/vite/deps/chunk-QFF6SDYS.js?v=1a1df63a:3161
-[   59666ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
+[      54ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'id')
     at _forTrack0 (http://localhost:4201/chunk-BQPKDGXB.js:15:43)
     at createOrAttach (http://localhost:4201/@fs/C:/projects/TheManeFeed/src/TheManeFeed.Web/.angular/cache/21.1.4/the-mane-feed/vite/deps/chunk-QFF6SDYS.js?v=1a1df63a:17343:71)
     at reconcile (http://localhost:4201/@fs/C:/projects/TheManeFeed/src/TheManeFeed.Web/.angular/cache/21.1.4/the-mane-feed/vite/deps/chunk-QFF6SDYS.js?v=1a1df63a:17265:7)
