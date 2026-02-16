@@ -20,10 +20,17 @@ public class ArticleService : IArticleService
     public async Task<int> SaveArticlesAsync(IEnumerable<ScrapeResult> results)
     {
         var saved = 0;
+        var seenUrls = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
         foreach (var result in results)
         {
             var normalizedUrl = NormalizeUrl(result.Url);
+
+            if (!seenUrls.Add(normalizedUrl))
+            {
+                _logger.LogDebug("Skipping batch duplicate: {Url}", normalizedUrl);
+                continue;
+            }
 
             var exists = await _db.Articles.AnyAsync(a => a.Url == normalizedUrl);
             if (exists)
