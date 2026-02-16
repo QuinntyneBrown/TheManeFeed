@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet --list-sdks:*)",
+      "Bash(dotnet --list-runtimes:*)",
+      "Bash(where:*)",
+      "Bash(DOTNET_ROOT=\"C:/Program Files/dotnet\" aspire mcp init:*)",
+      "Bash(DOTNET_ROOT=\"C:/Program Files/dotnet\" echo:*)",
+      "Bash(aspire mcp init:*)",
+      "Bash(export DOTNET_ROOT=\"C:/Program Files/dotnet\")",
+      "Bash(aspire:*)",
+      "Bash(winpty aspire mcp init:*)",
+      "WebSearch",
+      "WebFetch(domain:aspire.dev)"
+    ]
+  }
+}
