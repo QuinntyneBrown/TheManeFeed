@@ -9,6 +9,7 @@ export interface Article {
   categoryId: number | null;
   authorId: number | null;
   publishedAt: string | null;
+  createdAt: string;
   scrapedAt: string;
   readCount: number;
   isFeatured: boolean;

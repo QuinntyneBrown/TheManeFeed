@@ -114,6 +114,7 @@ public class ArticlesController : ControllerBase
         CategorySlug = a.Category?.Slug,
         Author = a.Author?.Name,
         a.PublishedAt,
+        a.CreatedAt,
         a.ReadCount,
         a.IsFeatured,
         a.IsTrending
@@ -132,6 +133,7 @@ public class ArticlesController : ControllerBase
         CategorySlug = a.Category?.Slug,
         Author = a.Author is not null ? new { a.Author.Id, a.Author.Name, a.Author.AvatarUrl, a.Author.Bio } : null,
         a.PublishedAt,
+        a.CreatedAt,
         a.ScrapedAt,
         a.ReadCount,
         a.IsFeatured,

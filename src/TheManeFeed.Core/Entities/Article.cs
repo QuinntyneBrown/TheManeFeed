@@ -12,6 +12,7 @@ public class Article
     public int? CategoryId { get; set; }
     public int? AuthorId { get; set; }
     public DateTime? PublishedAt { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime ScrapedAt { get; set; } = DateTime.UtcNow;
     public int ReadCount { get; set; }
     public bool IsFeatured { get; set; }

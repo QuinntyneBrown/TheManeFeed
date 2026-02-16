@@ -18,7 +18,7 @@
               [category]="article.category?.name ?? article.sourceName"
               [title]="article.title"
               [source]="article.sourceName"
-              [timeAgo]="timeAgo(article.publishedAt ?? article.scrapedAt)"
+              [timeAgo]="timeAgo(article.publishedAt ?? article.createdAt)"
             />
           </a>
         }
@@ -70,7 +70,7 @@
                 [category]="article.category?.name ?? article.sourceName"
                 [title]="article.title"
                 [source]="article.sourceName"
-                [timeAgo]="timeAgo(article.publishedAt ?? article.scrapedAt)"
+                [timeAgo]="timeAgo(article.publishedAt ?? article.createdAt)"
               />
             </a>
           }

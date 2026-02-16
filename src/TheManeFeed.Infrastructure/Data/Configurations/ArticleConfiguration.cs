@@ -21,6 +21,7 @@ public class ArticleConfiguration : IEntityTypeConfiguration<Article>
 
         builder.HasIndex(a => a.SourceName);
         builder.HasIndex(a => a.ScrapedAt);
+        builder.HasIndex(a => a.CreatedAt);
         builder.HasIndex(a => a.IsFeatured);
         builder.HasIndex(a => a.IsTrending);
 

@@ -37,7 +37,7 @@
         </div>
         <div class="author-info">
           <span class="author-name">{{ article.author?.name ?? article.sourceName }}</span>
-          <span class="article-date">{{ formatDate(article.publishedAt ?? article.scrapedAt) }}</span>
+          <span class="article-date">{{ formatDate(article.publishedAt ?? article.createdAt) }}</span>
         </div>
       </div>
 
@@ -61,7 +61,7 @@
                 [category]="related.category?.name ?? related.sourceName"
                 [title]="related.title"
                 [source]="related.sourceName"
-                [timeAgo]="timeAgo(related.publishedAt ?? related.scrapedAt)"
+                [timeAgo]="timeAgo(related.publishedAt ?? related.createdAt)"
               />
             </a>
           }
