@@ -1,0 +1,5151 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "DLkDW",
+      "x": 0,
+      "y": 0,
+      "name": "Component/Logo",
+      "reusable": true,
+      "gap": 8,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ZyWue",
+          "name": "LogoMark",
+          "width": 36,
+          "height": 36,
+          "fill": "$accent-rose",
+          "cornerRadius": 18,
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "nooe2",
+              "name": "logoLetter",
+              "fill": "#FFFFFF",
+              "content": "M",
+              "fontFamily": "Playfair Display",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xI8Ut",
+          "name": "logoText",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "VQFrc",
+              "name": "logoTitle",
+              "fill": "$text-primary",
+              "content": "The Mane Feed",
+              "fontFamily": "Playfair Display",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "letterSpacing": -0.5,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "UERt2",
+              "name": "logoTagline",
+              "fill": "$accent-rose",
+              "content": "hair news & trends",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "medium",
+              "letterSpacing": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "VJmfv",
+      "x": 0,
+      "y": 80,
+      "name": "Component/CategoryPill",
+      "reusable": true,
+      "fill": "$bg-cream",
+      "cornerRadius": 20,
+      "padding": [
+        8,
+        18
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "qQTMx",
+          "name": "pillText",
+          "fill": "$accent-rose",
+          "content": "Trending",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "semibold"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zWV4e",
+      "x": 120,
+      "y": 80,
+      "name": "Component/CategoryPillActive",
+      "reusable": true,
+      "fill": "$accent-rose",
+      "cornerRadius": 20,
+      "padding": [
+        8,
+        18
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "m2pDE",
+          "name": "pillActiveText",
+          "fill": "#FFFFFF",
+          "content": "All",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "semibold"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Y9TAt",
+      "x": 0,
+      "y": 130,
+      "name": "Component/FeaturedCard",
+      "reusable": true,
+      "clip": true,
+      "width": 358,
+      "fill": "$bg-surface",
+      "cornerRadius": 16,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "FqZGn",
+          "name": "Image",
+          "metadata": {
+            "type": "unsplash",
+            "username": "mdishakrahman",
+            "link": "https://unsplash.com/@mdishakrahman",
+            "author": "Md Ishak Raman"
+          },
+          "width": "fill_container",
+          "height": 220,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1762522903557-891c8dc11f4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY1MTR8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "FkGTb",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            16,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "4Ulww",
+              "name": "featCat",
+              "fill": "$accent-rose",
+              "content": "TRENDING",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "bold",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "X9oYh",
+              "name": "featTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Kim K's Latest Platinum Transformation Has Everyone Talking",
+              "lineHeight": 1.25,
+              "fontFamily": "Playfair Display",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "letterSpacing": -0.5,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "8r4H4",
+              "name": "featMeta",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0bqYe",
+                  "name": "featSource",
+                  "fill": "$text-secondary",
+                  "content": "Vogue",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "semibold"
+                },
+                {
+                  "type": "text",
+                  "id": "lDQDr",
+                  "name": "featDot",
+                  "fill": "$text-muted",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "0Pq8M",
+                  "name": "featTime",
+                  "fill": "$text-muted",
+                  "content": "2h ago",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "bixVd",
+      "x": 0,
+      "y": 560,
+      "name": "Component/StandardCard",
+      "reusable": true,
+      "width": 358,
+      "gap": 14,
+      "children": [
+        {
+          "type": "frame",
+          "id": "HcXHx",
+          "name": "Thumbnail",
+          "metadata": {
+            "type": "unsplash",
+            "username": "cikstefan",
+            "link": "https://unsplash.com/@cikstefan",
+            "author": "Štefan Štefančík"
+          },
+          "clip": true,
+          "width": 90,
+          "height": 90,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1486514667540-5f345dd89c5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY1MzB8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "cornerRadius": 12
+        },
+        {
+          "type": "frame",
+          "id": "4jRXj",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Ey649",
+              "name": "stdCat",
+              "fill": "$accent-rose",
+              "content": "COLOR",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "bold",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "nwVCD",
+              "name": "stdTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "The Copper Hair Trend Is Taking Over Spring 2026",
+              "lineHeight": 1.3,
+              "fontFamily": "Playfair Display",
+              "fontSize": 16,
+              "fontWeight": "semibold",
+              "letterSpacing": -0.3,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "sPXeC",
+              "name": "stdMeta",
+              "width": "fill_container",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l7zjY",
+                  "name": "stdSource",
+                  "fill": "$text-secondary",
+                  "content": "Allure",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "medium"
+                },
+                {
+                  "type": "text",
+                  "id": "LPKje",
+                  "name": "stdDot",
+                  "fill": "$text-muted",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wN0My",
+                  "name": "stdTime",
+                  "fill": "$text-muted",
+                  "content": "4h ago",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "J5nxJ",
+      "x": 0,
+      "y": 700,
+      "name": "Component/TrendingCard",
+      "reusable": true,
+      "width": 280,
+      "gap": 14,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "sK2wx",
+          "name": "trendNum",
+          "fill": "$accent-blush",
+          "content": "01",
+          "fontFamily": "Playfair Display",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "letterSpacing": -1,
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "LuCGq",
+          "name": "trendContent",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "flhUU",
+              "name": "trendTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Glass Hair Is the New Must-Try Look",
+              "lineHeight": 1.35,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "semibold"
+            },
+            {
+              "type": "text",
+              "id": "TUiNG",
+              "name": "trendMeta",
+              "fill": "$text-muted",
+              "content": "12.4K reads · Trending",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9I8Nc",
+      "x": 0,
+      "y": 830,
+      "name": "Component/MobileBottomNav",
+      "reusable": true,
+      "width": 390,
+      "height": 72,
+      "fill": "$bg-surface",
+      "stroke": {
+        "align": "inside",
+        "thickness": {
+          "top": 1
+        },
+        "fill": "$border-light"
+      },
+      "padding": [
+        8,
+        24,
+        20,
+        24
+      ],
+      "justifyContent": "space_around",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "d5YjT",
+          "name": "navHome",
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "6KaQg",
+              "name": "navHomeIcon",
+              "width": 22,
+              "height": 22,
+              "iconFontName": "house",
+              "iconFontFamily": "lucide",
+              "fill": "$accent-rose"
+            },
+            {
+              "type": "text",
+              "id": "7QdMH",
+              "name": "navHomeLabel",
+              "fill": "$accent-rose",
+              "content": "Home",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "semibold"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Vuiqb",
+          "name": "navExplore",
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "9GTTP",
+              "name": "navExploreIcon",
+              "width": 22,
+              "height": 22,
+              "iconFontName": "compass",
+              "iconFontFamily": "lucide",
+              "fill": "$text-muted"
+            },
+            {
+              "type": "text",
+              "id": "yDZpu",
+              "name": "navExploreLabel",
+              "fill": "$text-muted",
+              "content": "Explore",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xW85T",
+          "name": "navTrend",
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "gc3nc",
+              "name": "navTrendIcon",
+              "width": 22,
+              "height": 22,
+              "iconFontName": "flame",
+              "iconFontFamily": "lucide",
+              "fill": "$text-muted"
+            },
+            {
+              "type": "text",
+              "id": "cx3W2",
+              "name": "navTrendLabel",
+              "fill": "$text-muted",
+              "content": "Trending",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3h6Se",
+          "name": "navSaved",
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "1QcNY",
+              "name": "navSavedIcon",
+              "width": 22,
+              "height": 22,
+              "iconFontName": "bookmark",
+              "iconFontFamily": "lucide",
+              "fill": "$text-muted"
+            },
+            {
+              "type": "text",
+              "id": "sKO2u",
+              "name": "navSavedLabel",
+              "fill": "$text-muted",
+              "content": "Saved",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "OEjRW",
+      "x": 0,
+      "y": 940,
+      "name": "Component/SearchBar",
+      "reusable": true,
+      "width": 358,
+      "height": 44,
+      "fill": "#F5F0EA",
+      "cornerRadius": 22,
+      "gap": 10,
+      "padding": [
+        0,
+        16
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "fmOtv",
+          "name": "searchIcon",
+          "width": 18,
+          "height": 18,
+          "iconFontName": "search",
+          "iconFontFamily": "lucide",
+          "fill": "$text-muted"
+        },
+        {
+          "type": "text",
+          "id": "q5eJa",
+          "name": "searchText",
+          "fill": "$text-muted",
+          "content": "Search hair trends, styles, news...",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RloZQ",
+      "x": 500,
+      "y": 0,
+      "name": "Component/DesktopHeader",
+      "reusable": true,
+      "width": 1440,
+      "height": 72,
+      "fill": "$bg-surface",
+      "stroke": {
+        "align": "inside",
+        "thickness": {
+          "bottom": 1
+        },
+        "fill": "$border-light"
+      },
+      "padding": [
+        0,
+        56
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "4sdHe",
+          "type": "ref",
+          "ref": "DLkDW",
+          "name": "deskLogo"
+        },
+        {
+          "type": "frame",
+          "id": "vHs6P",
+          "name": "deskLinks",
+          "gap": 32,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SyEgv",
+              "name": "deskLink1",
+              "fill": "$text-primary",
+              "content": "Home",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "semibold"
+            },
+            {
+              "type": "text",
+              "id": "SgUx8",
+              "name": "deskLink2",
+              "fill": "$text-secondary",
+              "content": "Trending",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "s4cnW",
+              "name": "deskLink3",
+              "fill": "$text-secondary",
+              "content": "Categories",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "c3dzt",
+              "name": "deskLink4",
+              "fill": "$text-secondary",
+              "content": "Saved",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kKibx",
+          "name": "deskRight",
+          "gap": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "mQTKK",
+              "name": "deskSearch",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "search",
+              "iconFontFamily": "lucide",
+              "fill": "$text-secondary"
+            },
+            {
+              "type": "frame",
+              "id": "uzM6C",
+              "name": "deskProfile",
+              "width": 36,
+              "height": 36,
+              "fill": "$accent-rose",
+              "cornerRadius": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "iaRIb",
+      "x": 500,
+      "y": 100,
+      "name": "Component/MobileHeader",
+      "reusable": true,
+      "width": 390,
+      "height": 56,
+      "fill": "$bg-surface",
+      "padding": [
+        0,
+        16
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "E0LL0",
+          "type": "ref",
+          "ref": "DLkDW",
+          "name": "mobLogo"
+        },
+        {
+          "type": "frame",
+          "id": "eukzW",
+          "name": "mobRight",
+          "gap": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "IPmLH",
+              "name": "mobSearch",
+              "width": 22,
+              "height": 22,
+              "iconFontName": "search",
+              "iconFontFamily": "lucide",
+              "fill": "$text-primary"
+            },
+            {
+              "type": "icon_font",
+              "id": "FpOHk",
+              "name": "mobBell",
+              "width": 22,
+              "height": 22,
+              "iconFontName": "bell",
+              "iconFontFamily": "lucide",
+              "fill": "$text-primary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "rVINY",
+      "x": 500,
+      "y": 200,
+      "name": "Component/Footer",
+      "reusable": true,
+      "width": 1440,
+      "fill": "$bg-dark",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": [
+        48,
+        56
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "9o7gc",
+          "name": "footTop",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "6A21l",
+              "name": "footBrand",
+              "width": 300,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "id": "tJUdn",
+                  "type": "ref",
+                  "ref": "DLkDW",
+                  "name": "footLogo",
+                  "descendants": {
+                    "ZyWue": {
+                      "fill": "$accent-rose"
+                    },
+                    "VQFrc": {
+                      "fill": "#FFFFFF"
+                    },
+                    "UERt2": {
+                      "fill": "$accent-rose-light"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "7dlfC",
+                  "name": "footDesc",
+                  "fill": "#888888",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Your daily dose of hair news, trends, and transformations. Curated for the style-obsessed.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ksxpd",
+              "name": "footCol1",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w5uou",
+                  "name": "footCol1Title",
+                  "fill": "#FFFFFF",
+                  "content": "Categories",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Obix3",
+                  "name": "footCol1L1",
+                  "fill": "#888888",
+                  "content": "Color Trends",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hSFJV",
+                  "name": "footCol1L2",
+                  "fill": "#888888",
+                  "content": "Haircuts",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "AD9kO",
+                  "name": "footCol1L3",
+                  "fill": "#888888",
+                  "content": "Styling",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "3AYTi",
+                  "name": "footCol1L4",
+                  "fill": "#888888",
+                  "content": "Celebrity",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "myXIZ",
+              "name": "footCol2",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mIYO0",
+                  "name": "footCol2Title",
+                  "fill": "#FFFFFF",
+                  "content": "Company",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "1LVCj",
+                  "name": "footCol2L1",
+                  "fill": "#888888",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RMx9w",
+                  "name": "footCol2L2",
+                  "fill": "#888888",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xauxC",
+                  "name": "footCol2L3",
+                  "fill": "#888888",
+                  "content": "Careers",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "QTcxf",
+                  "name": "footCol2L4",
+                  "fill": "#888888",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "meEFv",
+              "name": "footCol3",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YENrI",
+                  "name": "footCol3Title",
+                  "fill": "#FFFFFF",
+                  "content": "Connect",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "4KXUl",
+                  "name": "footCol3L1",
+                  "fill": "#888888",
+                  "content": "Instagram",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hx749",
+                  "name": "footCol3L2",
+                  "fill": "#888888",
+                  "content": "TikTok",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "enaOi",
+                  "name": "footCol3L3",
+                  "fill": "#888888",
+                  "content": "Pinterest",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "g6MqC",
+                  "name": "footCol3L4",
+                  "fill": "#888888",
+                  "content": "Newsletter",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WSHiy",
+          "name": "footBottom",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Vd2RU",
+              "name": "footCopy",
+              "fill": "#666666",
+              "content": "© 2026 The Mane Feed. All rights reserved.",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "A94sQ",
+              "name": "footMade",
+              "fill": "#666666",
+              "content": "Made with ❤ for hair lovers",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qxRzl",
+      "x": 0,
+      "y": 1084,
+      "name": "Mobile / Home Feed",
+      "clip": true,
+      "width": 390,
+      "fill": "$bg-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "QRfwS",
+          "type": "ref",
+          "ref": "iaRIb",
+          "width": "fill_container",
+          "name": "homeHeader"
+        },
+        {
+          "type": "frame",
+          "id": "7th33",
+          "name": "Categories",
+          "width": "fill_container",
+          "gap": 8,
+          "padding": [
+            12,
+            16
+          ],
+          "children": [
+            {
+              "id": "d2dj0",
+              "type": "ref",
+              "ref": "zWV4e",
+              "name": "cat1",
+              "descendants": {
+                "m2pDE": {
+                  "content": "All"
+                }
+              }
+            },
+            {
+              "id": "YYQJw",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "cat2",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Color"
+                }
+              }
+            },
+            {
+              "id": "KMiLB",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "cat3",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Celebrity"
+                }
+              }
+            },
+            {
+              "id": "O6gHZ",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "cat4",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Styling"
+                }
+              }
+            },
+            {
+              "id": "WRPQA",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "cat5",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Cuts"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rSn4P",
+          "name": "Feed",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            8,
+            16,
+            16,
+            16
+          ],
+          "children": [
+            {
+              "id": "gg2R0",
+              "type": "ref",
+              "ref": "Y9TAt",
+              "width": "fill_container",
+              "name": "heroCard"
+            },
+            {
+              "type": "frame",
+              "id": "zL4W2",
+              "name": "latestHeader",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kEfrI",
+                  "name": "latestTitle",
+                  "fill": "$text-primary",
+                  "content": "Latest Stories",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "fWB1M",
+                  "name": "latestSee",
+                  "fill": "$accent-rose",
+                  "content": "See all →",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "medium"
+                }
+              ]
+            },
+            {
+              "id": "OZJyw",
+              "type": "ref",
+              "ref": "bixVd",
+              "width": "fill_container",
+              "name": "card1"
+            },
+            {
+              "id": "uTCUY",
+              "type": "ref",
+              "ref": "bixVd",
+              "width": "fill_container",
+              "name": "card2",
+              "descendants": {
+                "HcXHx": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1635107054073-433dcb7c7fcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY2NzF8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                "Ey649": {
+                  "content": "CELEBRITY"
+                },
+                "nwVCD": {
+                  "content": "Hailey Bieber’s Strawberry Blonde Era Just Changed Everything"
+                },
+                "l7zjY": {
+                  "content": "Elle"
+                },
+                "wN0My": {
+                  "content": "6h ago"
+                }
+              }
+            },
+            {
+              "id": "3pxS2",
+              "type": "ref",
+              "ref": "bixVd",
+              "width": "fill_container",
+              "name": "card3",
+              "descendants": {
+                "HcXHx": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1591067397912-ec7129dcf726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY2NzF8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                "Ey649": {
+                  "content": "STYLING"
+                },
+                "nwVCD": {
+                  "content": "The “Clean Girl” Bun Is Getting a 2026 Upgrade"
+                },
+                "l7zjY": {
+                  "content": "Cosmo"
+                },
+                "wN0My": {
+                  "content": "8h ago"
+                }
+              }
+            },
+            {
+              "id": "ldnHr",
+              "type": "ref",
+              "ref": "bixVd",
+              "width": "fill_container",
+              "name": "card4",
+              "descendants": {
+                "HcXHx": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1583599499601-6ace8c41b622?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY2NzJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                "Ey649": {
+                  "content": "HAIRCUTS"
+                },
+                "nwVCD": {
+                  "content": "Why the Italian Bob Is the Haircut of the Season"
+                },
+                "l7zjY": {
+                  "content": "Harper’s"
+                },
+                "wN0My": {
+                  "content": "12h ago"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "3f888",
+              "name": "Trending Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JRRLd",
+                  "name": "trendHeader",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AHpAa",
+                      "name": "trendTitle",
+                      "fill": "$text-primary",
+                      "content": "Trending Now",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 20,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6hBdR",
+                      "name": "trendSee",
+                      "fill": "$accent-rose",
+                      "content": "See all →",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                },
+                {
+                  "id": "wUAlb",
+                  "type": "ref",
+                  "ref": "J5nxJ",
+                  "width": "fill_container",
+                  "name": "trend1"
+                },
+                {
+                  "id": "Uz7XY",
+                  "type": "ref",
+                  "ref": "J5nxJ",
+                  "width": "fill_container",
+                  "name": "trend2",
+                  "descendants": {
+                    "sK2wx": {
+                      "content": "02"
+                    },
+                    "flhUU": {
+                      "content": "Scalp Care Is the New Skincare Obsession"
+                    },
+                    "TUiNG": {
+                      "content": "8.7K reads · Rising"
+                    }
+                  }
+                },
+                {
+                  "id": "uf0d3",
+                  "type": "ref",
+                  "ref": "J5nxJ",
+                  "width": "fill_container",
+                  "name": "trend3",
+                  "descendants": {
+                    "sK2wx": {
+                      "content": "03"
+                    },
+                    "flhUU": {
+                      "content": "Butterfly Layers Are Back — Here’s Why"
+                    },
+                    "TUiNG": {
+                      "content": "6.2K reads · Hot"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "QV0hv",
+          "type": "ref",
+          "ref": "9I8Nc",
+          "width": "fill_container",
+          "name": "homeNav"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "V1iNX",
+      "x": 440,
+      "y": 1084,
+      "name": "Mobile / Article Detail",
+      "clip": true,
+      "width": 390,
+      "fill": "$bg-surface",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "iRiX6",
+          "name": "Article Header",
+          "width": "fill_container",
+          "height": 56,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Y31lu",
+              "name": "artBack",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "ynYCn",
+                  "name": "artBackIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "arrow-left",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "dtVR8",
+                  "name": "artBackText",
+                  "fill": "$text-secondary",
+                  "content": "Back",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c2OLF",
+              "name": "artActions",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "qbJnb",
+                  "name": "artShare",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "share-2",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-primary"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "3uz4U",
+                  "name": "artSave",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "bookmark",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-primary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YbDOD",
+          "name": "Hero Image",
+          "metadata": {
+            "type": "unsplash",
+            "username": "liza_rudyuk",
+            "link": "https://unsplash.com/@liza_rudyuk",
+            "author": "Ліза Рудюк"
+          },
+          "width": "fill_container",
+          "height": 260,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1668710968758-98641dd26afe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY3MjF8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "uHA4U",
+          "name": "Article Body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            20,
+            16,
+            24,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "7XrQo",
+              "name": "artCat",
+              "fill": "$accent-rose",
+              "content": "TRENDING",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "bold",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "Kwn5M",
+              "name": "artTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Kim K’s Latest Platinum Transformation Has Everyone Talking",
+              "lineHeight": 1.2,
+              "fontFamily": "Playfair Display",
+              "fontSize": 26,
+              "fontWeight": "bold",
+              "letterSpacing": -0.5,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "3h5FN",
+              "name": "artMetaRow",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9EoIB",
+                  "name": "artAvatar",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$accent-blush",
+                  "cornerRadius": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "YdeIJ",
+                  "name": "artMetaText",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EA2Rr",
+                      "name": "artAuthor",
+                      "fill": "$text-primary",
+                      "content": "Vogue Beauty Desk",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wNhrD",
+                      "name": "artDate",
+                      "fill": "$text-muted",
+                      "content": "Feb 15, 2026 · 5 min read",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IVci4",
+              "name": "artDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border-light"
+            },
+            {
+              "type": "text",
+              "id": "2AFkq",
+              "name": "artP1",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Kim Kardashian has once again broken the internet with her latest hair transformation. The reality star turned beauty mogul debuted a striking platinum blonde look at Paris Fashion Week, sending social media into a frenzy.",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "vf0wo",
+              "name": "artP2",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Celebrity colorist Chris Appleton, who has been behind many of Kim’s most iconic hair moments, revealed the transformation took over 13 hours to achieve. The process involved careful bleaching and toning to create a near-white platinum shade that complements her warm skin tone.",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "p1UW7",
+              "name": "artQuote",
+              "width": "fill_container",
+              "fill": "$bg-cream",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "left": 3
+                },
+                "fill": "$accent-rose"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                16,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ClGmE",
+                  "name": "artQuoteText",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "“This is the most dramatic transformation we’ve done. The platinum era is here to stay.”",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 17,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "8uC27",
+                  "name": "artQuoteAuthor",
+                  "fill": "$text-secondary",
+                  "content": "— Chris Appleton, Celebrity Colorist",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "sE06P",
+              "name": "artP3",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "The look has already inspired a surge in platinum hair search trends, with Google reporting a 340% increase in “platinum blonde” searches within 24 hours of Kim’s debut. Salons across the country are reporting a flood of appointment requests.",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "qgggo",
+              "name": "Related Stories",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "$border-light"
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JPlGd",
+                  "name": "relHeader",
+                  "fill": "$text-primary",
+                  "content": "Related Stories",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "fontStyle": "italic"
+                },
+                {
+                  "id": "hB1ya",
+                  "type": "ref",
+                  "ref": "bixVd",
+                  "width": "fill_container",
+                  "name": "rel1",
+                  "descendants": {
+                    "HcXHx": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1522865566378-a8b4d1344d24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY5NDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "Ey649": {
+                      "content": "COLOR"
+                    },
+                    "nwVCD": {
+                      "content": "How to Maintain Platinum Hair Without the Damage"
+                    },
+                    "l7zjY": {
+                      "content": "Byrdie"
+                    },
+                    "wN0My": {
+                      "content": "1d ago"
+                    }
+                  }
+                },
+                {
+                  "id": "nxS31",
+                  "type": "ref",
+                  "ref": "bixVd",
+                  "width": "fill_container",
+                  "name": "rel2",
+                  "descendants": {
+                    "HcXHx": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1751612428402-d66ea21380a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY5NDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "Ey649": {
+                      "content": "CELEBRITY"
+                    },
+                    "nwVCD": {
+                      "content": "Every Iconic Kim K Hair Moment, Ranked"
+                    },
+                    "l7zjY": {
+                      "content": "Glamour"
+                    },
+                    "wN0My": {
+                      "content": "3d ago"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "43lSX",
+          "type": "ref",
+          "ref": "9I8Nc",
+          "width": "fill_container",
+          "name": "artNav"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DBkVf",
+      "x": 880,
+      "y": 1084,
+      "name": "Mobile / Explore",
+      "clip": true,
+      "width": 390,
+      "fill": "$bg-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "yEN4P",
+          "name": "Explore Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            16,
+            16,
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "7O48q",
+              "name": "expTitle",
+              "fill": "$text-primary",
+              "content": "Explore",
+              "fontFamily": "Playfair Display",
+              "fontSize": 32,
+              "fontWeight": "bold",
+              "letterSpacing": -1,
+              "fontStyle": "italic"
+            },
+            {
+              "id": "qTt7A",
+              "type": "ref",
+              "ref": "OEjRW",
+              "width": "fill_container",
+              "name": "expSearch"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mjDJx",
+          "name": "Categories Grid",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            20,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "V1leH",
+              "name": "expCatTitle",
+              "fill": "$text-primary",
+              "content": "Browse Categories",
+              "fontFamily": "Playfair Display",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "h2692",
+              "name": "expCatGrid",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7mjNo",
+                  "name": "expCat1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "$accent-rose",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 16,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9Pr2n",
+                      "name": "expCat1Name",
+                      "fill": "#FFFFFF",
+                      "content": "Color\nTrends",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q31Ry",
+                  "name": "expCat2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "$accent-gold",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 16,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "98Cnq",
+                      "name": "expCat2Name",
+                      "fill": "#FFFFFF",
+                      "content": "Celebrity\nHair",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mQAJi",
+              "name": "expCatGrid2",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rTP66",
+                  "name": "expCat3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#8B7D6B",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 16,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dXXEk",
+                      "name": "expCat3Name",
+                      "fill": "#FFFFFF",
+                      "content": "Haircuts\n& Styles",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3xMRD",
+                  "name": "expCat4",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#D4A0A7",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 16,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RHnPr",
+                      "name": "expCat4Name",
+                      "fill": "#FFFFFF",
+                      "content": "Hair\nCare",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r38RO",
+              "name": "expCatGrid3",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oOs9U",
+                  "name": "expCat5",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 16,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C9ovy",
+                      "name": "expCat5Name",
+                      "fill": "#FFFFFF",
+                      "content": "Products\n& Reviews",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nrXCp",
+                  "name": "expCat6",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#C9A96E",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 16,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MJZyp",
+                      "name": "expCat6Name",
+                      "fill": "#FFFFFF",
+                      "content": "Salon\nGuide",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ECBdo",
+          "name": "Popular Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            4,
+            16,
+            16,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "fJzBa",
+              "name": "popHeader",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W0Y3m",
+                  "name": "popTitle",
+                  "fill": "$text-primary",
+                  "content": "Popular This Week",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "iAwHp",
+                  "name": "popSee",
+                  "fill": "$accent-rose",
+                  "content": "See all →",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "medium"
+                }
+              ]
+            },
+            {
+              "id": "iuNMC",
+              "type": "ref",
+              "ref": "bixVd",
+              "width": "fill_container",
+              "name": "pop1",
+              "descendants": {
+                "HcXHx": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1765794828819-83e10ceb321d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY5ODZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                "Ey649": {
+                  "content": "PRODUCTS"
+                },
+                "nwVCD": {
+                  "content": "The $12 Hair Oil That Sold Out 5 Times"
+                },
+                "l7zjY": {
+                  "content": "Refinery29"
+                },
+                "wN0My": {
+                  "content": "1d ago"
+                }
+              }
+            },
+            {
+              "id": "KdAn3",
+              "type": "ref",
+              "ref": "bixVd",
+              "width": "fill_container",
+              "name": "pop2",
+              "descendants": {
+                "HcXHx": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1677738812114-2aba99f22b98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY5ODd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                "Ey649": {
+                  "content": "CARE"
+                },
+                "nwVCD": {
+                  "content": "Dermatologists Say This Ingredient Is a Game-Changer"
+                },
+                "l7zjY": {
+                  "content": "InStyle"
+                },
+                "wN0My": {
+                  "content": "2d ago"
+                }
+              }
+            },
+            {
+              "id": "XT4ze",
+              "type": "ref",
+              "ref": "bixVd",
+              "width": "fill_container",
+              "name": "pop3",
+              "descendants": {
+                "HcXHx": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1715408153163-621b74256678?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDY5ODd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                "Ey649": {
+                  "content": "STYLING"
+                },
+                "nwVCD": {
+                  "content": "Wet Look Hair Is Making a Major Comeback"
+                },
+                "l7zjY": {
+                  "content": "W Magazine"
+                },
+                "wN0My": {
+                  "content": "3d ago"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "zPEoi",
+          "type": "ref",
+          "ref": "9I8Nc",
+          "width": "fill_container",
+          "name": "expNav",
+          "descendants": {
+            "6KaQg": {
+              "fill": "$text-muted"
+            },
+            "7QdMH": {
+              "fill": "$text-muted",
+              "fontWeight": "normal"
+            },
+            "9GTTP": {
+              "fill": "$accent-rose"
+            },
+            "yDZpu": {
+              "fill": "$accent-rose",
+              "fontWeight": "semibold"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MbL8C",
+      "x": 1320,
+      "y": 1084,
+      "name": "Mobile / Search",
+      "clip": true,
+      "width": 390,
+      "fill": "$bg-surface",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "B4LVy",
+          "name": "Search Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            16,
+            16,
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "dQrkb",
+              "name": "srchTitle",
+              "fill": "$text-primary",
+              "content": "Search",
+              "fontFamily": "Playfair Display",
+              "fontSize": 32,
+              "fontWeight": "bold",
+              "letterSpacing": -1,
+              "fontStyle": "italic"
+            },
+            {
+              "id": "CmDlz",
+              "type": "ref",
+              "ref": "OEjRW",
+              "width": "fill_container",
+              "name": "srchBar"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NEAxH",
+          "name": "Recent Searches",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            20,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "QINfw",
+              "name": "srchRecentTitle",
+              "fill": "$text-secondary",
+              "content": "Recent Searches",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "yEL64",
+              "name": "srchItem1",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "R47nD",
+                  "name": "srchIcon1",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "clock-3",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "M7qxi",
+                  "name": "srchText1",
+                  "fill": "$text-primary",
+                  "content": "balayage techniques 2026",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U4tfC",
+              "name": "srchItem2",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "5Pq7i",
+                  "name": "srchIcon2",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "clock-3",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "TflYl",
+                  "name": "srchText2",
+                  "fill": "$text-primary",
+                  "content": "best hair masks for dry hair",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ejYT0",
+              "name": "srchItem3",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "JXljl",
+                  "name": "srchIcon3",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "clock-3",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "3a3n9",
+                  "name": "srchText3",
+                  "fill": "$text-primary",
+                  "content": "kim kardashian hair",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vJwtZ",
+          "name": "Trending Searches",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            4,
+            16,
+            20,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "yT5aQ",
+              "name": "srchTrendTitle",
+              "fill": "$text-secondary",
+              "content": "Trending Searches",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "vc7k5",
+              "name": "srchTrendPills",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "id": "QaNzQ",
+                  "type": "ref",
+                  "ref": "VJmfv",
+                  "name": "tp1",
+                  "descendants": {
+                    "qQTMx": {
+                      "content": "Glass Hair"
+                    }
+                  }
+                },
+                {
+                  "id": "Xf4fh",
+                  "type": "ref",
+                  "ref": "VJmfv",
+                  "name": "tp2",
+                  "descendants": {
+                    "qQTMx": {
+                      "content": "Platinum"
+                    }
+                  }
+                },
+                {
+                  "id": "VgKzp",
+                  "type": "ref",
+                  "ref": "VJmfv",
+                  "name": "tp3",
+                  "descendants": {
+                    "qQTMx": {
+                      "content": "Scalp Care"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "6ITfi",
+              "name": "srchTrendPills2",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "id": "LWdFT",
+                  "type": "ref",
+                  "ref": "VJmfv",
+                  "name": "tp4",
+                  "descendants": {
+                    "qQTMx": {
+                      "content": "Bob Cuts"
+                    }
+                  }
+                },
+                {
+                  "id": "poMxm",
+                  "type": "ref",
+                  "ref": "VJmfv",
+                  "name": "tp5",
+                  "descendants": {
+                    "qQTMx": {
+                      "content": "Olaplex"
+                    }
+                  }
+                },
+                {
+                  "id": "j1Nhb",
+                  "type": "ref",
+                  "ref": "VJmfv",
+                  "name": "tp6",
+                  "descendants": {
+                    "qQTMx": {
+                      "content": "Braids"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eC8Mf",
+          "name": "Top Stories",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            16,
+            16,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "iRXvQ",
+              "name": "srchTopTitle",
+              "fill": "$text-primary",
+              "content": "Top Stories",
+              "fontFamily": "Playfair Display",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "fontStyle": "italic"
+            },
+            {
+              "id": "hG1Ct",
+              "type": "ref",
+              "ref": "bixVd",
+              "width": "fill_container",
+              "name": "srchStory1",
+              "descendants": {
+                "HcXHx": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1760552070226-3272e3ab8c9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcwMjB8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                "Ey649": {
+                  "content": "TRENDING"
+                },
+                "nwVCD": {
+                  "content": "Every Hair Trend You Need to Know for Spring"
+                },
+                "l7zjY": {
+                  "content": "Who What Wear"
+                },
+                "wN0My": {
+                  "content": "5h ago"
+                }
+              }
+            },
+            {
+              "id": "u1YvC",
+              "type": "ref",
+              "ref": "bixVd",
+              "width": "fill_container",
+              "name": "srchStory2",
+              "descendants": {
+                "HcXHx": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1631044061938-528e3df26ec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcwMjF8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                "Ey649": {
+                  "content": "CELEBRITY"
+                },
+                "nwVCD": {
+                  "content": "Zendaya’s Red Carpet Hair Has Us All Obsessed"
+                },
+                "l7zjY": {
+                  "content": "People"
+                },
+                "wN0My": {
+                  "content": "1d ago"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "KWBVA",
+          "type": "ref",
+          "ref": "9I8Nc",
+          "width": "fill_container",
+          "name": "srchNav"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7aWay",
+      "x": 1760,
+      "y": 1084,
+      "name": "Mobile / Profile",
+      "clip": true,
+      "width": 390,
+      "fill": "$bg-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "8gVz1",
+          "name": "Profile Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            24,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "jeTXF",
+              "name": "profAvatar",
+              "width": 80,
+              "height": 80,
+              "fill": "$accent-rose",
+              "cornerRadius": 40
+            },
+            {
+              "type": "frame",
+              "id": "GASbs",
+              "name": "profName",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AiCmy",
+                  "name": "profNameText",
+                  "fill": "$text-primary",
+                  "content": "Sarah Mitchell",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "bdzF5",
+                  "name": "profEmail",
+                  "fill": "$text-secondary",
+                  "content": "@sarahmitchell",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zS225",
+              "name": "profStats",
+              "width": "fill_container",
+              "padding": [
+                12,
+                0
+              ],
+              "justifyContent": "space_around",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UNFsU",
+                  "name": "profStat1",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MIIS5",
+                      "name": "profStat1Num",
+                      "fill": "$text-primary",
+                      "content": "247",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 22,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BKDLv",
+                      "name": "profStat1Label",
+                      "fill": "$text-muted",
+                      "content": "Saved",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eijmA",
+                  "name": "profStat2",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KmNw4",
+                      "name": "profStat2Num",
+                      "fill": "$text-primary",
+                      "content": "18",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 22,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NwJI5",
+                      "name": "profStat2Label",
+                      "fill": "$text-muted",
+                      "content": "Topics",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S6u6f",
+                  "name": "profStat3",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LQcZV",
+                      "name": "profStat3Num",
+                      "fill": "$text-primary",
+                      "content": "5",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 22,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R0UUw",
+                      "name": "profStat3Label",
+                      "fill": "$text-muted",
+                      "content": "Collections",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mOpOl",
+          "name": "Your Interests",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            16,
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Vut5u",
+              "name": "profIntTitle",
+              "fill": "$text-primary",
+              "content": "Your Interests",
+              "fontFamily": "Playfair Display",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "I4qSW",
+              "name": "profIntPills",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "id": "V7EBC",
+                  "type": "ref",
+                  "ref": "zWV4e",
+                  "name": "pi1",
+                  "descendants": {
+                    "m2pDE": {
+                      "content": "Color Trends"
+                    }
+                  }
+                },
+                {
+                  "id": "g85ls",
+                  "type": "ref",
+                  "ref": "zWV4e",
+                  "name": "pi2",
+                  "descendants": {
+                    "m2pDE": {
+                      "content": "Celebrity"
+                    }
+                  }
+                },
+                {
+                  "id": "j93jo",
+                  "type": "ref",
+                  "ref": "zWV4e",
+                  "name": "pi3",
+                  "descendants": {
+                    "m2pDE": {
+                      "content": "K-Beauty"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rcRID",
+              "name": "profIntPills2",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "id": "UCiVL",
+                  "type": "ref",
+                  "ref": "zWV4e",
+                  "name": "pi4",
+                  "descendants": {
+                    "m2pDE": {
+                      "content": "Styling"
+                    }
+                  }
+                },
+                {
+                  "id": "Wj8nY",
+                  "type": "ref",
+                  "ref": "VJmfv",
+                  "name": "pi5",
+                  "descendants": {
+                    "qQTMx": {
+                      "content": "+ Add More"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PEBUV",
+          "name": "Settings Menu",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            8,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "IX5Qu",
+              "name": "menuItem1",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border-light"
+              },
+              "gap": 14,
+              "padding": [
+                16,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mbfwe",
+                  "name": "mi1Left",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "vuJxL",
+                      "name": "mi1Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "bell",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-secondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h5OTa",
+                      "name": "mi1Text",
+                      "fill": "$text-primary",
+                      "content": "Notifications",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon_font",
+                  "id": "XNXvg",
+                  "name": "mi1Arrow",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qoLcE",
+              "name": "menuItem2",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border-light"
+              },
+              "gap": 14,
+              "padding": [
+                16,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eaHtk",
+                  "name": "mi2Left",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "rsqT5",
+                      "name": "mi2Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "palette",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-secondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RFXXR",
+                      "name": "mi2Text",
+                      "fill": "$text-primary",
+                      "content": "Appearance",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon_font",
+                  "id": "UNb7O",
+                  "name": "mi2Arrow",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TmEuP",
+              "name": "menuItem3",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border-light"
+              },
+              "gap": 14,
+              "padding": [
+                16,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iT4hi",
+                  "name": "mi3Left",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "DP1JX",
+                      "name": "mi3Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "shield",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-secondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QviIJ",
+                      "name": "mi3Text",
+                      "fill": "$text-primary",
+                      "content": "Privacy & Data",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon_font",
+                  "id": "0GeZg",
+                  "name": "mi3Arrow",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vfcSq",
+              "name": "menuItem4",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border-light"
+              },
+              "gap": 14,
+              "padding": [
+                16,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wb9qb",
+                  "name": "mi4Left",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Sdbp2",
+                      "name": "mi4Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "message-circle",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-secondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oxTgi",
+                      "name": "mi4Text",
+                      "fill": "$text-primary",
+                      "content": "Help & Support",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon_font",
+                  "id": "kqXdT",
+                  "name": "mi4Arrow",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BtowB",
+              "name": "logoutBtn",
+              "width": "fill_container",
+              "padding": [
+                20,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rBl7X",
+                  "name": "logoutText",
+                  "fill": "$accent-rose",
+                  "content": "Sign Out",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "voVlK",
+          "type": "ref",
+          "ref": "9I8Nc",
+          "width": "fill_container",
+          "name": "profNav",
+          "descendants": {
+            "6KaQg": {
+              "fill": "$text-muted"
+            },
+            "7QdMH": {
+              "fill": "$text-muted",
+              "fontWeight": "normal"
+            },
+            "1QcNY": {
+              "fill": "$accent-rose"
+            },
+            "sKO2u": {
+              "fill": "$accent-rose",
+              "fontWeight": "semibold"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "McEXN",
+      "x": 0,
+      "y": 2680,
+      "name": "Tablet / Home Feed",
+      "clip": true,
+      "width": 768,
+      "fill": "$bg-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "kyhOT",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "$bg-surface",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border-light"
+          },
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "o2tdD",
+              "type": "ref",
+              "ref": "DLkDW",
+              "name": "tabLogo"
+            },
+            {
+              "type": "frame",
+              "id": "tXnRO",
+              "name": "tabNav",
+              "gap": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VWsRe",
+                  "name": "tabNavHome",
+                  "fill": "$text-primary",
+                  "content": "Home",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "semibold"
+                },
+                {
+                  "type": "text",
+                  "id": "vzPvB",
+                  "name": "tabNavTrend",
+                  "fill": "$text-secondary",
+                  "content": "Trending",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Wl3K3",
+                  "name": "tabNavExplore",
+                  "fill": "$text-secondary",
+                  "content": "Explore",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SIaah",
+                  "name": "tabNavSaved",
+                  "fill": "$text-secondary",
+                  "content": "Saved",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0XK7t",
+              "name": "tabRight",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "Ap37w",
+                  "name": "tabSearch",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-secondary"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "1a9DG",
+                  "name": "tabBell",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "bell",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-secondary"
+                },
+                {
+                  "type": "frame",
+                  "id": "nxqvZ",
+                  "name": "tabProfile",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$accent-rose",
+                  "cornerRadius": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eghCE",
+          "name": "Categories",
+          "width": "fill_container",
+          "gap": 8,
+          "padding": [
+            14,
+            24
+          ],
+          "children": [
+            {
+              "id": "LZzOq",
+              "type": "ref",
+              "ref": "zWV4e",
+              "name": "tc1",
+              "descendants": {
+                "m2pDE": {
+                  "content": "All"
+                }
+              }
+            },
+            {
+              "id": "zKhlv",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "tc2",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Color"
+                }
+              }
+            },
+            {
+              "id": "P0XBb",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "tc3",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Celebrity"
+                }
+              }
+            },
+            {
+              "id": "xkDEf",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "tc4",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Styling"
+                }
+              }
+            },
+            {
+              "id": "qGDgH",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "tc5",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Cuts"
+                }
+              }
+            },
+            {
+              "id": "RPUAh",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "tc6",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Products"
+                }
+              }
+            },
+            {
+              "id": "Mt0iK",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "tc7",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Care"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "weY9U",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            24,
+            24,
+            24
+          ],
+          "children": [
+            {
+              "id": "baSXf",
+              "type": "ref",
+              "ref": "Y9TAt",
+              "width": "fill_container",
+              "name": "tabHero"
+            },
+            {
+              "type": "frame",
+              "id": "52CgL",
+              "name": "tabLatest",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Yffyi",
+                  "name": "tabLatestTitle",
+                  "fill": "$text-primary",
+                  "content": "Latest Stories",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "5rkcD",
+                  "name": "tabLatestSee",
+                  "fill": "$accent-rose",
+                  "content": "See all →",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "medium"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ELrtx",
+              "name": "Card Grid",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gTs7G",
+                  "name": "tabGridCol1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "KtYXd",
+                      "type": "ref",
+                      "ref": "bixVd",
+                      "width": "fill_container",
+                      "name": "tgc1"
+                    },
+                    {
+                      "id": "JdLOZ",
+                      "type": "ref",
+                      "ref": "bixVd",
+                      "width": "fill_container",
+                      "name": "tgc2",
+                      "descendants": {
+                        "HcXHx": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1618161533145-ab15eb449b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcxNzR8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "Ey649": {
+                          "content": "STYLING"
+                        },
+                        "nwVCD": {
+                          "content": "The “Clean Girl” Bun Is Getting a 2026 Upgrade"
+                        },
+                        "l7zjY": {
+                          "content": "Cosmo"
+                        },
+                        "wN0My": {
+                          "content": "8h ago"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zypY1",
+                  "name": "tabGridCol2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "YS8rY",
+                      "type": "ref",
+                      "ref": "bixVd",
+                      "width": "fill_container",
+                      "name": "tgc3",
+                      "descendants": {
+                        "HcXHx": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1740777008919-1a794e7556cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcxNzR8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "Ey649": {
+                          "content": "CELEBRITY"
+                        },
+                        "nwVCD": {
+                          "content": "Hailey Bieber’s Strawberry Blonde Era Changed Everything"
+                        },
+                        "l7zjY": {
+                          "content": "Elle"
+                        },
+                        "wN0My": {
+                          "content": "6h ago"
+                        }
+                      }
+                    },
+                    {
+                      "id": "Kjknd",
+                      "type": "ref",
+                      "ref": "bixVd",
+                      "width": "fill_container",
+                      "name": "tgc4",
+                      "descendants": {
+                        "HcXHx": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1618566909269-a09202832ac6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcxNzV8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "Ey649": {
+                          "content": "HAIRCUTS"
+                        },
+                        "nwVCD": {
+                          "content": "Why the Italian Bob Is the Haircut of the Season"
+                        },
+                        "l7zjY": {
+                          "content": "Harper’s"
+                        },
+                        "wN0My": {
+                          "content": "12h ago"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9GFq2",
+              "name": "Trending",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DWkFp",
+                  "name": "tabTrendHead",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VnYRa",
+                      "name": "tabTrendTitle",
+                      "fill": "$text-primary",
+                      "content": "Trending Now",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 24,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c2PFQ",
+                      "name": "tabTrendSee",
+                      "fill": "$accent-rose",
+                      "content": "See all →",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0ysRV",
+                  "name": "tabTrendGrid",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "Yki3O",
+                      "type": "ref",
+                      "ref": "J5nxJ",
+                      "width": "fill_container",
+                      "name": "tt1"
+                    },
+                    {
+                      "id": "aGs9k",
+                      "type": "ref",
+                      "ref": "J5nxJ",
+                      "width": "fill_container",
+                      "name": "tt2",
+                      "descendants": {
+                        "sK2wx": {
+                          "content": "02"
+                        },
+                        "flhUU": {
+                          "content": "Scalp Care Is the New Skincare Obsession"
+                        },
+                        "TUiNG": {
+                          "content": "8.7K reads · Rising"
+                        }
+                      }
+                    },
+                    {
+                      "id": "IjIZg",
+                      "type": "ref",
+                      "ref": "J5nxJ",
+                      "width": "fill_container",
+                      "name": "tt3",
+                      "descendants": {
+                        "sK2wx": {
+                          "content": "03"
+                        },
+                        "flhUU": {
+                          "content": "Butterfly Layers Are Back — Here’s Why"
+                        },
+                        "TUiNG": {
+                          "content": "6.2K reads · Hot"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "swxaq",
+      "x": 820,
+      "y": 2680,
+      "name": "Tablet / Article Detail",
+      "clip": true,
+      "width": 768,
+      "fill": "$bg-surface",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "SQl61",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "$bg-surface",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border-light"
+          },
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "vsOgK",
+              "name": "taBack",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "u6XZU",
+                  "name": "taBackIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "arrow-left",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "l3SOR",
+                  "name": "taBackText",
+                  "fill": "$text-secondary",
+                  "content": "Back to Feed",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2fvd1",
+              "name": "taActions",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "9jTOu",
+                  "name": "taShare",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "share-2",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-secondary"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "bN0Eq",
+                  "name": "taSave",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "bookmark",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-secondary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZmEUd",
+          "name": "Hero Image",
+          "metadata": {
+            "type": "unsplash",
+            "username": "atothaz",
+            "link": "https://unsplash.com/@atothaz",
+            "author": "Nghia Cao"
+          },
+          "width": "fill_container",
+          "height": 360,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/flagged/photo-1574708050918-1d7e622fac62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcxODd8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "jBP3u",
+          "name": "Article Body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            28,
+            80,
+            32,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "asAdo",
+              "name": "taCat",
+              "fill": "$accent-rose",
+              "content": "TRENDING",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "bold",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "Ceah8",
+              "name": "taTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Kim K’s Latest Platinum Transformation Has Everyone Talking",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 32,
+              "fontWeight": "bold",
+              "letterSpacing": -0.5,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "g68oX",
+              "name": "taMetaRow",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nfSY5",
+                  "name": "taAvatar",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "$accent-blush",
+                  "cornerRadius": 18
+                },
+                {
+                  "type": "frame",
+                  "id": "0ERFB",
+                  "name": "taMetaText",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uSOcI",
+                      "name": "taAuthor",
+                      "fill": "$text-primary",
+                      "content": "Vogue Beauty Desk",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "natfc",
+                      "name": "taDate",
+                      "fill": "$text-muted",
+                      "content": "Feb 15, 2026 · 5 min read",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n1SgG",
+              "name": "taDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border-light"
+            },
+            {
+              "type": "text",
+              "id": "HQgIk",
+              "name": "taP1",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Kim Kardashian has once again broken the internet with her latest hair transformation. The reality star turned beauty mogul debuted a striking platinum blonde look at Paris Fashion Week, sending social media into a frenzy.",
+              "lineHeight": 1.75,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ibpM7",
+              "name": "taP2",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Celebrity colorist Chris Appleton, who has been behind many of Kim’s most iconic hair moments, revealed the transformation took over 13 hours to achieve. The process involved careful bleaching and toning to create a near-white platinum shade that complements her warm skin tone.",
+              "lineHeight": 1.75,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "uDrDx",
+              "name": "taQuote",
+              "width": "fill_container",
+              "fill": "$bg-cream",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "left": 3
+                },
+                "fill": "$accent-rose"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                20,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sqHpD",
+                  "name": "taQuoteText",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "“This is the most dramatic transformation we’ve done. The platinum era is here to stay.”",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "qSW3F",
+                  "name": "taQuoteAuth",
+                  "fill": "$text-secondary",
+                  "content": "— Chris Appleton, Celebrity Colorist",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "qN7Kg",
+              "name": "taP3",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "The look has already inspired a surge in platinum hair search trends, with Google reporting a 340% increase in “platinum blonde” searches within 24 hours of Kim’s debut. Salons across the country are reporting a flood of appointment requests.",
+              "lineHeight": 1.75,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "tZ0Em",
+              "name": "taRelDiv",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border-light"
+            },
+            {
+              "type": "text",
+              "id": "q4EW2",
+              "name": "taRelTitle",
+              "fill": "$text-primary",
+              "content": "Related Stories",
+              "fontFamily": "Playfair Display",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "3KfUS",
+              "name": "taRelGrid",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "id": "4TkOv",
+                  "type": "ref",
+                  "ref": "bixVd",
+                  "width": "fill_container",
+                  "name": "taRel1",
+                  "descendants": {
+                    "HcXHx": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1619319999455-b2e5217056fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcyMjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "Ey649": {
+                      "content": "COLOR"
+                    },
+                    "nwVCD": {
+                      "content": "How to Maintain Platinum Hair Without the Damage"
+                    },
+                    "l7zjY": {
+                      "content": "Byrdie"
+                    },
+                    "wN0My": {
+                      "content": "1d ago"
+                    }
+                  }
+                },
+                {
+                  "id": "Hv7Gn",
+                  "type": "ref",
+                  "ref": "bixVd",
+                  "width": "fill_container",
+                  "name": "taRel2",
+                  "descendants": {
+                    "HcXHx": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1584969405118-ce24a505fd9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcyMjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "Ey649": {
+                      "content": "CELEBRITY"
+                    },
+                    "nwVCD": {
+                      "content": "Every Iconic Kim K Hair Moment, Ranked"
+                    },
+                    "l7zjY": {
+                      "content": "Glamour"
+                    },
+                    "wN0My": {
+                      "content": "3d ago"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "0BZWg",
+      "x": 0,
+      "y": 4142,
+      "name": "Desktop / Home Feed",
+      "clip": true,
+      "width": 1440,
+      "fill": "$bg-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "tTgs3",
+          "type": "ref",
+          "ref": "RloZQ",
+          "width": "fill_container",
+          "name": "dhNav"
+        },
+        {
+          "type": "frame",
+          "id": "Ei87W",
+          "name": "Categories",
+          "width": "fill_container",
+          "gap": 10,
+          "padding": [
+            14,
+            56
+          ],
+          "children": [
+            {
+              "id": "LoaoD",
+              "type": "ref",
+              "ref": "zWV4e",
+              "name": "dc1",
+              "descendants": {
+                "m2pDE": {
+                  "content": "All"
+                }
+              }
+            },
+            {
+              "id": "1BHx3",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "dc2",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Color Trends"
+                }
+              }
+            },
+            {
+              "id": "6Fn8k",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "dc3",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Celebrity"
+                }
+              }
+            },
+            {
+              "id": "hncEK",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "dc4",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Styling"
+                }
+              }
+            },
+            {
+              "id": "6Muv9",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "dc5",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Haircuts"
+                }
+              }
+            },
+            {
+              "id": "qPUsJ",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "dc6",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Products"
+                }
+              }
+            },
+            {
+              "id": "AerhQ",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "dc7",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Hair Care"
+                }
+              }
+            },
+            {
+              "id": "lnaIK",
+              "type": "ref",
+              "ref": "VJmfv",
+              "name": "dc8",
+              "descendants": {
+                "qQTMx": {
+                  "content": "Salon Guide"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sLYtN",
+          "name": "Main Content",
+          "width": "fill_container",
+          "gap": 40,
+          "padding": [
+            8,
+            56,
+            48,
+            56
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "6SPEa",
+              "name": "Feed Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "id": "iFdyQ",
+                  "type": "ref",
+                  "ref": "Y9TAt",
+                  "width": "fill_container",
+                  "name": "dhHero"
+                },
+                {
+                  "type": "frame",
+                  "id": "OQ2WW",
+                  "name": "dhLatest",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LIRot",
+                      "name": "dhLatestTitle",
+                      "fill": "$text-primary",
+                      "content": "Latest Stories",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 28,
+                      "fontWeight": "bold",
+                      "letterSpacing": -0.5,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZjQSH",
+                      "name": "dhLatestSee",
+                      "fill": "$accent-rose",
+                      "content": "See all →",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fgr0o",
+                  "name": "Cards Grid",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "khisV",
+                      "name": "dhGridCol1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "id": "rlhl7",
+                          "type": "ref",
+                          "ref": "bixVd",
+                          "width": "fill_container",
+                          "name": "dgc1"
+                        },
+                        {
+                          "id": "7Gg2b",
+                          "type": "ref",
+                          "ref": "bixVd",
+                          "width": "fill_container",
+                          "name": "dgc2",
+                          "descendants": {
+                            "HcXHx": {
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://images.unsplash.com/photo-1767439566181-5306365d963f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcyODZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                                "mode": "fill"
+                              }
+                            },
+                            "Ey649": {
+                              "content": "STYLING"
+                            },
+                            "nwVCD": {
+                              "content": "The “Clean Girl” Bun Is Getting a 2026 Upgrade"
+                            },
+                            "l7zjY": {
+                              "content": "Cosmo"
+                            },
+                            "wN0My": {
+                              "content": "8h ago"
+                            }
+                          }
+                        },
+                        {
+                          "id": "pX7qo",
+                          "type": "ref",
+                          "ref": "bixVd",
+                          "width": "fill_container",
+                          "name": "dgc3",
+                          "descendants": {
+                            "HcXHx": {
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://images.unsplash.com/photo-1767256046031-743d33937c4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcyODZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                                "mode": "fill"
+                              }
+                            },
+                            "Ey649": {
+                              "content": "PRODUCTS"
+                            },
+                            "nwVCD": {
+                              "content": "The $12 Hair Oil That Sold Out 5 Times"
+                            },
+                            "l7zjY": {
+                              "content": "Refinery29"
+                            },
+                            "wN0My": {
+                              "content": "1d ago"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UMxkQ",
+                      "name": "dhGridCol2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "id": "nf2yc",
+                          "type": "ref",
+                          "ref": "bixVd",
+                          "width": "fill_container",
+                          "name": "dgc4",
+                          "descendants": {
+                            "HcXHx": {
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://images.unsplash.com/photo-1613366211183-a729adcfc224?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcyODZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                                "mode": "fill"
+                              }
+                            },
+                            "Ey649": {
+                              "content": "CELEBRITY"
+                            },
+                            "nwVCD": {
+                              "content": "Hailey Bieber’s Strawberry Blonde Era Changed Everything"
+                            },
+                            "l7zjY": {
+                              "content": "Elle"
+                            },
+                            "wN0My": {
+                              "content": "6h ago"
+                            }
+                          }
+                        },
+                        {
+                          "id": "WC1cK",
+                          "type": "ref",
+                          "ref": "bixVd",
+                          "width": "fill_container",
+                          "name": "dgc5",
+                          "descendants": {
+                            "HcXHx": {
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://images.unsplash.com/photo-1620717841004-b2129070b674?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcyODZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                                "mode": "fill"
+                              }
+                            },
+                            "Ey649": {
+                              "content": "HAIRCUTS"
+                            },
+                            "nwVCD": {
+                              "content": "Why the Italian Bob Is the Haircut of the Season"
+                            },
+                            "l7zjY": {
+                              "content": "Harper’s"
+                            },
+                            "wN0My": {
+                              "content": "12h ago"
+                            }
+                          }
+                        },
+                        {
+                          "id": "QJak2",
+                          "type": "ref",
+                          "ref": "bixVd",
+                          "width": "fill_container",
+                          "name": "dgc6",
+                          "descendants": {
+                            "HcXHx": {
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://images.unsplash.com/photo-1711274093746-b588a17d2716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDcyODd8&ixlib=rb-4.1.0&q=80&w=1080",
+                                "mode": "fill"
+                              }
+                            },
+                            "Ey649": {
+                              "content": "CARE"
+                            },
+                            "nwVCD": {
+                              "content": "Dermatologists Say This Ingredient Is a Game-Changer"
+                            },
+                            "l7zjY": {
+                              "content": "InStyle"
+                            },
+                            "wN0My": {
+                              "content": "2d ago"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iNi8h",
+              "name": "Sidebar",
+              "width": 340,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "id": "E45zG",
+                  "type": "ref",
+                  "ref": "OEjRW",
+                  "width": "fill_container",
+                  "name": "sbSearch"
+                },
+                {
+                  "type": "frame",
+                  "id": "v2JcL",
+                  "name": "Trending",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pOGFo",
+                      "name": "sbTrendTitle",
+                      "fill": "$text-primary",
+                      "content": "Trending Now",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 22,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "id": "SfhCc",
+                      "type": "ref",
+                      "ref": "J5nxJ",
+                      "width": "fill_container",
+                      "name": "sbt1"
+                    },
+                    {
+                      "id": "KSdbH",
+                      "type": "ref",
+                      "ref": "J5nxJ",
+                      "width": "fill_container",
+                      "name": "sbt2",
+                      "descendants": {
+                        "sK2wx": {
+                          "content": "02"
+                        },
+                        "flhUU": {
+                          "content": "Scalp Care Is the New Skincare Obsession"
+                        },
+                        "TUiNG": {
+                          "content": "8.7K reads · Rising"
+                        }
+                      }
+                    },
+                    {
+                      "id": "s3TOS",
+                      "type": "ref",
+                      "ref": "J5nxJ",
+                      "width": "fill_container",
+                      "name": "sbt3",
+                      "descendants": {
+                        "sK2wx": {
+                          "content": "03"
+                        },
+                        "flhUU": {
+                          "content": "Butterfly Layers Are Back — Here’s Why"
+                        },
+                        "TUiNG": {
+                          "content": "6.2K reads · Hot"
+                        }
+                      }
+                    },
+                    {
+                      "id": "M0CIs",
+                      "type": "ref",
+                      "ref": "J5nxJ",
+                      "width": "fill_container",
+                      "name": "sbt4",
+                      "descendants": {
+                        "sK2wx": {
+                          "content": "04"
+                        },
+                        "flhUU": {
+                          "content": "The K-Beauty Hair Routine Everyone’s Trying"
+                        },
+                        "TUiNG": {
+                          "content": "5.1K reads · New"
+                        }
+                      }
+                    },
+                    {
+                      "id": "tvRxt",
+                      "type": "ref",
+                      "ref": "J5nxJ",
+                      "width": "fill_container",
+                      "name": "sbt5",
+                      "descendants": {
+                        "sK2wx": {
+                          "content": "05"
+                        },
+                        "flhUU": {
+                          "content": "Wet Look Hair Is Making a Major Comeback"
+                        },
+                        "TUiNG": {
+                          "content": "4.8K reads · Rising"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k8O7J",
+                  "name": "Newsletter CTA",
+                  "width": "fill_container",
+                  "fill": "$bg-dark",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "stOE6",
+                      "name": "sbNlTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Never Miss a Trend",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 22,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "psPS3",
+                      "name": "sbNlDesc",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Get the top hair news delivered to your inbox every morning. Join 50K+ style-obsessed readers.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kYC7u",
+                      "name": "sbNlInput",
+                      "width": "fill_container",
+                      "height": 42,
+                      "fill": "#333333",
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Rfvg9",
+                          "name": "sbNlPlaceholder",
+                          "fill": "#666666",
+                          "content": "your@email.com",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KCVf6",
+                      "name": "sbNlBtn",
+                      "width": "fill_container",
+                      "height": 42,
+                      "fill": "$accent-rose",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WyIok",
+                          "name": "sbNlBtnText",
+                          "fill": "#FFFFFF",
+                          "content": "Subscribe",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "semibold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9gcYD",
+          "type": "ref",
+          "ref": "rVINY",
+          "width": "fill_container",
+          "name": "dhFooter"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7J8Et",
+      "x": 1540,
+      "y": 4142,
+      "name": "Desktop / Article Detail",
+      "clip": true,
+      "width": 1440,
+      "fill": "$bg-surface",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "r9PLN",
+          "type": "ref",
+          "ref": "RloZQ",
+          "width": "fill_container",
+          "name": "daNav"
+        },
+        {
+          "type": "frame",
+          "id": "17RtZ",
+          "name": "Hero Image",
+          "metadata": {
+            "type": "unsplash",
+            "username": "mettyunuabona",
+            "link": "https://unsplash.com/@mettyunuabona",
+            "author": "Ehimetalor Akhere Unuabona"
+          },
+          "width": "fill_container",
+          "height": 480,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1661435804988-b5c2995b6cb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDczMjV8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "PMS5r",
+          "name": "Content Wrapper",
+          "width": "fill_container",
+          "gap": 48,
+          "padding": [
+            0,
+            56,
+            48,
+            56
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Iy8aJ",
+              "name": "Article Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                32,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uvs9q",
+                  "name": "daCat",
+                  "fill": "$accent-rose",
+                  "content": "TRENDING",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "SXK3b",
+                  "name": "daTitle",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Kim K’s Latest Platinum Transformation Has Everyone Talking",
+                  "lineHeight": 1.15,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 42,
+                  "fontWeight": "bold",
+                  "letterSpacing": -1,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "frame",
+                  "id": "sz7Zx",
+                  "name": "daMetaRow",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v6Fhz",
+                      "name": "daAvatar",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$accent-blush",
+                      "cornerRadius": 20
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DoVp3",
+                      "name": "daMetaText",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3UinN",
+                          "name": "daAuthor",
+                          "fill": "$text-primary",
+                          "content": "Vogue Beauty Desk",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vzw6L",
+                          "name": "daDate",
+                          "fill": "$text-muted",
+                          "content": "February 15, 2026 · 5 min read",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R9xoY",
+                  "name": "daDivider",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "$border-light"
+                },
+                {
+                  "type": "text",
+                  "id": "JHgcP",
+                  "name": "daP1",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Kim Kardashian has once again broken the internet with her latest hair transformation. The reality star turned beauty mogul debuted a striking platinum blonde look at Paris Fashion Week, sending social media into a frenzy.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "AVHzV",
+                  "name": "daP2",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Celebrity colorist Chris Appleton, who has been behind many of Kim’s most iconic hair moments, revealed the transformation took over 13 hours to achieve. The process involved careful bleaching and toning to create a near-white platinum shade that complements her warm skin tone.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "d3DLM",
+                  "name": "daQuote",
+                  "width": "fill_container",
+                  "fill": "$bg-cream",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "left": 4
+                    },
+                    "fill": "$accent-rose"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "awWZR",
+                      "name": "daQuoteText",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“This is the most dramatic transformation we’ve done. The platinum era is here to stay.”",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o2ptc",
+                      "name": "daQuoteAuth",
+                      "fill": "$text-secondary",
+                      "content": "— Chris Appleton, Celebrity Colorist",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "C7N6M",
+                  "name": "daP3",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The look has already inspired a surge in platinum hair search trends, with Google reporting a 340% increase in “platinum blonde” searches within 24 hours of Kim’s debut. Salons across the country are reporting a flood of appointment requests.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DaSWf",
+              "name": "Sidebar",
+              "width": 340,
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                32,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xW5o1",
+                  "name": "daShareBox",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jVR9N",
+                      "name": "daShareTitle",
+                      "fill": "$text-secondary",
+                      "content": "Share this story",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SB7Ym",
+                      "name": "daShareBtns",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ccjDG",
+                          "name": "daShareBtn1",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$bg-cream",
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mS6mJ",
+                              "name": "daShareBtn1Text",
+                              "fill": "$text-primary",
+                              "content": "Twitter",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NXUxF",
+                          "name": "daShareBtn2",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$bg-cream",
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "8K7Gs",
+                              "name": "daShareBtn2Text",
+                              "fill": "$text-primary",
+                              "content": "Facebook",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ocKkt",
+                          "name": "daShareBtn3",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$bg-cream",
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "APYO7",
+                              "name": "daShareBtn3Text",
+                              "fill": "$text-primary",
+                              "content": "Copy",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "s8JkK",
+                      "name": "daSaveBtn",
+                      "width": "fill_container",
+                      "height": 42,
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-medium"
+                      },
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "73NCf",
+                          "name": "daSaveIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "bookmark",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tUMV7",
+                          "name": "daSaveBtnText",
+                          "fill": "$text-primary",
+                          "content": "Save for Later",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cGii0",
+                  "name": "Related Stories",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IB3iJ",
+                      "name": "daRelTitle",
+                      "fill": "$text-primary",
+                      "content": "Related Stories",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 20,
+                      "fontWeight": "bold",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "id": "4wlgz",
+                      "type": "ref",
+                      "ref": "bixVd",
+                      "width": "fill_container",
+                      "name": "daRel1",
+                      "descendants": {
+                        "HcXHx": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1760245239550-1a21cf1d0839?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDczODJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "Ey649": {
+                          "content": "COLOR"
+                        },
+                        "nwVCD": {
+                          "content": "How to Maintain Platinum Hair Without Damage"
+                        },
+                        "l7zjY": {
+                          "content": "Byrdie"
+                        },
+                        "wN0My": {
+                          "content": "1d ago"
+                        }
+                      }
+                    },
+                    {
+                      "id": "12BYq",
+                      "type": "ref",
+                      "ref": "bixVd",
+                      "width": "fill_container",
+                      "name": "daRel2",
+                      "descendants": {
+                        "HcXHx": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1640262653857-055a32a47284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDczODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "Ey649": {
+                          "content": "CELEBRITY"
+                        },
+                        "nwVCD": {
+                          "content": "Every Iconic Kim K Hair Moment, Ranked"
+                        },
+                        "l7zjY": {
+                          "content": "Glamour"
+                        },
+                        "wN0My": {
+                          "content": "3d ago"
+                        }
+                      }
+                    },
+                    {
+                      "id": "nicjB",
+                      "type": "ref",
+                      "ref": "bixVd",
+                      "width": "fill_container",
+                      "name": "daRel3",
+                      "descendants": {
+                        "HcXHx": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1560564066-a3a5cfc81584?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMDczODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "Ey649": {
+                          "content": "TRENDING"
+                        },
+                        "nwVCD": {
+                          "content": "Why Platinum Is the Color of 2026"
+                        },
+                        "l7zjY": {
+                          "content": "W Magazine"
+                        },
+                        "wN0My": {
+                          "content": "5d ago"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zkZW1",
+          "type": "ref",
+          "ref": "rVINY",
+          "width": "fill_container",
+          "name": "daFooter"
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-blush": {
+      "type": "color",
+      "value": "#F2D7D5"
+    },
+    "accent-gold": {
+      "type": "color",
+      "value": "#C9A96E"
+    },
+    "accent-rose": {
+      "type": "color",
+      "value": "#B76E79"
+    },
+    "accent-rose-light": {
+      "type": "color",
+      "value": "#D4A0A7"
+    },
+    "bg-card": {
+      "type": "color",
+      "value": "#FFFBF5"
+    },
+    "bg-cream": {
+      "type": "color",
+      "value": "#F5E6D3"
+    },
+    "bg-dark": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "bg-primary": {
+      "type": "color",
+      "value": "#FFF8F0"
+    },
+    "bg-surface": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "border-light": {
+      "type": "color",
+      "value": "#E8DDD0"
+    },
+    "border-medium": {
+      "type": "color",
+      "value": "#D4C5B3"
+    },
+    "text-inverse": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "text-muted": {
+      "type": "color",
+      "value": "#999999"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#6B6B6B"
+    }
+  }
+}
