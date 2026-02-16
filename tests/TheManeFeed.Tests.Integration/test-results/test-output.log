@@ -1,0 +1,349 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+C:\Program Files\dotnet\sdk\9.0.300-preview.0.25177.5\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.RuntimeIdentifierInference.targets(326,5): message NETSDK1057: You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy [C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\TheManeFeed.Tests.Integration.csproj]
+C:\Program Files\dotnet\sdk\9.0.300-preview.0.25177.5\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.RuntimeIdentifierInference.targets(326,5): message NETSDK1057: You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy [C:\projects\TheManeFeed\src\TheManeFeed.Core\TheManeFeed.Core.csproj]
+C:\Program Files\dotnet\sdk\9.0.300-preview.0.25177.5\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.RuntimeIdentifierInference.targets(326,5): message NETSDK1057: You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy [C:\projects\TheManeFeed\src\TheManeFeed.Infrastructure\TheManeFeed.Infrastructure.csproj]
+  TheManeFeed.Core -> C:\projects\TheManeFeed\src\TheManeFeed.Core\bin\Debug\net8.0\TheManeFeed.Core.dll
+  TheManeFeed.Infrastructure -> C:\projects\TheManeFeed\src\TheManeFeed.Infrastructure\bin\Debug\net8.0\TheManeFeed.Infrastructure.dll
+  TheManeFeed.Cli -> C:\projects\TheManeFeed\src\TheManeFeed.Cli\bin\Debug\net8.0\TheManeFeed.Cli.dll
+  TheManeFeed.Tests.Integration -> C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\bin\Debug\net8.0\TheManeFeed.Tests.Integration.dll
+Test run for C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\bin\Debug\net8.0\TheManeFeed.Tests.Integration.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.14.0-preview-25175-02 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\bin\Debug\net8.0\TheManeFeed.Tests.Integration.dll
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.14)
+[xUnit.net 00:00:00.39]   Discovering: TheManeFeed.Tests.Integration
+[xUnit.net 00:00:00.56]   Discovered:  TheManeFeed.Tests.Integration
+[xUnit.net 00:00:00.57]   Starting:    TheManeFeed.Tests.Integration
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.AllureScraper[0]
+      Navigating to https://www.allure.com/topic/hair
+info: TheManeFeed.Cli.Services.Scrapers.AllureScraper[0]
+      Extracted 21 articles from Allure
+  Passed TheManeFeed.Tests.Integration.Scrapers.AllureScraperTests.ScrapeAsync_ReturnsValidArticles [24 s]
+  Standard Output Messages:
+ Starting scrape for Allure...
+ Scraped 21 articles from Allure.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Allure.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.BetScraper[0]
+      Navigating to https://www.bet.com/article/category/style-beauty
+info: TheManeFeed.Cli.Services.Scrapers.BetScraper[0]
+      Extracted 0 articles from BET
+[xUnit.net 00:00:45.53]     TheManeFeed.Tests.Integration.Scrapers.BetScraperTests.ScrapeAsync_ReturnsValidArticles [FAIL]
+[xUnit.net 00:00:45.53]       Assert.NotEmpty() Failure: Collection was empty
+[xUnit.net 00:00:45.54]       Stack Trace:
+[xUnit.net 00:00:45.54]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs(47,0): at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest()
+[xUnit.net 00:00:45.54]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\BetScraperTests.cs(23,0): at TheManeFeed.Tests.Integration.Scrapers.BetScraperTests.ScrapeAsync_ReturnsValidArticles()
+[xUnit.net 00:00:45.54]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:45.54]       Output:
+[xUnit.net 00:00:45.55]         Starting scrape for BET...
+[xUnit.net 00:00:45.55]         Scraped 0 articles from BET.
+[xUnit.net 00:00:45.55]         Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\BET.json
+  Failed TheManeFeed.Tests.Integration.Scrapers.BetScraperTests.ScrapeAsync_ReturnsValidArticles [11 s]
+  Error Message:
+   Assert.NotEmpty() Failure: Collection was empty
+  Stack Trace:
+     at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs:line 47
+   at TheManeFeed.Tests.Integration.Scrapers.BetScraperTests.ScrapeAsync_ReturnsValidArticles() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\BetScraperTests.cs:line 23
+--- End of stack trace from previous location ---
+  Standard Output Messages:
+ Starting scrape for BET...
+ Scraped 0 articles from BET.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\BET.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.ByrdieScraper[0]
+      Navigating to https://www.byrdie.com/hair-4843568
+info: TheManeFeed.Cli.Services.Scrapers.ByrdieScraper[0]
+      Extracted 0 articles from Byrdie
+[xUnit.net 00:00:55.04]     TheManeFeed.Tests.Integration.Scrapers.ByrdieScraperTests.ScrapeAsync_ReturnsValidArticles [FAIL]
+[xUnit.net 00:00:55.04]       Assert.NotEmpty() Failure: Collection was empty
+[xUnit.net 00:00:55.04]       Stack Trace:
+[xUnit.net 00:00:55.04]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs(47,0): at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest()
+[xUnit.net 00:00:55.04]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\ByrdieScraperTests.cs(23,0): at TheManeFeed.Tests.Integration.Scrapers.ByrdieScraperTests.ScrapeAsync_ReturnsValidArticles()
+[xUnit.net 00:00:55.04]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:55.04]       Output:
+[xUnit.net 00:00:55.04]         Starting scrape for Byrdie...
+[xUnit.net 00:00:55.04]         Scraped 0 articles from Byrdie.
+[xUnit.net 00:00:55.05]         Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Byrdie.json
+  Failed TheManeFeed.Tests.Integration.Scrapers.ByrdieScraperTests.ScrapeAsync_ReturnsValidArticles [5 s]
+  Error Message:
+   Assert.NotEmpty() Failure: Collection was empty
+  Stack Trace:
+     at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs:line 47
+   at TheManeFeed.Tests.Integration.Scrapers.ByrdieScraperTests.ScrapeAsync_ReturnsValidArticles() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\ByrdieScraperTests.cs:line 23
+--- End of stack trace from previous location ---
+  Standard Output Messages:
+ Starting scrape for Byrdie...
+ Scraped 0 articles from Byrdie.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Byrdie.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.CosmoScraper[0]
+      Navigating to https://www.cosmopolitan.com/style-beauty/beauty/g/hair-ideas/
+info: TheManeFeed.Cli.Services.Scrapers.CosmoScraper[0]
+      Extracted 0 articles from Cosmopolitan
+[xUnit.net 00:01:04.36]     TheManeFeed.Tests.Integration.Scrapers.CosmoScraperTests.ScrapeAsync_ReturnsValidArticles [FAIL]
+[xUnit.net 00:01:04.36]       Assert.NotEmpty() Failure: Collection was empty
+[xUnit.net 00:01:04.36]       Stack Trace:
+[xUnit.net 00:01:04.36]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs(47,0): at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest()
+[xUnit.net 00:01:04.36]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\CosmoScraperTests.cs(23,0): at TheManeFeed.Tests.Integration.Scrapers.CosmoScraperTests.ScrapeAsync_ReturnsValidArticles()
+[xUnit.net 00:01:04.36]         --- End of stack trace from previous location ---
+[xUnit.net 00:01:04.36]       Output:
+[xUnit.net 00:01:04.36]         Starting scrape for Cosmopolitan...
+[xUnit.net 00:01:04.36]         Scraped 0 articles from Cosmopolitan.
+[xUnit.net 00:01:04.36]         Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Cosmopolitan.json
+  Failed TheManeFeed.Tests.Integration.Scrapers.CosmoScraperTests.ScrapeAsync_ReturnsValidArticles [7 s]
+  Error Message:
+   Assert.NotEmpty() Failure: Collection was empty
+  Stack Trace:
+     at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs:line 47
+   at TheManeFeed.Tests.Integration.Scrapers.CosmoScraperTests.ScrapeAsync_ReturnsValidArticles() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\CosmoScraperTests.cs:line 23
+--- End of stack trace from previous location ---
+  Standard Output Messages:
+ Starting scrape for Cosmopolitan...
+ Scraped 0 articles from Cosmopolitan.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Cosmopolitan.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.EssenceScraper[0]
+      Navigating to https://www.essence.com/beauty/hair/
+info: TheManeFeed.Cli.Services.Scrapers.EssenceScraper[0]
+      Extracted 23 articles from Essence
+  Passed TheManeFeed.Tests.Integration.Scrapers.EssenceScraperTests.ScrapeAsync_ReturnsValidArticles [42 s]
+  Standard Output Messages:
+ Starting scrape for Essence...
+ Scraped 23 articles from Essence.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Essence.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.ExpressWigBraidsScraper[0]
+      Navigating to https://expresswigbraids.com/blogs/news
+info: TheManeFeed.Cli.Services.Scrapers.ExpressWigBraidsScraper[0]
+      Extracted 0 articles from ExpressWigBraids
+[xUnit.net 00:02:17.07]     TheManeFeed.Tests.Integration.Scrapers.ExpressWigBraidsScraperTests.ScrapeAsync_ReturnsValidArticles [FAIL]
+[xUnit.net 00:02:17.07]       Assert.NotEmpty() Failure: Collection was empty
+[xUnit.net 00:02:17.07]       Stack Trace:
+[xUnit.net 00:02:17.08]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs(47,0): at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest()
+[xUnit.net 00:02:17.08]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\ExpressWigBraidsScraperTests.cs(23,0): at TheManeFeed.Tests.Integration.Scrapers.ExpressWigBraidsScraperTests.ScrapeAsync_ReturnsValidArticles()
+[xUnit.net 00:02:17.08]         --- End of stack trace from previous location ---
+[xUnit.net 00:02:17.08]       Output:
+[xUnit.net 00:02:17.08]         Starting scrape for ExpressWigBraids...
+[xUnit.net 00:02:17.08]         Scraped 0 articles from ExpressWigBraids.
+[xUnit.net 00:02:17.08]         Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\ExpressWigBraids.json
+  Failed TheManeFeed.Tests.Integration.Scrapers.ExpressWigBraidsScraperTests.ScrapeAsync_ReturnsValidArticles [15 s]
+  Error Message:
+   Assert.NotEmpty() Failure: Collection was empty
+  Stack Trace:
+     at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs:line 47
+   at TheManeFeed.Tests.Integration.Scrapers.ExpressWigBraidsScraperTests.ScrapeAsync_ReturnsValidArticles() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\ExpressWigBraidsScraperTests.cs:line 23
+--- End of stack trace from previous location ---
+  Standard Output Messages:
+ Starting scrape for ExpressWigBraids...
+ Scraped 0 articles from ExpressWigBraids.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\ExpressWigBraids.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.GlamourScraper[0]
+      Navigating to https://www.glamour.com/topic/hair
+info: TheManeFeed.Cli.Services.Scrapers.GlamourScraper[0]
+      Extracted 0 articles from Glamour
+[xUnit.net 00:03:01.63]     TheManeFeed.Tests.Integration.Scrapers.GlamourScraperTests.ScrapeAsync_ReturnsValidArticles [FAIL]
+[xUnit.net 00:03:01.63]       Assert.NotEmpty() Failure: Collection was empty
+[xUnit.net 00:03:01.63]       Stack Trace:
+[xUnit.net 00:03:01.63]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs(47,0): at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest()
+[xUnit.net 00:03:01.63]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\GlamourScraperTests.cs(23,0): at TheManeFeed.Tests.Integration.Scrapers.GlamourScraperTests.ScrapeAsync_ReturnsValidArticles()
+[xUnit.net 00:03:01.63]         --- End of stack trace from previous location ---
+[xUnit.net 00:03:01.63]       Output:
+[xUnit.net 00:03:01.63]         Starting scrape for Glamour...
+[xUnit.net 00:03:01.64]         Scraped 0 articles from Glamour.
+[xUnit.net 00:03:01.64]         Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Glamour.json
+  Failed TheManeFeed.Tests.Integration.Scrapers.GlamourScraperTests.ScrapeAsync_ReturnsValidArticles [17 s]
+  Error Message:
+   Assert.NotEmpty() Failure: Collection was empty
+  Stack Trace:
+     at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs:line 47
+   at TheManeFeed.Tests.Integration.Scrapers.GlamourScraperTests.ScrapeAsync_ReturnsValidArticles() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\GlamourScraperTests.cs:line 23
+--- End of stack trace from previous location ---
+  Standard Output Messages:
+ Starting scrape for Glamour...
+ Scraped 0 articles from Glamour.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Glamour.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.LaurenAshtynScraper[0]
+      Navigating to https://thelaurenashtyncollection.com/blogs/blog
+info: TheManeFeed.Cli.Services.Scrapers.LaurenAshtynScraper[0]
+      Extracted 7 articles from LaurenAshtyn
+  Passed TheManeFeed.Tests.Integration.Scrapers.LaurenAshtynScraperTests.ScrapeAsync_ReturnsValidArticles [17 s]
+  Standard Output Messages:
+ Starting scrape for LaurenAshtyn...
+ Scraped 7 articles from LaurenAshtyn.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\LaurenAshtyn.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.LuvmeHairScraper[0]
+      Navigating to https://shop.luvmehair.com/blogs/wigs-101
+info: TheManeFeed.Cli.Services.Scrapers.LuvmeHairScraper[0]
+      Extracted 1 articles from LuvmeHair
+  Passed TheManeFeed.Tests.Integration.Scrapers.LuvmeHairScraperTests.ScrapeAsync_ReturnsValidArticles [41 s]
+  Standard Output Messages:
+ Starting scrape for LuvmeHair...
+ Scraped 1 articles from LuvmeHair.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\LuvmeHair.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.MilanoWigsScraper[0]
+      Navigating to https://milanowigs.com/blogs/wig-talk-blog
+info: TheManeFeed.Cli.Services.Scrapers.MilanoWigsScraper[0]
+      Extracted 1 articles from MilanoWigs
+  Passed TheManeFeed.Tests.Integration.Scrapers.MilanoWigsScraperTests.ScrapeAsync_ReturnsValidArticles [14 s]
+  Standard Output Messages:
+ Starting scrape for MilanoWigs...
+ Scraped 1 articles from MilanoWigs.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\MilanoWigs.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.NaturallyCurlyScraper[0]
+      Navigating to https://www.naturallycurly.com/curlreading
+info: TheManeFeed.Cli.Services.Scrapers.NaturallyCurlyScraper[0]
+      Extracted 23 articles from NaturallyCurly
+  Passed TheManeFeed.Tests.Integration.Scrapers.NaturallyCurlyScraperTests.ScrapeAsync_ReturnsValidArticles [24 s]
+  Standard Output Messages:
+ Starting scrape for NaturallyCurly...
+ Scraped 23 articles from NaturallyCurly.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\NaturallyCurly.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.PerfectLocksScraper[0]
+      Navigating to https://www.perfectlocks.com/blogs/all-tressed-up
+info: TheManeFeed.Cli.Services.Scrapers.PerfectLocksScraper[0]
+      Extracted 0 articles from PerfectLocks
+[xUnit.net 00:05:18.53]     TheManeFeed.Tests.Integration.Scrapers.PerfectLocksScraperTests.ScrapeAsync_ReturnsValidArticles [FAIL]
+[xUnit.net 00:05:18.53]       Assert.NotEmpty() Failure: Collection was empty
+[xUnit.net 00:05:18.53]       Stack Trace:
+[xUnit.net 00:05:18.53]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs(47,0): at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest()
+[xUnit.net 00:05:18.53]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\PerfectLocksScraperTests.cs(23,0): at TheManeFeed.Tests.Integration.Scrapers.PerfectLocksScraperTests.ScrapeAsync_ReturnsValidArticles()
+[xUnit.net 00:05:18.53]         --- End of stack trace from previous location ---
+[xUnit.net 00:05:18.53]       Output:
+[xUnit.net 00:05:18.53]         Starting scrape for PerfectLocks...
+[xUnit.net 00:05:18.53]         Scraped 0 articles from PerfectLocks.
+[xUnit.net 00:05:18.54]         Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\PerfectLocks.json
+  Failed TheManeFeed.Tests.Integration.Scrapers.PerfectLocksScraperTests.ScrapeAsync_ReturnsValidArticles [8 s]
+  Error Message:
+   Assert.NotEmpty() Failure: Collection was empty
+  Stack Trace:
+     at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs:line 47
+   at TheManeFeed.Tests.Integration.Scrapers.PerfectLocksScraperTests.ScrapeAsync_ReturnsValidArticles() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\PerfectLocksScraperTests.cs:line 23
+--- End of stack trace from previous location ---
+  Standard Output Messages:
+ Starting scrape for PerfectLocks...
+ Scraped 0 articles from PerfectLocks.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\PerfectLocks.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.TheCutScraper[0]
+      Navigating to https://www.thecut.com/tags/hair/
+info: TheManeFeed.Cli.Services.Scrapers.TheCutScraper[0]
+      Extracted 0 articles from TheCut
+[xUnit.net 00:05:34.76]     TheManeFeed.Tests.Integration.Scrapers.TheCutScraperTests.ScrapeAsync_ReturnsValidArticles [FAIL]
+[xUnit.net 00:05:34.76]       Assert.NotEmpty() Failure: Collection was empty
+[xUnit.net 00:05:34.76]       Stack Trace:
+[xUnit.net 00:05:34.76]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs(47,0): at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest()
+[xUnit.net 00:05:34.76]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\TheCutScraperTests.cs(23,0): at TheManeFeed.Tests.Integration.Scrapers.TheCutScraperTests.ScrapeAsync_ReturnsValidArticles()
+[xUnit.net 00:05:34.76]         --- End of stack trace from previous location ---
+[xUnit.net 00:05:34.76]       Output:
+[xUnit.net 00:05:34.76]         Starting scrape for TheCut...
+[xUnit.net 00:05:34.76]         Scraped 0 articles from TheCut.
+[xUnit.net 00:05:34.76]         Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\TheCut.json
+  Failed TheManeFeed.Tests.Integration.Scrapers.TheCutScraperTests.ScrapeAsync_ReturnsValidArticles [8 s]
+  Error Message:
+   Assert.NotEmpty() Failure: Collection was empty
+  Stack Trace:
+     at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs:line 47
+   at TheManeFeed.Tests.Integration.Scrapers.TheCutScraperTests.ScrapeAsync_ReturnsValidArticles() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\TheCutScraperTests.cs:line 23
+--- End of stack trace from previous location ---
+  Standard Output Messages:
+ Starting scrape for TheCut...
+ Scraped 0 articles from TheCut.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\TheCut.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.UtressScraper[0]
+      Navigating to https://blog.utress.com/best-human-hair-wigs/
+info: TheManeFeed.Cli.Services.Scrapers.UtressScraper[0]
+      Extracted 0 articles from Utress
+[xUnit.net 00:05:44.28]     TheManeFeed.Tests.Integration.Scrapers.UtressScraperTests.ScrapeAsync_ReturnsValidArticles [FAIL]
+[xUnit.net 00:05:44.28]       Assert.NotEmpty() Failure: Collection was empty
+[xUnit.net 00:05:44.28]       Stack Trace:
+[xUnit.net 00:05:44.28]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs(47,0): at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest()
+[xUnit.net 00:05:44.28]         C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\UtressScraperTests.cs(23,0): at TheManeFeed.Tests.Integration.Scrapers.UtressScraperTests.ScrapeAsync_ReturnsValidArticles()
+[xUnit.net 00:05:44.28]         --- End of stack trace from previous location ---
+[xUnit.net 00:05:44.28]       Output:
+[xUnit.net 00:05:44.28]         Starting scrape for Utress...
+[xUnit.net 00:05:44.28]         Scraped 0 articles from Utress.
+[xUnit.net 00:05:44.28]         Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Utress.json
+  Failed TheManeFeed.Tests.Integration.Scrapers.UtressScraperTests.ScrapeAsync_ReturnsValidArticles [6 s]
+  Error Message:
+   Assert.NotEmpty() Failure: Collection was empty
+  Stack Trace:
+     at TheManeFeed.Tests.Integration.ScraperTestBase.RunScraperTest() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\ScraperTestBase.cs:line 47
+   at TheManeFeed.Tests.Integration.Scrapers.UtressScraperTests.ScrapeAsync_ReturnsValidArticles() in C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\Scrapers\UtressScraperTests.cs:line 23
+--- End of stack trace from previous location ---
+  Standard Output Messages:
+ Starting scrape for Utress...
+ Scraped 0 articles from Utress.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\Utress.json
+
+
+info: TheManeFeed.Cli.Services.BrowserService[0]
+      Launching Playwright browser (headless: True)
+info: TheManeFeed.Cli.Services.Scrapers.WigsComScraper[0]
+      Navigating to https://www.wigs.com/blogs/news
+info: TheManeFeed.Cli.Services.Scrapers.WigsComScraper[0]
+      Extracted 6 articles from WigsCom
+[xUnit.net 00:05:58.23]   Finished:    TheManeFeed.Tests.Integration
+  Passed TheManeFeed.Tests.Integration.Scrapers.WigsComScraperTests.ScrapeAsync_ReturnsValidArticles [11 s]
+  Standard Output Messages:
+ Starting scrape for WigsCom...
+ Scraped 6 articles from WigsCom.
+ Results written to C:\projects\TheManeFeed\tests\TheManeFeed.Tests.Integration\test-results\WigsCom.json
+
+
+
+Test Run Failed.
+Total tests: 15
+     Passed: 7
+     Failed: 8
+ Total time: 6.0018 Minutes

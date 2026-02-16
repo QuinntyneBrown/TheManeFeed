@@ -1,0 +1,12 @@
+{
+  "name": "BET",
+  "url": "https://www.bet.com/article/category/style-beauty",
+  "scraperResults": [],
+  "pageTitles": [],
+  "matchedItems": [],
+  "unmatchedItems": [],
+  "status": "FAIL",
+  "error": "Test results file is empty (0 articles scraped)",
+  "itemsScraped": 0,
+  "itemsMatched": 0
+}

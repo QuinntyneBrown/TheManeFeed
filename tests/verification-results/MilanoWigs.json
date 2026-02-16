@@ -1,0 +1,35 @@
+{
+  "name": "MilanoWigs",
+  "url": "https://milanowigs.com/blogs/wig-talk-blog",
+  "scraperResults": [
+    {
+      "Url": "https://milanowigs.com/blogs/wig-talk-blog/princess-wig-human-hair-wig-for-kids",
+      "Title": "The Princess Wig: Natural Human Hair Wigs for Kids",
+      "Summary": null,
+      "ImageUrl": "https://milanowigs.com//milanowigs.com/cdn/shop/articles/Photo_Jan_14_2026_4_01_21_PM.webp?crop=center&height=1536&v=1770241658&width=1920",
+      "SourceName": "MilanoWigs",
+      "PublishedAt": null,
+      "CategoryTags": "hair"
+    }
+  ],
+  "pageTitles": [
+    "Find Your Perfect Wig From Home",
+    "The Princess Wig: Natural Human Hair Wigs for Kids",
+    "Everything You Need to Know About the Three Hair Types",
+    "The Secret to Making Your Lace Front Wig Last as Long as Possible",
+    "Glueless Lace Front Wigs: The Best Hair Extension Alternative for Healthy Hair",
+    "Adyson's Alopecia Journey - Embracing Uniqueness, Self Love, and Confidence",
+    "What Are The Best Hair Products for Human Hair Wigs and Hair Toppers?",
+    "Summer Hair Trends 2025",
+    "What is a Ponytail Wig?",
+    "Top 10 Health Foods for Hair and Scalp Health"
+  ],
+  "matchedItems": [
+    "The Princess Wig: Natural Human Hair Wigs for Kids"
+  ],
+  "unmatchedItems": [],
+  "status": "FAIL",
+  "error": null,
+  "itemsScraped": 1,
+  "itemsMatched": 1
+}

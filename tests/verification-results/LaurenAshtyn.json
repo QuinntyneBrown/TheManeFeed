@@ -1,0 +1,94 @@
+{
+  "name": "LaurenAshtyn",
+  "url": "https://thelaurenashtyncollection.com/blogs/blog",
+  "scraperResults": [
+    {
+      "Url": "https://thelaurenashtyncollection.com/blogs/blog/hair-toppers-for-aging-hair-what-changes-after-40-and-how-to-adapt",
+      "Title": "Hair toppers for aging hair: What changes after...",
+      "Summary": "When your hair starts playing by new rules (and nobody gave you the memo) There’s a moment many women have after 40 that no one really warns you about. Your...",
+      "ImageUrl": "https://thelaurenashtyncollection.com//thelaurenashtyncollection.com/cdn/shop/articles/pexels-szafran-16883225.jpg?v=1770304036&width=533",
+      "SourceName": "LaurenAshtyn",
+      "PublishedAt": null,
+      "CategoryTags": "hair"
+    },
+    {
+      "Url": "https://thelaurenashtyncollection.com/blogs/blog/nano-tip-extensions-and-what-they-re-really-like",
+      "Title": "Nano tip extensions and what they’re really like",
+      "Summary": "What salons don’t always explain (but we always do)  Nano tip extensions are one of those things everyone suddenly seems to have, even if they don’t always say it out...",
+      "ImageUrl": "https://thelaurenashtyncollection.com//thelaurenashtyncollection.com/cdn/shop/articles/2148940855_69d7495f-cb64-4056-a78f-1a0513bce9d6.jpg?v=1770216445&width=533",
+      "SourceName": "LaurenAshtyn",
+      "PublishedAt": null,
+      "CategoryTags": "hair"
+    },
+    {
+      "Url": "https://thelaurenashtyncollection.com/blogs/blog/hair-botox-for-extensions-is-it-safe-and-worth-the-hype",
+      "Title": "Hair botox for extensions—Is it safe and worth ...",
+      "Summary": "The fine print behind the shine If you’ve spent more than five minutes on TikTok lately, you’ve probably seen it. Hair that looks impossibly smooth. Shiny to the point of...",
+      "ImageUrl": "https://thelaurenashtyncollection.com//thelaurenashtyncollection.com/cdn/shop/articles/pexels-enginakyurt-3331486_1.jpg?v=1770132067&width=533",
+      "SourceName": "LaurenAshtyn",
+      "PublishedAt": null,
+      "CategoryTags": "hair"
+    },
+    {
+      "Url": "https://thelaurenashtyncollection.com/blogs/blog/what-topper-wearers-need-to-know-about-scalp-microbiome-care",
+      "Title": "What topper wearers need to know about scalp mi...",
+      "Summary": "Your scalp is an ecosystem, not just skin If you wear a hair topper and your scalp has started acting a little different, you’re not overthinking it. Maybe it feels...",
+      "ImageUrl": "https://thelaurenashtyncollection.com//thelaurenashtyncollection.com/cdn/shop/articles/pexels-thefullonmonet-28994390_b4b8b3e7-d234-4cee-a469-2ba1e34b1c20.jpg?v=1770043505&width=533",
+      "SourceName": "LaurenAshtyn",
+      "PublishedAt": null,
+      "CategoryTags": "hair"
+    },
+    {
+      "Url": "https://thelaurenashtyncollection.com/blogs/blog/a-guide-to-color-analysis-for-hair-extensions",
+      "Title": "A guide to color analysis for hair extensions",
+      "Summary": "Let’s take the stress out of color matching Picking the right hair extension color can feel weirdly high-pressure. You start out excited, then suddenly you’re deep in comparison mode. Screenshotting...",
+      "ImageUrl": "https://thelaurenashtyncollection.com//thelaurenashtyncollection.com/cdn/shop/articles/pexels-rdne-7755511_1.jpg?v=1769706097&width=533",
+      "SourceName": "LaurenAshtyn",
+      "PublishedAt": null,
+      "CategoryTags": "hair"
+    },
+    {
+      "Url": "https://thelaurenashtyncollection.com/blogs/blog/8-chic-protective-styles-with-clip-in-extensions",
+      "Title": "8 chic protective styles with clip-in extensions",
+      "Summary": "The sweet spot between styling and safeguarding If you love clip-in extensions, you already know the rush that comes with snapping them in and instantly becoming the fuller-hair version of...",
+      "ImageUrl": "https://thelaurenashtyncollection.com//thelaurenashtyncollection.com/cdn/shop/articles/unnamed_12_42f1549e-fce8-4fa0-88b9-bc4d6f9d7a0c.png?v=1769697633&width=533",
+      "SourceName": "LaurenAshtyn",
+      "PublishedAt": null,
+      "CategoryTags": "hair"
+    },
+    {
+      "Url": "https://thelaurenashtyncollection.com/blogs/blog/low-density-vs-high-density-wigs-which-is-for-you",
+      "Title": "Low-density vs high-density wigs—which is for you?",
+      "Summary": "Let’s decode wig density once and for all When you start shopping for a wig, it feels like learning a new language. Lace types, cap structures, textures, lengths, and attachment...",
+      "ImageUrl": "https://thelaurenashtyncollection.com//thelaurenashtyncollection.com/cdn/shop/articles/pexels-pedrofurtadoo-29096365.jpg?v=1769611836&width=533",
+      "SourceName": "LaurenAshtyn",
+      "PublishedAt": null,
+      "CategoryTags": "hair"
+    }
+  ],
+  "pageTitles": [
+    "Your cart",
+    "Estimated total",
+    "Hair toppers for aging hair: What changes after...",
+    "Nano tip extensions and what they’re really like",
+    "Hair botox for extensions—Is it safe and worth ...",
+    "What topper wearers need to know about scalp mi...",
+    "A guide to color analysis for hair extensions",
+    "8 chic protective styles with clip-in extensions",
+    "Low-density vs high-density wigs—which is for you?"
+  ],
+  "matchedItems": [
+    "Hair toppers for aging hair: What changes after...",
+    "Nano tip extensions and what they’re really like",
+    "Hair botox for extensions—Is it safe and worth ...",
+    "What topper wearers need to know about scalp mi...",
+    "A guide to color analysis for hair extensions",
+    "8 chic protective styles with clip-in extensions",
+    "Low-density vs high-density wigs—which is for you?"
+  ],
+  "unmatchedItems": [],
+  "status": "PASS",
+  "error": null,
+  "itemsScraped": 7,
+  "itemsMatched": 7
+}

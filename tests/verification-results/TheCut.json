@@ -1,0 +1,12 @@
+{
+  "name": "TheCut",
+  "url": "https://www.thecut.com/tags/hair/",
+  "scraperResults": [],
+  "pageTitles": [],
+  "matchedItems": [],
+  "unmatchedItems": [],
+  "status": "FAIL",
+  "error": "Test results file is empty (0 articles scraped)",
+  "itemsScraped": 0,
+  "itemsMatched": 0
+}
