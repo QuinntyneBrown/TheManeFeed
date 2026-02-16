@@ -9,6 +9,7 @@ export interface ArticleListItem {
   categorySlug: string | null;
   author: string | null;
   publishedAt: string | null;
+  createdAt: string;
   readCount: number;
   isFeatured: boolean;
   isTrending: boolean;
@@ -33,6 +34,7 @@ export interface ArticleDetail {
   categorySlug: string | null;
   author: ArticleAuthor | null;
   publishedAt: string | null;
+  createdAt: string;
   scrapedAt: string;
   readCount: number;
   isFeatured: boolean;

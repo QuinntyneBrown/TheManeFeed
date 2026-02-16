@@ -39,6 +39,7 @@ public class ArticleService : IArticleService
                 continue;
             }
 
+            var now = DateTime.UtcNow;
             _db.Articles.Add(new Article
             {
                 Url = normalizedUrl,
@@ -47,7 +48,8 @@ public class ArticleService : IArticleService
                 ImageUrl = result.ImageUrl,
                 SourceName = result.SourceName,
                 PublishedAt = result.PublishedAt,
-                ScrapedAt = DateTime.UtcNow
+                CreatedAt = now,
+                ScrapedAt = now
             });
 
             saved++;

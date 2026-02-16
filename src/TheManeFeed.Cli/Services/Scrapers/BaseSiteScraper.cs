@@ -88,7 +88,8 @@ public abstract class BaseSiteScraper : ISiteScraper
         string titleSelector,
         string? linkSelector = null,
         string? summarySelector = null,
-        string? imageSelector = null)
+        string? imageSelector = null,
+        string? dateSelector = null)
     {
         var results = new List<ScrapeResult>();
         var articles = await page.QuerySelectorAllAsync(articleSelector);
@@ -148,6 +149,8 @@ public abstract class BaseSiteScraper : ISiteScraper
                     }
                 }
 
+                var publishedAt = await ExtractDateAsync(article, dateSelector);
+
                 results.Add(new ScrapeResult
                 {
                     Title = title,
@@ -155,6 +158,7 @@ public abstract class BaseSiteScraper : ISiteScraper
                     Summary = summary,
                     ImageUrl = imageUrl is not null ? ResolveUrl(imageUrl) : null,
                     SourceName = SourceName,
+                    PublishedAt = publishedAt,
                     CategoryTags = "hair"
                 });
             }
@@ -165,5 +169,32 @@ public abstract class BaseSiteScraper : ISiteScraper
         }
 
         return results;
+    }
+
+    protected async Task<DateTime?> ExtractDateAsync(IElementHandle article, string? dateSelector)
+    {
+        // Try explicit selector first
+        if (dateSelector is not null)
+        {
+            var dateEl = await article.QuerySelectorAsync(dateSelector);
+            if (dateEl is not null)
+            {
+                var dateText = await dateEl.GetAttributeAsync("datetime")
+                               ?? (await dateEl.InnerTextAsync()).Trim();
+                if (DateTime.TryParse(dateText, out var parsed))
+                    return parsed.ToUniversalTime();
+            }
+        }
+
+        // Fall back to common date element patterns: <time datetime="...">
+        var timeEl = await article.QuerySelectorAsync("time[datetime]");
+        if (timeEl is not null)
+        {
+            var datetime = await timeEl.GetAttributeAsync("datetime");
+            if (!string.IsNullOrWhiteSpace(datetime) && DateTime.TryParse(datetime, out var parsed))
+                return parsed.ToUniversalTime();
+        }
+
+        return null;
     }
 }

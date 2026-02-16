@@ -27,7 +27,7 @@
           [category]="article.category?.name ?? article.sourceName"
           [title]="article.title"
           [source]="article.sourceName"
-          [timeAgo]="timeAgo(article.publishedAt ?? article.scrapedAt)"
+          [timeAgo]="timeAgo(article.publishedAt ?? article.createdAt)"
         />
       </a>
     </section>
@@ -45,7 +45,7 @@
               [category]="article.category?.name ?? article.sourceName"
               [title]="article.title"
               [source]="article.sourceName"
-              [timeAgo]="timeAgo(article.publishedAt ?? article.scrapedAt)"
+              [timeAgo]="timeAgo(article.publishedAt ?? article.createdAt)"
             />
           </a>
         }
@@ -63,7 +63,7 @@
             <lib-trending-card
               [rank]="i + 1"
               [title]="article.title"
-              [meta]="article.sourceName + ' · ' + timeAgo(article.publishedAt ?? article.scrapedAt)"
+              [meta]="article.sourceName + ' · ' + timeAgo(article.publishedAt ?? article.createdAt)"
             />
           </a>
         }

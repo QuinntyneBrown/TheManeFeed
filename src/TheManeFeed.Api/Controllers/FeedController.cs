@@ -38,14 +38,7 @@ public class FeedController : ControllerBase
             Categories = categories.Select(c => new { c.Id, c.Name, c.Slug, c.Color }),
             Featured = featured.Select(MapArticle),
             Latest = latest.Select(MapArticle),
-            Trending = trending.Select(a => new
-            {
-                a.Id,
-                a.Title,
-                a.ReadCount,
-                a.IsTrending,
-                Category = a.Category?.Name
-            })
+            Trending = trending.Select(MapArticle)
         });
     }
 
@@ -61,6 +54,7 @@ public class FeedController : ControllerBase
         CategorySlug = a.Category?.Slug,
         Author = a.Author?.Name,
         a.PublishedAt,
+        a.CreatedAt,
         a.ReadCount,
         a.IsFeatured,
         a.IsTrending
