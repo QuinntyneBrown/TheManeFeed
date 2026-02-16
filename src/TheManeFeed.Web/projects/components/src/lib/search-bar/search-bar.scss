@@ -1,0 +1,31 @@
+:host {
+  display: block;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 44px;
+  padding: 0 16px;
+  border-radius: 22px;
+  background-color: #F5F0EA;
+  color: var(--mf-text-muted, #999999);
+  cursor: text;
+  box-sizing: border-box;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: none;
+  outline: none;
+  font-family: var(--mf-font-body, 'Inter', sans-serif);
+  font-size: 14px;
+  color: var(--mf-text-primary, #1A1A1A);
+  min-width: 0;
+
+  &::placeholder {
+    color: var(--mf-text-muted, #999999);
+  }
+}

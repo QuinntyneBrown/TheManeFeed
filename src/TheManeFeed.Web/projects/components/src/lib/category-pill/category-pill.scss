@@ -1,0 +1,29 @@
+:host {
+  display: inline-block;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  font-family: var(--mf-font-body, 'Inter', sans-serif);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 20px;
+  background-color: var(--mf-bg-cream, #F5E6D3);
+  color: var(--mf-accent-rose, #B76E79);
+  transition: background-color 0.2s, color 0.2s;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &.active {
+    background-color: var(--mf-accent-rose, #B76E79);
+    color: #FFFFFF;
+  }
+}

@@ -1,0 +1,62 @@
+:host {
+  display: block;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: var(--mf-accent-rose, #B76E79);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.logo-letter {
+  color: #FFFFFF;
+  font-family: var(--mf-font-display, 'Playfair Display', serif);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title {
+  color: var(--mf-text-primary, #1A1A1A);
+  font-family: var(--mf-font-display, 'Playfair Display', serif);
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.logo-tagline {
+  color: var(--mf-accent-rose, #B76E79);
+  font-family: var(--mf-font-body, 'Inter', sans-serif);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+// Light variant for dark backgrounds (e.g. footer)
+.logo.light .logo-title {
+  color: #FFFFFF;
+}
+
+.logo.light .logo-tagline {
+  color: var(--mf-accent-rose-light, #D4A0A7);
+}
